@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "game_slug": "pelican-post",
+  "release_version": "direct-1",
+  "acceptance_status": "pending",
+  "published_at": null,
+  "entry_point": "candidates/pelican-post/direct-1/index.html",
+  "runtime_zip_sha256": "bac6395b08075b9f69f373d1280f6adb08d6ca403312373211639c0b2ce58612",
+  "files": [
+    {
+      "path": "candidates/pelican-post/direct-1/LICENSE.txt",
+      "bytes": 1082,
+      "sha256": "642ca836e172b81bfc6446be144592b3948c1a751a7a5b11c9a2d3499d366d93"
+    },
+    {
+      "path": "candidates/pelican-post/direct-1/core.js",
+      "bytes": 6064,
+      "sha256": "44dfdb6fb3b8dc8f98d0420c634d0007a198f81433b7cb5fbf9af3a0e2ea87ef"
+    },
+    {
+      "path": "candidates/pelican-post/direct-1/game.js",
+      "bytes": 20352,
+      "sha256": "0bfd41efd755b2c30af2a87f03879a15dc0a992a97c2bca955669e3060fc7bb2"
+    },
+    {
+      "path": "candidates/pelican-post/direct-1/icon.svg",
+      "bytes": 402,
+      "sha256": "6f048e7cac544e8f39d3559af7a43d930ecf688097d10c81df5bdb042d94b23e"
+    },
+    {
+      "path": "candidates/pelican-post/direct-1/index.html",
+      "bytes": 4497,
+      "sha256": "91a8595f9eb52162947ef25620a185eae05c9274a0e2e51f50c2d4dfb05b7115"
+    },
+    {
+      "path": "candidates/pelican-post/direct-1/legacy/LICENSE.txt",
+      "bytes": 1082,
+      "sha256": "642ca836e172b81bfc6446be144592b3948c1a751a7a5b11c9a2d3499d366d93"
+    },
+    {
+      "path": "candidates/pelican-post/direct-1/legacy/core.js",
+      "bytes": 5969,
+      "sha256": "d7691314a4b04c84d91719ae099cfd7f8c17e460f4e1e9c2dcec1e09b5e3b1cb"
+    },
+    {
+      "path": "candidates/pelican-post/direct-1/legacy/game.js",
+      "bytes": 19601,
+      "sha256": "a022e584b383e908beaf940726eb121fd95eda0dee312f9a25f9b830aa199ac2"
+    },
+    {
+      "path": "candidates/pelican-post/direct-1/legacy/icon.svg",
+      "bytes": 402,
+      "sha256": "6f048e7cac544e8f39d3559af7a43d930ecf688097d10c81df5bdb042d94b23e"
+    },
+    {
+      "path": "candidates/pelican-post/direct-1/legacy/index.html",
+      "bytes": 5519,
+      "sha256": "34c1b50da9626825e455bbcccb1d61c1e984789a7d8e2af9544590489f5cc0ed"
+    },
+    {
+      "path": "candidates/pelican-post/direct-1/legacy/style.css",
+      "bytes": 7457,
+      "sha256": "26e537909b23dd9fd4cca7033e68462e396bea13606ac9838ef22a1bd4e64859"
+    },
+    {
+      "path": "candidates/pelican-post/direct-1/style.css",
+      "bytes": 11471,
+      "sha256": "dda7cc4a8e5ebd662cdaafebaf6ace793adc9ccbcb313d3a1fa8524303d8c7c1"
+    }
+  ]
+}
