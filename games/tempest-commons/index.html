@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b171e"><meta name="description" content="暮潮群岛：原创离线单人即时战略垂直切片。"><title>暮潮群岛 · TEMPEST COMMONS</title><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='%237debc3' d='M16 2 30 25H2z'/%3E%3C/svg%3E"><link rel="stylesheet" href="style.css"><script defer src="engine.js"></script><script defer src="storage.js"></script><script defer src="app.js"></script></head>
+<body>
+<header class="top"><a class="brand" href="#" aria-label="暮潮群岛"><span class="brand-icon">◈</span><span>暮潮群岛<small>TEMPEST COMMONS</small></span></a><div class="mission"><span class="eyebrow">行动 01 / 暮潮盆地</span><span>夺回能源网络</span></div><div class="telemetry"><span>能源点 <b id="credits">1050</b></span><span>电力余量 <b id="energy">+9</b></span><span>任务时间 <b id="clock">00:00</b></span></div></header>
+<main>
+<section class="battle">
+ <div class="battle-head"><span><i class="status-dot"></i> 苍穹合作社 <small>VS</small> 赤砾自动机</span><span id="weather">晴空 · 运输正常</span></div>
+ <div class="canvas-wrap"><canvas id="field" width="960" height="624" tabindex="0" aria-label="战场。左键选择或拖动框选，右键移动或攻击。A 键攻击移动。"></canvas>
+ <div id="intro" class="overlay"><div class="brief"><span class="eyebrow">原创单人战役 · v0.1.0</span><h1>在风暴到来前，<br><em>点亮群岛。</em></h1><p>暮潮盆地的能源节点被赤砾自动机占领。部署无人车队、扩建太阳能基地，摧毁东侧敌方潮汐中枢。</p><div class="brief-steps"><span><b>01</b>采集晶簇</span><span><b>02</b>扩建工坊</span><span><b>03</b>攻破中枢</span></div><button id="start" class="primary">开始行动 <span>→</span></button><p class="micro">约 2–8 分钟 · 纯本地运行 · 推荐桌面鼠标<br>已有进度可通过右侧「读取存档」继续。</p></div></div>
+ <div id="result" class="overlay hidden"><div class="brief"><span class="eyebrow">行动报告</span><h1 id="result-title"></h1><p id="result-body"></p><button id="result-restart" class="primary">重开本次战役 →</button></div></div>
+ <div id="pause-banner" class="pause-banner hidden">模拟已暂停 · 按空格或点击继续</div>
+ <div class="map-coordinates">W 00 · N 26 <span>SECTOR 07 / TIDAL BASIN</span> E 40 · S 00</div>
+ </div>
+ <div class="command-bar"><div><span class="eyebrow">选中编队</span><strong id="selection">暂无选中单位</strong></div><button id="select-army">选择作战单位 <kbd>F</kbd></button><button id="attackmove">攻击移动 <kbd>A</kbd></button><button id="stop">停止 <kbd>S</kbd></button><button id="pause">暂停 <kbd>Space</kbd></button></div>
+ <p id="notice" class="notice" role="status" aria-live="polite">欢迎指挥官。采集车会自动往返晶簇与中枢。</p>
+</section>
+<aside>
+ <section class="objective"><span class="eyebrow">主要目标</span><h2>摧毁赤砾中枢</h2><p>守住己方中枢。太阳能提供持续收入；采集车运回更多能源点。</p><div class="base-health"><span>苍穹中枢</span><b id="hq-hp">1500 / 1500</b></div><progress id="hq-progress" max="1500" value="1500"></progress></section>
+ <section><div class="section-title"><h2>基地建设</h2><span>点击后选择地块</span></div><div class="build-grid">
+ <button data-build="solar"><span class="unit-icon solar">▦</span><span>太阳能阵列<small>+8 电力 · +3 点/秒</small></span><b>160</b></button>
+ <button data-build="factory"><span class="unit-icon factory">⌂</span><span>无人机工坊<small>生产队列 · −4 电力</small></span><b>280</b></button>
+ <button data-build="turret"><span class="unit-icon turret">⌖</span><span>电弧哨塔<small>近域防守 · −3 电力</small></span><b>220</b></button>
+ </div></section>
+ <section><div class="section-title"><h2>单位生产</h2><span id="population">4 / 45</span></div><div class="unit-grid"><button data-train="hauler"><span>▰</span>采集车<b>140</b></button><button data-train="scout"><span>◇</span>巡游蜂<b>90</b></button><button data-train="ranger"><span>▣</span>棱镜车<b>180</b></button></div><p id="queue" class="micro">工坊空闲 · 可排队生产</p></section>
+ <section class="save-section"><div class="section-title"><h2>本地档案</h2><span id="save-state">尚未保存</span></div><div class="row"><button id="save">保存</button><button id="export">导出 JSON</button><button id="import">导入</button><input id="import-file" type="file" accept=".json,application/json" hidden></div><label class="micro" for="slots">独立存档槽（读取不会覆盖原槽）</label><select id="slots"><option value="">暂无存档</option></select><div class="row"><button id="load">读取存档</button><button id="restart" class="danger">重开 / 重置</button></div></section>
+ <details><summary>操作与设置</summary><p class="micro">左键点选，按住拖动框选；Shift 添加选择。右键地面移动、右键敌人攻击、右键晶簇采集。A 后左键地面攻击移动。Esc 取消建造或选择。F 选择作战单位。失焦自动暂停。</p><label><input id="fog" type="checkbox" checked> 战争迷雾</label><label><input id="sound" type="checkbox"> 合成提示音</label><label class="seed-label">战役种子 <input id="seed" value="72134" inputmode="numeric" pattern="[0-9]+" maxlength="10"></label><p class="micro">种子在重开后生效。风暴每 100 秒发生一次，持续 25 秒，运输与移动降至 62%。电力不足时生产速度减半。</p></details>
+</aside>
+</main>
+<footer><span>苍穹合作社 / FIELD COMMAND</span><span>原创代码 · 程序绘制美术 · 无账户 / 无追踪</span><span>BUILD 0.1.0</span></footer>
+<dialog id="confirm"><h2>重新开始这场行动？</h2><p>清除本页的存档槽并重建战场；其他标签的存档保留。可先取消并导出当前进度。</p><div class="row"><button id="cancel-reset">取消</button><button id="confirm-reset" class="danger">确认重置本页</button></div></dialog>
+<noscript>需要启用 JavaScript 才能运行本地游戏。</noscript>
+</body></html>
+
+

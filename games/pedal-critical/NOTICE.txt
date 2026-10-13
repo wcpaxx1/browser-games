@@ -1,0 +1,9 @@
+踏板临界 / Pedal Critical · Internal M1 Candidate
+Original game code and original procedural low-poly artwork/synthesized audio created for this project, 2026.
+Bundled runtime dependencies:
+- Three.js 0.186.1, MIT. https://threejs.org/
+- @dimforge/rapier2d-compat 0.21.0, Apache-2.0. https://rapier.rs/
+Build-generated runtime helpers: Vite 8.3.4 and Rolldown, MIT; their notices are also included.
+Full dependency licenses are in ./licenses/. WASM is locally bundled; there is no runtime CDN.
+This is a fictional game simulation, not real-world driving, medical, or injury advice.
+Candidate validation limits: only fixed 2D templates; no cliff, water, rollover, verified pressure input, or exact checkpoint resume. No account or analytics SDK.

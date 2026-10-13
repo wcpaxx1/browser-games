@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "game_slug": "wind-in-painting",
+  "release_version": "2026-10-12",
+  "published_at": null,
+  "entry_point": "games/wind-in-painting/index.html",
+  "files": [
+    {
+      "path": "games/wind-in-painting/index.html",
+      "bytes": 1460265,
+      "sha256": "8957817448de4474410800397d9637ef5b56c1e0d2759720a4d364fe28d61f44"
+    }
+  ]
+}

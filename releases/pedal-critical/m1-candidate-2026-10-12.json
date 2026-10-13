@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "game_slug": "pedal-critical",
+  "release_version": "m1-candidate-2026-10-12",
+  "published_at": null,
+  "entry_point": "games/pedal-critical/index.html",
+  "files": [
+    {
+      "path": "games/pedal-critical/NOTICE.txt",
+      "bytes": 750,
+      "sha256": "35fbd1891455084173dd67938a51a698f6abdd139790e87756bf294ba7739879"
+    },
+    {
+      "path": "games/pedal-critical/asset-credits.json",
+      "bytes": 459,
+      "sha256": "fd13522644923dcabe029bb8a48075d71577b4c3cb8424f7128db74c4cf935c3"
+    },
+    {
+      "path": "games/pedal-critical/assets/index-Cj75YfBM.css",
+      "bytes": 9428,
+      "sha256": "50928f32ae22cdd444db9a316c354c939e8998aca79d03b81e5bc8c031de7f26"
+    },
+    {
+      "path": "games/pedal-critical/assets/index-CmrI7f_V.js",
+      "bytes": 4036522,
+      "sha256": "48286f5f71a0b19218902f6e73904aad0c3938716ea3f04f789796fd716e490a"
+    },
+    {
+      "path": "games/pedal-critical/index.html",
+      "bytes": 584,
+      "sha256": "b0d15f9f1b6b6ee0c56aea9bd212bb613e60b458715c79798bec7f1f4a109bdd"
+    },
+    {
+      "path": "games/pedal-critical/licenses/rapier-Apache-2.0.txt",
+      "bytes": 11343,
+      "sha256": "4c05555705e3efde601fb1252ae48f1d63992af8a8fb8947745b7fa834e8f519"
+    },
+    {
+      "path": "games/pedal-critical/licenses/rolldown-MIT.txt",
+      "bytes": 1302,
+      "sha256": "23ecfff35a5a2e80d92142f75228912c3b1abc4b5a8337a821ff4397e2f9f734"
+    },
+    {
+      "path": "games/pedal-critical/licenses/three-MIT.txt",
+      "bytes": 1081,
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "path": "games/pedal-critical/licenses/vite-core-MIT.txt",
+      "bytes": 1162,
+      "sha256": "e373c2e74cd342b9e74d0b8813a8fddf3c9788515669a79c2ac238195673d38b"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "game_slug": "relay-zero",
+  "release_version": "0.1.0",
+  "published_at": null,
+  "entry_point": "games/relay-zero/index.html",
+  "files": [
+    {
+      "path": "games/relay-zero/app.js",
+      "bytes": 14991,
+      "sha256": "a57ada7f6b57fcb7389f5fd3fbb7e8660b3e8fbce69931a39bd7215a72c15acc"
+    },
+    {
+      "path": "games/relay-zero/core.js",
+      "bytes": 8948,
+      "sha256": "fb823ac66deed911be6a23788c0b3fd06db6f08244195c23eac22149986fbf45"
+    },
+    {
+      "path": "games/relay-zero/index.html",
+      "bytes": 3835,
+      "sha256": "4b9062c5845825cb88b45b75d9a365f1a0c74c8426ab67d0281f8d4574ae277c"
+    },
+    {
+      "path": "games/relay-zero/style.css",
+      "bytes": 5104,
+      "sha256": "aaba691119335cedd83a641df97f52879c2ac6db2170e97508768a2dc21eb108"
+    }
+  ]
+}

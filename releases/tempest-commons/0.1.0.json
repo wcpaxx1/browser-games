@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "game_slug": "tempest-commons",
+  "release_version": "0.1.0",
+  "published_at": null,
+  "entry_point": "games/tempest-commons/index.html",
+  "files": [
+    {
+      "path": "games/tempest-commons/app.js",
+      "bytes": 17141,
+      "sha256": "2d6937809791150d0712c011a1d19dcf3ace7be835276be4281fe4c435a839bd"
+    },
+    {
+      "path": "games/tempest-commons/engine.js",
+      "bytes": 13141,
+      "sha256": "e58aad6ece86fa36986dd53600ae5a95716ed08ce96f610d9a9746b3430312fc"
+    },
+    {
+      "path": "games/tempest-commons/index.html",
+      "bytes": 6410,
+      "sha256": "fb35ba1799c14e4ef3ae6348ec506cf41e3a094b2d5de99fc232c805c074ba0e"
+    },
+    {
+      "path": "games/tempest-commons/storage.js",
+      "bytes": 2511,
+      "sha256": "1c6ced7fa864279e900b640325b55deb190b66e5fd277c83edaf5bad6090a7e7"
+    },
+    {
+      "path": "games/tempest-commons/style.css",
+      "bytes": 7060,
+      "sha256": "aa4109017f32b783c398c9335756e50905b29059e8d709db664ef420ebe13303"
+    }
+  ]
+}

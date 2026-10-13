@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "game_slug": "pelican-post",
+  "release_version": "1.0.0",
+  "published_at": null,
+  "entry_point": "games/pelican-post/index.html",
+  "files": [
+    {
+      "path": "games/pelican-post/LICENSE.txt",
+      "bytes": 1082,
+      "sha256": "642ca836e172b81bfc6446be144592b3948c1a751a7a5b11c9a2d3499d366d93"
+    },
+    {
+      "path": "games/pelican-post/core.js",
+      "bytes": 5969,
+      "sha256": "d7691314a4b04c84d91719ae099cfd7f8c17e460f4e1e9c2dcec1e09b5e3b1cb"
+    },
+    {
+      "path": "games/pelican-post/game.js",
+      "bytes": 19601,
+      "sha256": "a022e584b383e908beaf940726eb121fd95eda0dee312f9a25f9b830aa199ac2"
+    },
+    {
+      "path": "games/pelican-post/icon.svg",
+      "bytes": 402,
+      "sha256": "6f048e7cac544e8f39d3559af7a43d930ecf688097d10c81df5bdb042d94b23e"
+    },
+    {
+      "path": "games/pelican-post/index.html",
+      "bytes": 5519,
+      "sha256": "34c1b50da9626825e455bbcccb1d61c1e984789a7d8e2af9544590489f5cc0ed"
+    },
+    {
+      "path": "games/pelican-post/style.css",
+      "bytes": 7457,
+      "sha256": "26e537909b23dd9fd4cca7033e68462e396bea13606ac9838ef22a1bd4e64859"
+    }
+  ]
+}
