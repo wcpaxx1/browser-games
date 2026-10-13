@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "game_slug": "paper-rain",
+  "release_version": "first-person-0.2.1",
+  "acceptance_status": "pending",
+  "published_at": null,
+  "entry_point": "candidates/paper-rain/first-person-0.2.1/index.html",
+  "runtime_zip_sha256": "5939e90c79bf17c230279ecd6fc263b0118a24c8af588b9f2d83cfde98ea69c2",
+  "files": [
+    {
+      "path": "candidates/paper-rain/first-person-0.2.1/LICENSE.txt",
+      "bytes": 2227,
+      "sha256": "1dae676d7a448ecd56f0f462a736d2132891b7e312a8896affa82afa46c69bf3"
+    },
+    {
+      "path": "candidates/paper-rain/first-person-0.2.1/assets/hand-paddle.png",
+      "bytes": 1737723,
+      "sha256": "ab54f8f2d9f1d32b6c5b20bf1eea3b98afa83bb201563258f32fedc460a7beb9"
+    },
+    {
+      "path": "candidates/paper-rain/first-person-0.2.1/assets/paper-ball.png",
+      "bytes": 2831644,
+      "sha256": "7023317842d05e496f24187b9ab670fdd3158d82882b3562c04ba0d9e1c41846"
+    },
+    {
+      "path": "candidates/paper-rain/first-person-0.2.1/assets/reed-print.png",
+      "bytes": 3717398,
+      "sha256": "27c326cc4d32368f892e28ad60d22b2e0e63d118fc7546b6baac3e985a83baf4"
+    },
+    {
+      "path": "candidates/paper-rain/first-person-0.2.1/assets/target-paper.png",
+      "bytes": 132629,
+      "sha256": "b7b79fddacf0c7ab593ed09cbfa25ee1867be674b2b65d30c9ef871697181081"
+    },
+    {
+      "path": "candidates/paper-rain/first-person-0.2.1/assets/woodgrain.png",
+      "bytes": 49161,
+      "sha256": "c885f415a6bc8dff925958f0d686b470f520e3f5bf8a4cc3da4b4bb12ae1f951"
+    },
+    {
+      "path": "candidates/paper-rain/first-person-0.2.1/core.js",
+      "bytes": 12791,
+      "sha256": "19b584bade20f2f3f1e42ceedc8f5fd99c8773ab02212dba64e51ab95fd61685"
+    },
+    {
+      "path": "candidates/paper-rain/first-person-0.2.1/game.js",
+      "bytes": 18233,
+      "sha256": "596f28eab49190ebfeb9028fbf53f59e6e9da55f2266d228ba24c2f462c1fd99"
+    },
+    {
+      "path": "candidates/paper-rain/first-person-0.2.1/icon.svg",
+      "bytes": 347,
+      "sha256": "0342813b6ff54dc1f9b45a12cf949065a5c46a7cae0584f10a4e85f74872581c"
+    },
+    {
+      "path": "candidates/paper-rain/first-person-0.2.1/index.html",
+      "bytes": 4179,
+      "sha256": "39ed7297f4e693ba4d5f4fedeb2c7847f5e21d49755b91cc7a1aed6158dab3d0"
+    },
+    {
+      "path": "candidates/paper-rain/first-person-0.2.1/input.js",
+      "bytes": 1274,
+      "sha256": "59917d8d4b05e34960b71956bd61352f85a4666228b822a99c44d89c3874d2a4"
+    },
+    {
+      "path": "candidates/paper-rain/first-person-0.2.1/raster.js",
+      "bytes": 7676,
+      "sha256": "bfe0ef97927930b20316d368d72ac835ce9eeba68b867d94796f97adb660628c"
+    },
+    {
+      "path": "candidates/paper-rain/first-person-0.2.1/save.js",
+      "bytes": 3447,
+      "sha256": "78ce6ca9961c8ff0f69075440ac573bbc0dc3b360652d3210a41e18a36f03aeb"
+    },
+    {
+      "path": "candidates/paper-rain/first-person-0.2.1/style.css",
+      "bytes": 7145,
+      "sha256": "40999d418924dd0b051405a7a202760cd9b9c009fca84668b38a98d9353e16f7"
+    },
+    {
+      "path": "candidates/paper-rain/first-person-0.2.1/view.js",
+      "bytes": 21806,
+      "sha256": "3b8fdea47b312da20d94cc0fc32e967ec90fceecb7c64d93f306d7c13ee16166"
+    }
+  ]
+}
