@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "game_slug": "relay-zero",
+  "release_version": "breach-0.1.2",
+  "acceptance_status": "pending",
+  "published_at": null,
+  "entry_point": "candidates/relay-zero/breach-0.1.2/index.html",
+  "runtime_zip_sha256": "7bee5db87892320320637179fbb65b5a8e65088f1e4aaff0fec8957f9e647675",
+  "files": [
+    {
+      "path": "candidates/relay-zero/breach-0.1.2/app.js",
+      "bytes": 28727,
+      "sha256": "90aba878e5c620e75d3f9447e730034a756934e90717cd0554d74e275501a527"
+    },
+    {
+      "path": "candidates/relay-zero/breach-0.1.2/core.js",
+      "bytes": 12813,
+      "sha256": "49738cf6aeab6cc20c8bf2533120be4177f07946c31a88ed3816e0e7c2e002f9"
+    },
+    {
+      "path": "candidates/relay-zero/breach-0.1.2/index.html",
+      "bytes": 3132,
+      "sha256": "7765cf30a64398caa00b465c21504c2c045c3ccce9d9babde50d8ccf05d5d26c"
+    },
+    {
+      "path": "candidates/relay-zero/breach-0.1.2/local-save.mjs",
+      "bytes": 3254,
+      "sha256": "78082d61c73f2c2cef7e5f2db323ceecebaf981afe9685e121022e8deab87d08"
+    },
+    {
+      "path": "candidates/relay-zero/breach-0.1.2/style.css",
+      "bytes": 6131,
+      "sha256": "904d9aae4a8521d6df49980623be49f9326da06d5f830ebbf47f73dd2fef2bd3"
+    }
+  ]
+}
