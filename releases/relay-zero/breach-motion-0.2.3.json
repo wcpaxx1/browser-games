@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "game_slug": "relay-zero",
+  "release_version": "breach-motion-0.2.3",
+  "acceptance_status": "pending",
+  "published_at": null,
+  "entry_point": "candidates/relay-zero/breach-motion-0.2.3/index.html",
+  "runtime_zip_sha256": "bbc89e7538da63d1ecd36ebe219ae1b8a3e39b0dd226777b7bd7f4e1a19b90cf",
+  "files": [
+    {
+      "path": "candidates/relay-zero/breach-motion-0.2.3/app.js",
+      "bytes": 71188,
+      "sha256": "868b872404f23e2b98a6da0cb0dee43574ebd0d48958ac2270e43b730be44d1a"
+    },
+    {
+      "path": "candidates/relay-zero/breach-motion-0.2.3/assets/facade-arched-door.png",
+      "bytes": 582462,
+      "sha256": "3b8b05b1014478ed1713c461ef51edcee90b64716034fb4a3cf3fa073f990b14"
+    },
+    {
+      "path": "candidates/relay-zero/breach-motion-0.2.3/assets/facade-grille.png",
+      "bytes": 552371,
+      "sha256": "9ed6fa74d8ec61d2d428fcf5a9c3148b987c2ef107afe5d16a743a26d44f00f9"
+    },
+    {
+      "path": "candidates/relay-zero/breach-motion-0.2.3/assets/facade-shutters.png",
+      "bytes": 591314,
+      "sha256": "95b3b54d79bf9f5829477cc900634628092a876fc8a9fb9875bbd983009798e6"
+    },
+    {
+      "path": "candidates/relay-zero/breach-motion-0.2.3/assets/facade-window.png",
+      "bytes": 578621,
+      "sha256": "f41b6f25e5859c758079edc8e9056f2ec7054eef4fadf50e0031146d07fb8266"
+    },
+    {
+      "path": "candidates/relay-zero/breach-motion-0.2.3/assets/guard-aim-512.png",
+      "bytes": 191468,
+      "sha256": "e720346f4c63eba017a85e19640c03203b33e416327f4fce73a31e36869a1ce0"
+    },
+    {
+      "path": "candidates/relay-zero/breach-motion-0.2.3/assets/guard-aim.png",
+      "bytes": 55883,
+      "sha256": "8cc5994804c71e1af4ea92134e516589cdbbbc81f1dbbf7d169895f5c81f7905"
+    },
+    {
+      "path": "candidates/relay-zero/breach-motion-0.2.3/assets/guard-back-512.png",
+      "bytes": 158280,
+      "sha256": "99ede2d08bcfe8703b9e24506625093826fef36bedfea9a728f1d6f7f2c7c414"
+    },
+    {
+      "path": "candidates/relay-zero/breach-motion-0.2.3/assets/guard-back.png",
+      "bytes": 46599,
+      "sha256": "9189f02c324206ff2e291b94cca1cb753df201ba18937fd8cf20fe4554f49763"
+    },
+    {
+      "path": "candidates/relay-zero/breach-motion-0.2.3/assets/guard-front-512.png",
+      "bytes": 163330,
+      "sha256": "1780ed80bb7ec4b95d871c54066ccea6270a8d0f90a735d4d13534494238060d"
+    },
+    {
+      "path": "candidates/relay-zero/breach-motion-0.2.3/assets/guard-front.png",
+      "bytes": 47249,
+      "sha256": "9bf6f0bc966eeb905efa2668670bf446142f7fffecb38a356d9b61a9911e51a7"
+    },
+    {
+      "path": "candidates/relay-zero/breach-motion-0.2.3/assets/guard-hit-512.png",
+      "bytes": 212666,
+      "sha256": "6e2a6246e66e61212c7538ccea55b85849ce7e1b35e6840919152886ddd8c4ee"
+    },
+    {
+      "path": "candidates/relay-zero/breach-motion-0.2.3/assets/guard-hit.png",
+      "bytes": 60431,
+      "sha256": "d5c06a2fd31eb003affd8e77248104dcbdcf19cde99f6d846cb4a9ece37e58ec"
+    },
+    {
+      "path": "candidates/relay-zero/breach-motion-0.2.3/assets/guard-left-512.png",
+      "bytes": 134735,
+      "sha256": "0ac182130d7273bb244268757bf89a99c60476734096dce9ef6318444216e624"
+    },
+    {
+      "path": "candidates/relay-zero/breach-motion-0.2.3/assets/guard-left.png",
+      "bytes": 39315,
+      "sha256": "7594e46c0e1885432d55bf9dd2cae09d69a5f4547ddca557c1959f12ed85794f"
+    },
+    {
+      "path": "candidates/relay-zero/breach-motion-0.2.3/assets/guard-right-512.png",
+      "bytes": 134784,
+      "sha256": "cc2921c40ecb0f2c4f9c9860af519840c0bd840e09701ccb2b3c865d19ad58e8"
+    },
+    {
+      "path": "candidates/relay-zero/breach-motion-0.2.3/assets/guard-right.png",
+      "bytes": 38954,
+      "sha256": "28012fa2491541b06ff5bc763129a7a5667ddb24acedd04b88456f2a6ef8beef"
+    },
+    {
+      "path": "candidates/relay-zero/breach-motion-0.2.3/assets/guard-walk-a-512.png",
+      "bytes": 164982,
+      "sha256": "b36c8ca960bc73a56a965d706f0b9bfb55eb9530c02b2d22ce7382e061f846fa"
+    },
+    {
+      "path": "candidates/relay-zero/breach-motion-0.2.3/assets/guard-walk-a.png",
+      "bytes": 47733,
+      "sha256": "bfeaffdfb732f2a24c09905723527beb53063bb90fb793379684d18859a87c5c"
+    },
+    {
+      "path": "candidates/relay-zero/breach-motion-0.2.3/assets/guard-walk-b-512.png",
+      "bytes": 170706,
+      "sha256": "d398cb7f8ee23acbbece5139c8e646e6ddb61243e23b7be20959bb9568b461f5"
+    },
+    {
+      "path": "candidates/relay-zero/breach-motion-0.2.3/assets/guard-walk-b.png",
+      "bytes": 49015,
+      "sha256": "4b04594e0091175e272249db21fdda4d391b5cca89d3c02696c500edcad26236"
+    },
+    {
+      "path": "candidates/relay-zero/breach-motion-0.2.3/assets/limestone.png",
+      "bytes": 182609,
+      "sha256": "791e5eabba19effcdf86417f3298949bbe9e76e5447da8b2441de075afd9a844"
+    },
+    {
+      "path": "candidates/relay-zero/breach-motion-0.2.3/assets/paving.png",
+      "bytes": 186487,
+      "sha256": "f649937a76f694cf2f67243527774b3e2f49fd6fae3b05a2418f8aec25befa8c"
+    },
+    {
+      "path": "candidates/relay-zero/breach-motion-0.2.3/core.js",
+      "bytes": 12813,
+      "sha256": "49738cf6aeab6cc20c8bf2533120be4177f07946c31a88ed3816e0e7c2e002f9"
+    },
+    {
+      "path": "candidates/relay-zero/breach-motion-0.2.3/index.html",
+      "bytes": 3538,
+      "sha256": "4ff801f8e190f467cc9bcab96dcf5fccec4c8b93b7b1e817c3768e7981bdfcf6"
+    },
+    {
+      "path": "candidates/relay-zero/breach-motion-0.2.3/local-save.mjs",
+      "bytes": 3254,
+      "sha256": "78082d61c73f2c2cef7e5f2db323ceecebaf981afe9685e121022e8deab87d08"
+    },
+    {
+      "path": "candidates/relay-zero/breach-motion-0.2.3/style.css",
+      "bytes": 6958,
+      "sha256": "0ed12e74234a9f7e2b2882f63a28fb178dee40bbe3705297a7c7c636e1fb27df"
+    }
+  ],
+  "asset_provenance": "Project-generated original local artwork and synthesized audio. No commercial game assets or external runtime dependencies. Existing rights retained; no new license grant."
+}
