@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "game_slug": "wax-and-light",
+  "release_version": "first-person-0.1.5",
+  "acceptance_status": "pending",
+  "published_at": null,
+  "entry_point": "candidates/wax-and-light/first-person-0.1.5/index.html",
+  "runtime_zip_sha256": "ea3e26f5b068624a6bd76b51bfff32213c8635f2af2c27e2cbdf8ee74048aec8",
+  "files": [
+    {
+      "path": "candidates/wax-and-light/first-person-0.1.5/LICENSE.txt",
+      "bytes": 725,
+      "sha256": "c00eae8b5ee715df27a6dad25a47554dcc8e38bf0713e7a7bb2ca76a614ff6a8"
+    },
+    {
+      "path": "candidates/wax-and-light/first-person-0.1.5/assets/cotton.png",
+      "bytes": 3997149,
+      "sha256": "f84228c42241730961bf841089b02bdad96b0e9fab3eee6c455dbb2934746e49"
+    },
+    {
+      "path": "candidates/wax-and-light/first-person-0.1.5/assets/hand-copper-stamp.png",
+      "bytes": 1806349,
+      "sha256": "aec0763d497785f491ac64026b7cb18661c7cf42ad9eeedf28b03c83c390fb8e"
+    },
+    {
+      "path": "candidates/wax-and-light/first-person-0.1.5/assets/workshop.png",
+      "bytes": 2686199,
+      "sha256": "44cbed6de0931247a116a92f4d44c25a7850c090eec00166837e708d1ebb65cb"
+    },
+    {
+      "path": "candidates/wax-and-light/first-person-0.1.5/core.js",
+      "bytes": 4179,
+      "sha256": "cf2df284542b9e8e326c60ddab08fd5538aa2470ddcf1163cf3635fb0071a787"
+    },
+    {
+      "path": "candidates/wax-and-light/first-person-0.1.5/game.js",
+      "bytes": 12610,
+      "sha256": "b515d4d6316d10e2362fc552c998db523eb15e6a5bd2fc6b459ae1cbbc677140"
+    },
+    {
+      "path": "candidates/wax-and-light/first-person-0.1.5/index.html",
+      "bytes": 3704,
+      "sha256": "ccb13f7c3a674bf9c9a7101dfa7e059bfa36d49beeb25ba03704808ecdc23aa8"
+    },
+    {
+      "path": "candidates/wax-and-light/first-person-0.1.5/save.js",
+      "bytes": 1485,
+      "sha256": "aa603e0d4dc32cf1269631f3075e353dc0a7a4fe0b107c9e37df528c9cd9a586"
+    },
+    {
+      "path": "candidates/wax-and-light/first-person-0.1.5/style.css",
+      "bytes": 5633,
+      "sha256": "d8613bc0746e73c675afd6cdbc725a5267f3a4aa774851eb6ddc12fe12afa59d"
+    },
+    {
+      "path": "candidates/wax-and-light/first-person-0.1.5/view.js",
+      "bytes": 23049,
+      "sha256": "b685fb0ed2b991150a28945fbc683be10001fe584f2c19eb9a5e2e93d2b7994c"
+    }
+  ]
+}
