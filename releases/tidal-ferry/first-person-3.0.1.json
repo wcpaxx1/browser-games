@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "game_slug": "tidal-ferry",
+  "release_version": "first-person-3.0.1",
+  "acceptance_status": "pending",
+  "published_at": null,
+  "entry_point": "candidates/tidal-ferry/first-person-3.0.1/index.html",
+  "runtime_zip_sha256": "93aa0fb8131e8d8b8d84c0705c3d04f10c830a4af9f8ebd451cce1e5eac693c5",
+  "files": [
+    {
+      "path": "candidates/tidal-ferry/first-person-3.0.1/app.js",
+      "bytes": 19402,
+      "sha256": "3d17f16a27263c6aa5a3da906156f97e0015b476de665d798c5f08ef6caf09c4"
+    },
+    {
+      "path": "candidates/tidal-ferry/first-person-3.0.1/core.js",
+      "bytes": 4906,
+      "sha256": "2d5a1c88aa38a124e7206054abb396e13f50458cf7d817ef43ae1a67cab555d7"
+    },
+    {
+      "path": "candidates/tidal-ferry/first-person-3.0.1/icon.svg",
+      "bytes": 292,
+      "sha256": "727a653116013d8839885af371d56b32ebccd3c83d8bab104bb6a9a1f1950015"
+    },
+    {
+      "path": "candidates/tidal-ferry/first-person-3.0.1/index.html",
+      "bytes": 3384,
+      "sha256": "99e0fc313bd6c21b7aa2bd3c7671c1b41e4334438864d04b6cbdb883cddfa2d8"
+    },
+    {
+      "path": "candidates/tidal-ferry/first-person-3.0.1/projection.js",
+      "bytes": 1406,
+      "sha256": "271638c4d73922fdf1f493fe5ae4aaea196597f9ae3d1df47082292de62a2048"
+    },
+    {
+      "path": "candidates/tidal-ferry/first-person-3.0.1/storage.js",
+      "bytes": 2257,
+      "sha256": "196cc57c3bd7329f465e395624381ab45b010e981cdcb51fec0d8e214acc4826"
+    },
+    {
+      "path": "candidates/tidal-ferry/first-person-3.0.1/style.css",
+      "bytes": 4965,
+      "sha256": "6712f036355c77fce5c24cd34a89c70cb2faf4784975626de803976f45019330"
+    }
+  ]
+}
