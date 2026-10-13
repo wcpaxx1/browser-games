@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "game_slug": "pelican-post",
+  "release_version": "first-person-3",
+  "acceptance_status": "pending",
+  "published_at": null,
+  "entry_point": "candidates/pelican-post/first-person-3/index.html",
+  "runtime_zip_sha256": "038038eb1ab18dc0edb5ac96f69dcd0de4ffc3c70c3ebdc2cc2dc70e6f4122ed",
+  "files": [
+    {
+      "path": "candidates/pelican-post/first-person-3/LICENSE.txt",
+      "bytes": 1082,
+      "sha256": "642ca836e172b81bfc6446be144592b3948c1a751a7a5b11c9a2d3499d366d93"
+    },
+    {
+      "path": "candidates/pelican-post/first-person-3/core.js",
+      "bytes": 6064,
+      "sha256": "44dfdb6fb3b8dc8f98d0420c634d0007a198f81433b7cb5fbf9af3a0e2ea87ef"
+    },
+    {
+      "path": "candidates/pelican-post/first-person-3/game.js",
+      "bytes": 12930,
+      "sha256": "30ab8de7e990f31f354801f879bf3c21e11625e8b62bd83a3c0cd767bd92a4d8"
+    },
+    {
+      "path": "candidates/pelican-post/first-person-3/icon.svg",
+      "bytes": 402,
+      "sha256": "6f048e7cac544e8f39d3559af7a43d930ecf688097d10c81df5bdb042d94b23e"
+    },
+    {
+      "path": "candidates/pelican-post/first-person-3/index.html",
+      "bytes": 4651,
+      "sha256": "662fb708bd9cc6becc8fd007348066b57840335bd039c5b7bd4a1b1222f20969"
+    },
+    {
+      "path": "candidates/pelican-post/first-person-3/legacy/LICENSE.txt",
+      "bytes": 1082,
+      "sha256": "642ca836e172b81bfc6446be144592b3948c1a751a7a5b11c9a2d3499d366d93"
+    },
+    {
+      "path": "candidates/pelican-post/first-person-3/legacy/core.js",
+      "bytes": 5969,
+      "sha256": "d7691314a4b04c84d91719ae099cfd7f8c17e460f4e1e9c2dcec1e09b5e3b1cb"
+    },
+    {
+      "path": "candidates/pelican-post/first-person-3/legacy/game.js",
+      "bytes": 19601,
+      "sha256": "a022e584b383e908beaf940726eb121fd95eda0dee312f9a25f9b830aa199ac2"
+    },
+    {
+      "path": "candidates/pelican-post/first-person-3/legacy/icon.svg",
+      "bytes": 402,
+      "sha256": "6f048e7cac544e8f39d3559af7a43d930ecf688097d10c81df5bdb042d94b23e"
+    },
+    {
+      "path": "candidates/pelican-post/first-person-3/legacy/index.html",
+      "bytes": 5519,
+      "sha256": "34c1b50da9626825e455bbcccb1d61c1e984789a7d8e2af9544590489f5cc0ed"
+    },
+    {
+      "path": "candidates/pelican-post/first-person-3/legacy/style.css",
+      "bytes": 7457,
+      "sha256": "26e537909b23dd9fd4cca7033e68462e396bea13606ac9838ef22a1bd4e64859"
+    },
+    {
+      "path": "candidates/pelican-post/first-person-3/style.css",
+      "bytes": 11627,
+      "sha256": "9ece842b942a2c37cc609115948bb6b7fc7818ffb38f7a072b05f6eb468862dc"
+    },
+    {
+      "path": "candidates/pelican-post/first-person-3/view.js",
+      "bytes": 8830,
+      "sha256": "68cbcc471883cbc54bfaa8a720410cb0b995f3995423c9fa8a92aff78b981b12"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "game_slug": "relay-zero",
+  "release_version": "first-person-1",
+  "acceptance_status": "pending",
+  "published_at": null,
+  "entry_point": "candidates/relay-zero/first-person-1/index.html",
+  "runtime_zip_sha256": "7d950c7a6ff6df0ed43f99495247059d13f5b58aee64c08f8ace360bf99e28ff",
+  "files": [
+    {
+      "path": "candidates/relay-zero/first-person-1/app.js",
+      "bytes": 22457,
+      "sha256": "0e7a51cdb2436723787bcab06b5fbcc8a3949cede14ded252c4e665f58e1eb7e"
+    },
+    {
+      "path": "candidates/relay-zero/first-person-1/core.js",
+      "bytes": 8810,
+      "sha256": "a3a50a3608b38a0d4632f44510cdb6b79b187694161554116b496971d58f5d9e"
+    },
+    {
+      "path": "candidates/relay-zero/first-person-1/index.html",
+      "bytes": 3333,
+      "sha256": "3694d53c75f37e9a13d9bf85cf3e8d4b22ab9eed8e25c8ae43ed82899028470a"
+    },
+    {
+      "path": "candidates/relay-zero/first-person-1/local-save.mjs",
+      "bytes": 3254,
+      "sha256": "78082d61c73f2c2cef7e5f2db323ceecebaf981afe9685e121022e8deab87d08"
+    },
+    {
+      "path": "candidates/relay-zero/first-person-1/style.css",
+      "bytes": 6353,
+      "sha256": "6ad700f9d6338681058d9d4aa6ad9983a7194c115da20951472fb533e4265677"
+    }
+  ]
+}
