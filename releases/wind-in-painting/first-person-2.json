@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "game_slug": "wind-in-painting",
+  "release_version": "first-person-2",
+  "acceptance_status": "pending",
+  "published_at": null,
+  "entry_point": "candidates/wind-in-painting/first-person-2/index.html",
+  "runtime_zip_sha256": "3598ca4e511b249f279b270fa3584cfb8b77f88df6f6a7896f9a2a6839e41d40",
+  "files": [
+    {
+      "path": "candidates/wind-in-painting/first-person-2/FONT-LICENSE.txt",
+      "bytes": 15295,
+      "sha256": "607785ef55b046a860adf1344b6301b72db00da9b201bacb87ddb13e00a9fcba"
+    },
+    {
+      "path": "candidates/wind-in-painting/first-person-2/index.html",
+      "bytes": 841401,
+      "sha256": "c85f05d1aaa696209cab7e4b43c98cb5548daab4eda987d228678d08e1929930"
+    },
+    {
+      "path": "candidates/wind-in-painting/first-person-2/legacy/index.html",
+      "bytes": 1460568,
+      "sha256": "a619c8bc90cdb79db0630f47aaba04ea37e5d3235779cf95c69995392c77ebe6"
+    }
+  ]
+}
