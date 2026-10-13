@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "game_slug": "echo-trail",
+  "release_version": "first-person-3",
+  "acceptance_status": "pending",
+  "published_at": null,
+  "entry_point": "candidates/echo-trail/first-person-3/index.html",
+  "runtime_zip_sha256": "c8f4a9841468820f68784e83c4fc1e14db6dfac3d131b5ffeca9b1748a5ebdce",
+  "files": [
+    {
+      "path": "candidates/echo-trail/first-person-3/app.js",
+      "bytes": 10424,
+      "sha256": "47ec81801249f9edd899192e87e4c1a21ea77e8bbe9fa2f5c9b8789d1849b63f"
+    },
+    {
+      "path": "candidates/echo-trail/first-person-3/core.js",
+      "bytes": 3687,
+      "sha256": "9444ea93df08553feeff4fb6cf34c30a8b30958277663ef8cc53d4d62e9430e6"
+    },
+    {
+      "path": "candidates/echo-trail/first-person-3/icon.svg",
+      "bytes": 309,
+      "sha256": "bd65a2c9c4410aa2bc43c428db12589de80ed20323770bff7028953717481373"
+    },
+    {
+      "path": "candidates/echo-trail/first-person-3/index.html",
+      "bytes": 4315,
+      "sha256": "6580c9a979c94d55682d83784d5ad90a35eed1144df60c3084bc3b97bfda8f8e"
+    },
+    {
+      "path": "candidates/echo-trail/first-person-3/storage.js",
+      "bytes": 3359,
+      "sha256": "a36b95fccefddff207df6f4e70ff07723b0a602bf1bf687db4bafc70a173d6ed"
+    },
+    {
+      "path": "candidates/echo-trail/first-person-3/style.css",
+      "bytes": 7914,
+      "sha256": "ecbd85006b6c9fa3664f5ce2bc018cba8563516c818f11f0a2aa709eee34f234"
+    },
+    {
+      "path": "candidates/echo-trail/first-person-3/view.js",
+      "bytes": 6855,
+      "sha256": "64666fea848fded2d38f4eae23901bb01e723cdbd556be2fcb72953516ad377e"
+    }
+  ]
+}
