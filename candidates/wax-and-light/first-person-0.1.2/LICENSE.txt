@@ -1,0 +1,5 @@
+封蜡现纹 / Wax & Light — version 0.1.2
+Copyright (c) 2026. Original code, procedural materials, motifs and artwork created for this game. All rights reserved. Personal gameplay is permitted; no third-party artwork, fonts, audio, libraries or network services are embedded.
+
+Cultural context: hand-stamped wax-resist batik in Pekalongan, Java, Indonesia. This fictional compact game is not craft training. Dyeing, drying and wax removal are compressed. Original botanical/geometric motifs are invented for play, not reproductions of named ceremonial, court, community or museum patterns. No affiliation or endorsement is implied.
+Research source, not an art license: https://www.unesco.org/en/creative-cities/pekalongan
