@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "game_slug": "tempest-commons",
+  "release_version": "first-person-6",
+  "acceptance_status": "pending",
+  "published_at": null,
+  "entry_point": "candidates/tempest-commons/first-person-6/index.html",
+  "runtime_zip_sha256": "55bcf07b05a606cf7a7279831097cc9bac2ee6a7d2c8d01aa000aceccde90fdf",
+  "files": [
+    {
+      "path": "candidates/tempest-commons/first-person-6/app.js",
+      "bytes": 16983,
+      "sha256": "8543401666ad202a7236192c414a06db98447c7ea31650de187cab733374254a"
+    },
+    {
+      "path": "candidates/tempest-commons/first-person-6/command.js",
+      "bytes": 7513,
+      "sha256": "828b77d2c381fc075519acc08e4d9d96adfc1e7bbb842523619ccc2a679705fe"
+    },
+    {
+      "path": "candidates/tempest-commons/first-person-6/engine.js",
+      "bytes": 24341,
+      "sha256": "049ec2814ae1f5c7bad7385d9e26a1dec7b3d0d5ef80e5a3780e3080651f4ab0"
+    },
+    {
+      "path": "candidates/tempest-commons/first-person-6/geometry.js",
+      "bytes": 16066,
+      "sha256": "8152eb37a729fe39117fd6b16aa7e2f82890e50cf5074a6bcbd159fa3f3356ff"
+    },
+    {
+      "path": "candidates/tempest-commons/first-person-6/index.html",
+      "bytes": 3531,
+      "sha256": "988bbfd3c3b87b028be36f52cb27f6e85b366cc616bca45163264283365cbe5a"
+    },
+    {
+      "path": "candidates/tempest-commons/first-person-6/save.js",
+      "bytes": 1715,
+      "sha256": "d438db0a6cf871d315c45c23c62c90b589f4a140160c4218f9be6ed7887409de"
+    },
+    {
+      "path": "candidates/tempest-commons/first-person-6/style.css",
+      "bytes": 4358,
+      "sha256": "e67f9937155091e3cc6e5d346aee935ced82850002360af18eb3b069c24fe902"
+    },
+    {
+      "path": "candidates/tempest-commons/first-person-6/view.js",
+      "bytes": 14787,
+      "sha256": "a9d996cfc9568e5f8b25901ed43d0d1c3c295110b63a3e623562c2f78a3caca7"
+    }
+  ],
+  "runtime_version": "0.3.0-candidate.6",
+  "asset_provenance": "Original project-authored code, procedural geometry/materials, and synthesized audio. No external runtime dependencies or bundled third-party artwork/fonts. Existing rights retained; no new license grant."
+}
