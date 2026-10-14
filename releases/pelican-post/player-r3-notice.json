@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "game_slug": "pelican-post",
+  "release_version": "player-r3-notice",
+  "runtime_version": "pelican-post-three-round-notice",
+  "acceptance_status": "pending",
+  "quality_status": "scoped-desktop-candidate-with-known-save-limitations",
+  "entry_point": "candidates/pelican-post/player-r3-notice/index.html",
+  "runtime_zip_sha256": "1ccedfa0fe6e69c7e2ecfa0e6214d0fe4f84028cc4479ee847803d954a478c48",
+  "runtime_tree_sha256": "3a4b113d8f5da930f16ad49a5b96716369192c3f65eab77605e8483f8296bb27",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 1082,
+      "sha256": "642ca836e172b81bfc6446be144592b3948c1a751a7a5b11c9a2d3499d366d93"
+    },
+    {
+      "path": "clock.js",
+      "bytes": 1784,
+      "sha256": "c15e6c2dd2e28004e6925e92b74952e06722e6ff13d0c4a073b2bb32dcff1c96"
+    },
+    {
+      "path": "core.js",
+      "bytes": 6064,
+      "sha256": "44dfdb6fb3b8dc8f98d0420c634d0007a198f81433b7cb5fbf9af3a0e2ea87ef"
+    },
+    {
+      "path": "feedback.js",
+      "bytes": 2150,
+      "sha256": "456094824c81ce9c3b429c548db8daa4e12f90666b02318a06c5357d33703917"
+    },
+    {
+      "path": "game.js",
+      "bytes": 18452,
+      "sha256": "2f6e6c45afe0a6cafadd6ddf9b010937a07100cbcd7ed020a1dad08b3381c3d1"
+    },
+    {
+      "path": "icon.svg",
+      "bytes": 402,
+      "sha256": "6f048e7cac544e8f39d3559af7a43d930ecf688097d10c81df5bdb042d94b23e"
+    },
+    {
+      "path": "index.html",
+      "bytes": 5365,
+      "sha256": "2cc021ae0ce6eef41eb543efef02e98fbdbe93aa6a57c677117449c9b1563757"
+    },
+    {
+      "path": "input.js",
+      "bytes": 1158,
+      "sha256": "2ba1fc275f61930364a9e49a3235358861f9b56b17518a740e99c9d363dbbea1"
+    },
+    {
+      "path": "legacy/LICENSE.txt",
+      "bytes": 1082,
+      "sha256": "642ca836e172b81bfc6446be144592b3948c1a751a7a5b11c9a2d3499d366d93"
+    },
+    {
+      "path": "legacy/core.js",
+      "bytes": 5969,
+      "sha256": "d7691314a4b04c84d91719ae099cfd7f8c17e460f4e1e9c2dcec1e09b5e3b1cb"
+    },
+    {
+      "path": "legacy/game.js",
+      "bytes": 19601,
+      "sha256": "a022e584b383e908beaf940726eb121fd95eda0dee312f9a25f9b830aa199ac2"
+    },
+    {
+      "path": "legacy/icon.svg",
+      "bytes": 402,
+      "sha256": "6f048e7cac544e8f39d3559af7a43d930ecf688097d10c81df5bdb042d94b23e"
+    },
+    {
+      "path": "legacy/index.html",
+      "bytes": 5519,
+      "sha256": "34c1b50da9626825e455bbcccb1d61c1e984789a7d8e2af9544590489f5cc0ed"
+    },
+    {
+      "path": "legacy/style.css",
+      "bytes": 7457,
+      "sha256": "26e537909b23dd9fd4cca7033e68462e396bea13606ac9838ef22a1bd4e64859"
+    },
+    {
+      "path": "style.css",
+      "bytes": 13577,
+      "sha256": "346219045a659de19ba5f4fd1434451390c41174001a9f36a4c8a7ca78803e55"
+    },
+    {
+      "path": "view.js",
+      "bytes": 8824,
+      "sha256": "af75ac5c1321ade711a4ec171c5bb0a6534b261fbe53450c4bc78eab8a8f7baa"
+    }
+  ],
+  "known_limitations": [
+    "桌面测试候选，完成三轮模拟普通玩家反馈、改进或有理由保留、复测；参与者为代理，尚待真人体验及用户验收。",
+    "已知多标签存档风险未修复：仅使用一个标签页，旧页自动保存可能覆盖较新进度；操作前先导出备份。",
+    "已知异步导入风险未修复：文件读取期间不要换路线或重置；旧读取完成后仍可能弹出旧导入确认，确认后才会覆盖。",
+    "切换窗口前先点暂停。此前Pelican某前台过渡路径观察到自动暂停，但最终完整原生失焦矩阵尚未验证，不保证所有切窗均自动保护。",
+    "最终告知及正常流程在1179×745、502×745桌面内容区实测，不能外推所有尺寸。手机/真实触控、真人连续难度、特定成功跨障碍、全部路线后站、完整键盘激活及音频听感尚未验。",
+    "窄窗口准备页进度条与出发按钮底沿有少量重叠，文字可读且实点成功；最快点按保证及持续性能未验。",
+    "存档保存在当前站点与浏览器配置；清理站点数据可能丢失。经典版保留独立入口与存档命名空间，两版不能互导；换来源站点需各自导出/导入，不会自动迁移。"
+  ],
+  "rights_and_dependencies": "沿用项目原创代码、程序绘图和现有MIT许可，LICENSE.txt与legacy/LICENSE.txt原字节保留。系统字体不打包，无第三方运行库、位图或外部运行服务；未新增许可证或扩展授权。"
+}
