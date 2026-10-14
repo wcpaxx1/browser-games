@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "game_slug": "relay-zero",
+  "release_version": "breach-motion-0.2.5",
+  "acceptance_status": "pending",
+  "quality_status": "limited-controls-repair-candidate",
+  "published_at": null,
+  "entry_point": "candidates/relay-zero/breach-motion-0.2.5/index.html",
+  "runtime_zip_sha256": "26b5771f2e26d74378dc6665a3033a9ebd8a23a4f2649ab12237ab6835e98397",
+  "files": [
+    {
+      "path": "app.js",
+      "sha256": "f484c4debc5a7fd42aaf34cb0ee0eacf58304ef3632c23587ae0bdfa47506f98",
+      "bytes": 77118
+    },
+    {
+      "path": "assets/facade-arched-door.png",
+      "sha256": "3b8b05b1014478ed1713c461ef51edcee90b64716034fb4a3cf3fa073f990b14",
+      "bytes": 582462
+    },
+    {
+      "path": "assets/facade-grille.png",
+      "sha256": "9ed6fa74d8ec61d2d428fcf5a9c3148b987c2ef107afe5d16a743a26d44f00f9",
+      "bytes": 552371
+    },
+    {
+      "path": "assets/facade-shutters.png",
+      "sha256": "95b3b54d79bf9f5829477cc900634628092a876fc8a9fb9875bbd983009798e6",
+      "bytes": 591314
+    },
+    {
+      "path": "assets/facade-window.png",
+      "sha256": "f41b6f25e5859c758079edc8e9056f2ec7054eef4fadf50e0031146d07fb8266",
+      "bytes": 578621
+    },
+    {
+      "path": "assets/guard-aim-512.png",
+      "sha256": "e720346f4c63eba017a85e19640c03203b33e416327f4fce73a31e36869a1ce0",
+      "bytes": 191468
+    },
+    {
+      "path": "assets/guard-aim.png",
+      "sha256": "8cc5994804c71e1af4ea92134e516589cdbbbc81f1dbbf7d169895f5c81f7905",
+      "bytes": 55883
+    },
+    {
+      "path": "assets/guard-back-512.png",
+      "sha256": "99ede2d08bcfe8703b9e24506625093826fef36bedfea9a728f1d6f7f2c7c414",
+      "bytes": 158280
+    },
+    {
+      "path": "assets/guard-back.png",
+      "sha256": "9189f02c324206ff2e291b94cca1cb753df201ba18937fd8cf20fe4554f49763",
+      "bytes": 46599
+    },
+    {
+      "path": "assets/guard-front-512.png",
+      "sha256": "1780ed80bb7ec4b95d871c54066ccea6270a8d0f90a735d4d13534494238060d",
+      "bytes": 163330
+    },
+    {
+      "path": "assets/guard-front.png",
+      "sha256": "9bf6f0bc966eeb905efa2668670bf446142f7fffecb38a356d9b61a9911e51a7",
+      "bytes": 47249
+    },
+    {
+      "path": "assets/guard-hit-512.png",
+      "sha256": "6e2a6246e66e61212c7538ccea55b85849ce7e1b35e6840919152886ddd8c4ee",
+      "bytes": 212666
+    },
+    {
+      "path": "assets/guard-hit.png",
+      "sha256": "d5c06a2fd31eb003affd8e77248104dcbdcf19cde99f6d846cb4a9ece37e58ec",
+      "bytes": 60431
+    },
+    {
+      "path": "assets/guard-left-512.png",
+      "sha256": "0ac182130d7273bb244268757bf89a99c60476734096dce9ef6318444216e624",
+      "bytes": 134735
+    },
+    {
+      "path": "assets/guard-left.png",
+      "sha256": "7594e46c0e1885432d55bf9dd2cae09d69a5f4547ddca557c1959f12ed85794f",
+      "bytes": 39315
+    },
+    {
+      "path": "assets/guard-right-512.png",
+      "sha256": "cc2921c40ecb0f2c4f9c9860af519840c0bd840e09701ccb2b3c865d19ad58e8",
+      "bytes": 134784
+    },
+    {
+      "path": "assets/guard-right.png",
+      "sha256": "28012fa2491541b06ff5bc763129a7a5667ddb24acedd04b88456f2a6ef8beef",
+      "bytes": 38954
+    },
+    {
+      "path": "assets/guard-walk-a-512.png",
+      "sha256": "b36c8ca960bc73a56a965d706f0b9bfb55eb9530c02b2d22ce7382e061f846fa",
+      "bytes": 164982
+    },
+    {
+      "path": "assets/guard-walk-a.png",
+      "sha256": "bfeaffdfb732f2a24c09905723527beb53063bb90fb793379684d18859a87c5c",
+      "bytes": 47733
+    },
+    {
+      "path": "assets/guard-walk-b-512.png",
+      "sha256": "d398cb7f8ee23acbbece5139c8e646e6ddb61243e23b7be20959bb9568b461f5",
+      "bytes": 170706
+    },
+    {
+      "path": "assets/guard-walk-b.png",
+      "sha256": "4b04594e0091175e272249db21fdda4d391b5cca89d3c02696c500edcad26236",
+      "bytes": 49015
+    },
+    {
+      "path": "assets/limestone.png",
+      "sha256": "791e5eabba19effcdf86417f3298949bbe9e76e5447da8b2441de075afd9a844",
+      "bytes": 182609
+    },
+    {
+      "path": "assets/paving.png",
+      "sha256": "f649937a76f694cf2f67243527774b3e2f49fd6fae3b05a2418f8aec25befa8c",
+      "bytes": 186487
+    },
+    {
+      "path": "core.js",
+      "sha256": "49738cf6aeab6cc20c8bf2533120be4177f07946c31a88ed3816e0e7c2e002f9",
+      "bytes": 12813
+    },
+    {
+      "path": "index.html",
+      "sha256": "556a5e25d4c05715ab082b95de5ae802304b81bc39a214eb0fda94b46f2ccc42",
+      "bytes": 4243
+    },
+    {
+      "path": "local-save.mjs",
+      "sha256": "78082d61c73f2c2cef7e5f2db323ceecebaf981afe9685e121022e8deab87d08",
+      "bytes": 3254
+    },
+    {
+      "path": "style.css",
+      "sha256": "e23d03362d6552ac19f8cc80f1acdbc6ae10ecaecd784628e0b7f70dd1e29297",
+      "bytes": 7733
+    }
+  ],
+  "provenance": {
+    "runtime": "Original static first-person game; browser-local saves.",
+    "assets": "Existing original project assets retained unchanged; no new third-party dependency or license grant."
+  }
+}
