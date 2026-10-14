@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "game_slug": "wax-and-light",
+  "release_version": "player-r3-notice2",
+  "runtime_version": "0.2.3-r2-notice2",
+  "acceptance_status": "pending",
+  "quality_status": "scoped-desktop-candidate-with-known-limitations",
+  "entry_point": "candidates/wax-and-light/player-r3-notice2/index.html",
+  "runtime_zip_sha256": "7c98acc2579c032a63efe858cc767c982ea8aacbd51ce882fde3f283cb29cd5a",
+  "runtime_tree_sha256": "9b27c0945995430e05ded9d40e12f6f2c347b5477ec67ad34ffb7f9365910f73",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 725,
+      "sha256": "304362a2245e92437d198319fc98f2afa8c8a8eefc1c60adfc0b31e8d8298f76"
+    },
+    {
+      "path": "assets/cotton.png",
+      "bytes": 3997149,
+      "sha256": "f84228c42241730961bf841089b02bdad96b0e9fab3eee6c455dbb2934746e49"
+    },
+    {
+      "path": "assets/workshop.png",
+      "bytes": 2686199,
+      "sha256": "44cbed6de0931247a116a92f4d44c25a7850c090eec00166837e708d1ebb65cb"
+    },
+    {
+      "path": "core.js",
+      "bytes": 4878,
+      "sha256": "261b56dc539c63a69833849b7c9bbec49bc09ffd5c20be7e4ff78cfb005cf465"
+    },
+    {
+      "path": "game.js",
+      "bytes": 15308,
+      "sha256": "19c90a8a757499e3f6dff569739e57101b057c3900f788fbd93d2e7711452a5e"
+    },
+    {
+      "path": "index.html",
+      "bytes": 4621,
+      "sha256": "9abde0b41905bb006ced4d2d3eeca7acb20ca054a0ff6ba8540fe56030445f22"
+    },
+    {
+      "path": "save.js",
+      "bytes": 1485,
+      "sha256": "aa603e0d4dc32cf1269631f3075e353dc0a7a4fe0b107c9e37df528c9cd9a586"
+    },
+    {
+      "path": "style.css",
+      "bytes": 8439,
+      "sha256": "d6d37413c7be11df4e2ef67ed984c757564293bd55e2664af3061f52d7c1010e"
+    },
+    {
+      "path": "view.js",
+      "bytes": 12637,
+      "sha256": "ee5802940438f7304b978be2c53f546c2a5bfe8426acfe9527bd5891f387bef6"
+    }
+  ],
+  "known_limitations": [
+    "桌面测试候选，完成三轮模拟普通玩家反馈、改进或有理由保留、复测；参与者为代理，真人体验与用户验收仍待。",
+    "切换标签页或窗口前请先按 Esc 或点击暂停。自动失焦暂停实际测试未通过；当前提示为风险披露，不表示该缺陷已修复。",
+    "最终告知行已在1179×745及500×745桌面内容区实测；不能外推所有屏幕。390宽手机、真实触屏、完整方向键流程和真人连续难度未验。",
+    "浏览器本地存档绑定当前站点、浏览器与用户配置；隐私模式或清理站点数据可能丢失。可导出存档与确认重置，未提供文件导入入口。",
+    "染色动画中刷新按现有语义恢复同一布编辑状态，保留印章、时间和分数。当前完整真实存档异常及跨标签矩阵、长期性能未全面复测。",
+    "欣赏模式只展示最后一块成品，不存储前三块作品集；入口按钮观感仍有低优先改善空间。"
+  ],
+  "rights_and_dependencies": "保留运行包LICENSE.txt既有权利。项目原创代码、纹样、程序材料与图像；无内嵌第三方字体、音频或运行库。静态运行无需外部服务；UNESCO页面仅文化参考，非素材许可证。未新增MIT、CC0或其他授权。"
+}
