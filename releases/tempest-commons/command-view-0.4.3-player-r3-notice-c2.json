@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "game_slug": "tempest-commons",
+  "release_version": "command-view-0.4.3-player-r3-notice-c2",
+  "runtime_version": "0.4.3-player-r3-notice.c2",
+  "acceptance_status": "pending",
+  "quality_status": "scoped-desktop-candidate-with-known-limitations",
+  "entry_point": "candidates/tempest-commons/command-view-0.4.3-player-r3-notice-c2/index.html",
+  "runtime_zip_sha256": "ac25d8c545255b538b6d76e9cb7d2cf9bc18c2fd376dc86dafccfead458a81f5",
+  "files": [
+    {
+      "path": "app.js",
+      "bytes": 12718,
+      "sha256": "02b0e34bd7571356e065cc242368364c040c2ab677fdbcf39cb63f208e7334fa"
+    },
+    {
+      "path": "engine.js",
+      "bytes": 24390,
+      "sha256": "3f4df2a737c39311b5cfeb3c696def00292e622364ea5ef03927e5a7c2e830a4"
+    },
+    {
+      "path": "feedback.js",
+      "bytes": 3309,
+      "sha256": "f19212ead2c525f8b93b26393053235619a3a9b84cd012dd956a18f6b1eb7031"
+    },
+    {
+      "path": "index.html",
+      "bytes": 3458,
+      "sha256": "67265d0463c91abbfd6ced44070c052b456b99f7af14399aa5ef57bac1749a15"
+    },
+    {
+      "path": "save.js",
+      "bytes": 1733,
+      "sha256": "7488a6bc1eb540500012c7a46c925c8bb95ed83c8c768ebfb262571c35e5d860"
+    },
+    {
+      "path": "scenario.js",
+      "bytes": 1837,
+      "sha256": "cccfd4a70e77eeb8cb2e5b9c492cf89c260d296dbe792d9dfefc70bc52bb7b08"
+    },
+    {
+      "path": "session.js",
+      "bytes": 4252,
+      "sha256": "a6473cde6d15e967af8e08e24aeb265e02dd7b1a9868a0d8008238d67ad0050d"
+    },
+    {
+      "path": "style.css",
+      "bytes": 7142,
+      "sha256": "e6f2913c894507b71161630972eb579344cc8e3d3a9b81c983cbaa6d3fcc9ce2"
+    },
+    {
+      "path": "timeline.js",
+      "bytes": 1784,
+      "sha256": "5102b68f52828edd1e741945d614b895d802b7dd446b22a5688a6c2074e79883"
+    },
+    {
+      "path": "view.js",
+      "bytes": 12430,
+      "sha256": "89e70f0e90f4bd00c1698900a257bb6c478610763327262add47182b7d101d3e"
+    }
+  ],
+  "known_limitations": [
+    "桌面键盘鼠标试玩候选，完成三轮模拟普通玩家反馈、改进及复测；参与者是代理，不是真人受试者，尚待用户验收。",
+    "切换窗口或标签前先点右上“Ⅱ 暂停”。自动失焦暂停历史实测未通过，当前未重新验证；Esc有选择时仅清选，不能保证直接暂停。",
+    "手机与原生触控未测试。窄桌面窗口通过不代表手机设备验收。",
+    "单位密集重叠时点选仍可能选中上层单位，建议使用底部编号卡片。",
+    "浏览器本地存档绑定站点、浏览器及用户配置；清理站点数据可能丢失。刷新不会自动恢复旧战局，旧槽需通过暂停菜单手动读取。",
+    "单前哨短战斗，完整战略深度、精细美术、持续性能、全部缩放/键盘无障碍路径及真人连续手感尚未全面验收。"
+  ],
+  "rights_and_dependencies": "本项目原创代码、文字及程序绘制画面，沿用获授权的项目引擎与存档实现。使用系统字体，不打包字体或第三方运行库；静态运行无需外部资源。保留既有权利，不新增MIT、CC0或其他许可证。"
+}
