@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "game_slug": "wax-and-light",
+  "release_version": "first-person-0.2.1",
+  "acceptance_status": "pending",
+  "quality_status": "candidate-test-only",
+  "published_at": null,
+  "entry_point": "candidates/wax-and-light/first-person-0.2.1/index.html",
+  "runtime_zip_sha256": "a0da34e126141f1d4e5c6874a6cfc06c14a168b0a361ac211520fcb9c4fa958d",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 725,
+      "sha256": "304362a2245e92437d198319fc98f2afa8c8a8eefc1c60adfc0b31e8d8298f76"
+    },
+    {
+      "path": "assets/cotton.png",
+      "bytes": 3997149,
+      "sha256": "f84228c42241730961bf841089b02bdad96b0e9fab3eee6c455dbb2934746e49"
+    },
+    {
+      "path": "assets/workshop.png",
+      "bytes": 2686199,
+      "sha256": "44cbed6de0931247a116a92f4d44c25a7850c090eec00166837e708d1ebb65cb"
+    },
+    {
+      "path": "core.js",
+      "bytes": 4878,
+      "sha256": "261b56dc539c63a69833849b7c9bbec49bc09ffd5c20be7e4ff78cfb005cf465"
+    },
+    {
+      "path": "game.js",
+      "bytes": 14918,
+      "sha256": "79601a63844451a98760e6742225ab52cd74ca169dd2fdd0ecffa3b277f45ed9"
+    },
+    {
+      "path": "index.html",
+      "bytes": 3720,
+      "sha256": "86cde1287d1c1fab8b159acc5108850390b06285a8353d28d06c165dccb1e378"
+    },
+    {
+      "path": "save.js",
+      "bytes": 1485,
+      "sha256": "aa603e0d4dc32cf1269631f3075e353dc0a7a4fe0b107c9e37df528c9cd9a586"
+    },
+    {
+      "path": "style.css",
+      "bytes": 6014,
+      "sha256": "df1b7a611cf3b1cf2767771ef9d3e3bdad767857c7c1c2178f613da6301660bf"
+    },
+    {
+      "path": "view.js",
+      "bytes": 10671,
+      "sha256": "9a55f1543096c2ab632f335a3a0367e7a14c9f82c5761f5935232cb771fbe450"
+    }
+  ],
+  "provenance": {
+    "runtime": "Original static game runtime; browser-local saves; no account, analytics or external API.",
+    "assets": "Existing original project assets retained unchanged; included notices retained without a new license grant."
+  }
+}
