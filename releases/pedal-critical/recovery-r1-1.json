@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "game_slug": "pedal-critical",
+  "release_version": "recovery-r1-1",
+  "acceptance_status": "pending",
+  "quality_status": "unfinished-known-input-defects-candidate",
+  "exact_historical_recovery": false,
+  "entry_point": "candidates/pedal-critical/recovery-r1-1/index.html",
+  "runtime_zip_sha256": "baf23b7d629957fad6eff3c265b9a89287472ea988feb32a03594dc49751b7e5",
+  "runtime_hash": "8e24206eae4c7a7b48fcda5c2d73c220325b072e14e6f581d37a725a4002e365",
+  "files": [
+    {
+      "path": "NOTICE.txt",
+      "bytes": 1515,
+      "sha256": "3896548a528e7713a9854e47daebfe452086a57f48cddc1d360aa80f6eb302ed"
+    },
+    {
+      "path": "app.mjs",
+      "bytes": 13772,
+      "sha256": "e94282908d00652e2361b81a1950882ee3dfe38c2d2de4ebf32ec9f2236829d0"
+    },
+    {
+      "path": "art/asphalt.png",
+      "bytes": 4673633,
+      "sha256": "c7385df02f65bcd6767def5fc34475df894f31eff5ceb683636c632283a426ac"
+    },
+    {
+      "path": "art/cockpit-960.png",
+      "bytes": 471992,
+      "sha256": "47d843bd05233914c71a316b3baa97544cf3dd3d9eb766692d0e6ac4ddee748b"
+    },
+    {
+      "path": "art/cockpit.png",
+      "bytes": 1730778,
+      "sha256": "9bea0878999f7a40382d29d6a0af37bcdaa4d75dd58dca09f316e4a6a55f56ee"
+    },
+    {
+      "path": "art/dog-walk.png",
+      "bytes": 2394394,
+      "sha256": "245f0d28a6aae7ada70e21817949da56559dbe6b59d5338a77839d9c8ed4d3e2"
+    },
+    {
+      "path": "art/mountains.png",
+      "bytes": 2766854,
+      "sha256": "5363b83cae59a2154a02a1fbfb7b0b1c646bc2494a54e0be6d484598b6bc4a39"
+    },
+    {
+      "path": "art/pine-128.png",
+      "bytes": 35845,
+      "sha256": "691f750e4aca484bc041049ad16f1921362048174ab29f5a5cce46dafb6f0304"
+    },
+    {
+      "path": "art/pine-256.png",
+      "bytes": 132664,
+      "sha256": "855461ea68ddf31c82df003f63f2fe0aaf8b7ddf5fc3f01e3e0a3dc864d28e7a"
+    },
+    {
+      "path": "art/pine-512.png",
+      "bytes": 501379,
+      "sha256": "38551ab4bf7b89473a94a90e5528fab630a02299d721fc24d0ff3d29391a19d1"
+    },
+    {
+      "path": "art/pine-64.png",
+      "bytes": 10248,
+      "sha256": "a2e366381e37eb9dc0f37e5595d1e78a3b3d2659d7452041441b11ab247b11c0"
+    },
+    {
+      "path": "art/pine.png",
+      "bytes": 2539874,
+      "sha256": "2909bb6628f1de562872cab9e57ce326318cb82e8da9064960a464c5fdeeb3e3"
+    },
+    {
+      "path": "art/shrub-128.png",
+      "bytes": 24612,
+      "sha256": "6ceddf4d4f7a145d9cc62fe547cf1217facc9cd9634cb7e6d89c93f3b1f2fd68"
+    },
+    {
+      "path": "art/shrub-256.png",
+      "bytes": 95850,
+      "sha256": "3bc8be4d94228528f827778fc80b5ed0e74f1585baf85a03e2217d76a383f424"
+    },
+    {
+      "path": "art/shrub-512.png",
+      "bytes": 373890,
+      "sha256": "51797096187dae58a171347e8f1e2eb4c796593c07b8c316fca1161133df0ac6"
+    },
+    {
+      "path": "art/shrub-64.png",
+      "bytes": 6876,
+      "sha256": "056e1e673e3a1a031114110fa61ca52e0b9fa55674d15d9ada06daff23a9cd47"
+    },
+    {
+      "path": "art/shrub.png",
+      "bytes": 3444287,
+      "sha256": "e46f1cf95025b1eef44e96174d8bcb0df26bc5e750ab41987c65a1dcdd4d3fac"
+    },
+    {
+      "path": "asset-credits.json",
+      "bytes": 4064,
+      "sha256": "c8a84bbae84fa5dec52892336e4cb376157452f4c3a68a6a6665c89f6b5610a7"
+    },
+    {
+      "path": "index.html",
+      "bytes": 8562,
+      "sha256": "ed060c370f40974a8d030c0bbdf98eb0da2825401c531174feed93826ed46f59"
+    },
+    {
+      "path": "input-boundary.mjs",
+      "bytes": 887,
+      "sha256": "b3c31b0bdcceaf831a15682121648e7b7153129bd602739976f99c2ab2c9c12a"
+    },
+    {
+      "path": "licenses/esbuild-MIT.txt",
+      "bytes": 1069,
+      "sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681"
+    },
+    {
+      "path": "licenses/rapier-Apache-2.0.txt",
+      "bytes": 11343,
+      "sha256": "4c05555705e3efde601fb1252ae48f1d63992af8a8fb8947745b7fa834e8f519"
+    },
+    {
+      "path": "licenses/rolldown-MIT.txt",
+      "bytes": 1302,
+      "sha256": "23ecfff35a5a2e80d92142f75228912c3b1abc4b5a8337a821ff4397e2f9f734"
+    },
+    {
+      "path": "licenses/three-MIT.txt",
+      "bytes": 1081,
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "path": "licenses/vite-core-MIT.txt",
+      "bytes": 1162,
+      "sha256": "e373c2e74cd342b9e74d0b8813a8fddf3c9788515669a79c2ac238195673d38b"
+    },
+    {
+      "path": "recovered-core.mjs",
+      "bytes": 3465147,
+      "sha256": "592e6e19b3d75d1428fa6e0b00d62446c041a36ca89369f30f16b51a85955ec6"
+    },
+    {
+      "path": "startup.mjs",
+      "bytes": 60,
+      "sha256": "54ed13b44e3a3fac0d337483a50e4409c30c6c1f558d1be65d9c9f95d486423f"
+    }
+  ],
+  "known_limitations": [
+    "R1.1 是未完成的公开测试候选，不是完整或生产验收通过的游戏。",
+    "这是基于存续归档的新恢复构建，不是遗失 B4/B4.1 的精确恢复；仅有 110 km/h 横穿场景，湿弯等后续场景未恢复。",
+    "已知输入精度及异常采样缺陷仍未修复：74/400 精度测试未达标，1600 N 曾被算成约 2453 N。滑动噪声可能误加力、错误过载甚至断踏板，影响游戏结果；不能据此判断玩家操作水平。",
+    "建议先用已验证的键盘路径：按住空格，按下方向键加力，抬起释放；鼠标加速度手感、触摸及真实压力设备尚未验。",
+    "R1 实际浏览器完成键盘停车、无刹碰撞、结果保存/导出与坏档拒绝；R1.1 仅对新增警告在桌面与 375 CSS 像素内容宽的可读性、试踩和开始/暂停作了定向复查。窄屏 CSS 视口不是手机硬件。",
+    "真实设备性能长尾、音频听感、人手体验与完整原始需求仍待验。",
+    "全部力值、停车及人员/动物后果仅为虚构游戏模拟，不用于实车驾驶、刹车距离或人体伤害预测。"
+  ],
+  "known_limitations_path": "candidates/pedal-critical/recovery-r1-1/KNOWN-LIMITS.txt",
+  "rights_path": "candidates/pedal-critical/recovery-r1-1/NOTICE.txt",
+  "assets": "Original generated project images, reused unchanged with preserved derivative hashes; bundled third-party runtime notices retained."
+}

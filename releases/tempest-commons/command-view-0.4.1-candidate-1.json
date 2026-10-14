@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "game_slug": "tempest-commons",
+  "release_version": "command-view-0.4.1-candidate-1",
+  "runtime_version": "0.4.1-candidate.1",
+  "acceptance_status": "pending",
+  "quality_status": "limited-desktop-candidate",
+  "exact_historical_recovery": false,
+  "entry_point": "candidates/tempest-commons/command-view-0.4.1-candidate-1/index.html",
+  "runtime_zip_sha256": "5971f9161675790e322012abb0b0898fe9eb6cdb79cc0da0e97c1a7b3eaeb460",
+  "files": [
+    {
+      "path": "app.js",
+      "bytes": 11470,
+      "sha256": "190653db52d16431ba99cc13166c3a29beef63256262f0547fca0c05405fcb71"
+    },
+    {
+      "path": "engine.js",
+      "bytes": 24390,
+      "sha256": "3f4df2a737c39311b5cfeb3c696def00292e622364ea5ef03927e5a7c2e830a4"
+    },
+    {
+      "path": "index.html",
+      "bytes": 3069,
+      "sha256": "46a203993c25e03ef24c420bf9c6a8550cae18305cd9498012a33d354b0d12c4"
+    },
+    {
+      "path": "save.js",
+      "bytes": 1733,
+      "sha256": "7488a6bc1eb540500012c7a46c925c8bb95ed83c8c768ebfb262571c35e5d860"
+    },
+    {
+      "path": "scenario.js",
+      "bytes": 1837,
+      "sha256": "cccfd4a70e77eeb8cb2e5b9c492cf89c260d296dbe792d9dfefc70bc52bb7b08"
+    },
+    {
+      "path": "session.js",
+      "bytes": 4252,
+      "sha256": "a6473cde6d15e967af8e08e24aeb265e02dd7b1a9868a0d8008238d67ad0050d"
+    },
+    {
+      "path": "style.css",
+      "bytes": 5067,
+      "sha256": "930db2fcd206ecbadf8c286fdd982f244055f1cb8d679f6037f14d39036d50a4"
+    },
+    {
+      "path": "timeline.js",
+      "bytes": 1784,
+      "sha256": "5102b68f52828edd1e741945d614b895d802b7dd446b22a5688a6c2074e79883"
+    },
+    {
+      "path": "view.js",
+      "bytes": 11972,
+      "sha256": "f6d0fe6afb0d81a8fc0d8b32f75ca6be98687185c0acfa19aad66007392c4bfb"
+    }
+  ],
+  "known_limitations": [
+    "桌面键盘鼠标测试候选，未完成整体验收。",
+    "这是新的 0.4.1 指挥视角重建，正俯视原创程序图形尚未通过美术验收，并非旧 0.4.0 的精确恢复。",
+    "本版本真实浏览器已测试选择、框选、右键命令、失败后重玩、手动读取存档及 500 像素宽布局。",
+    "真人完整胜利、390 像素宽布局、触摸操作与实际设备性能尚未完成验证。",
+    "云端真实测试中切换到新标签页后战局仍继续；切换窗口或标签页前请先点右上角“暂停”，确认暂停界面。Esc 只清除选择，不是暂停。",
+    "目前只有一个前哨的短交战，画面质量、战术深度与真人手感仍待用户试玩。"
+  ],
+  "known_limitations_path": "candidates/tempest-commons/command-view-0.4.1-candidate-1/KNOWN-LIMITS.txt",
+  "rights_path": "candidates/tempest-commons/command-view-0.4.1-candidate-1/RIGHTS.txt"
+}

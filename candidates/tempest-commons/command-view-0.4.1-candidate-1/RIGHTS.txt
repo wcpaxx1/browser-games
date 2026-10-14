@@ -1,0 +1,3 @@
+Runtime rights and dependencies
+
+Runtime code, text and procedural graphics are original project work. No commercial-game assets, brands, fonts or recordings are bundled. System fonts are used without redistribution. No third-party executable runtime dependency or remote resource is required. Existing project engine/save code is reused with the owner's authorization. All existing rights are retained; this notice does not grant a new open-source license.

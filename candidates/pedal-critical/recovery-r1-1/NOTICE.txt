@@ -1,0 +1,11 @@
+踏板临界 / Pedal Critical · Unpublished First-Person Quality Slice
+Original game code and synthesized audio created for this project, 2026.
+This slice uses software perspective Canvas2D rendering with six original raster assets generated for this project: cockpit, asphalt, pine, distant mountains, dog walk cycle, and roadside shrub. These are independently composed with authoritative simulation snapshots, not a pre-rendered gameplay background.
+Bundled runtime physics: @dimforge/rapier2d-compat 0.21.0, Apache-2.0. https://rapier.rs/
+Build bundler: esbuild, MIT. Its notice is retained in ./licenses/.
+Three.js/Vite/Rolldown licenses are also retained from the preserved baseline; this slice's app uses Canvas2D rather than invoking WebGL.
+WASM is locally bundled. No runtime CDN, account, analytics SDK or remote save.
+This is a fictional game simulation, not real-world driving, medical, or injury advice.
+Candidate limits: one dry-road crossing, planar dynamics; no cliff, water, rollover, verified pressure input or checkpoint resume. Known input precision and outlier defects remain blocking. Browser/device and human quality acceptance have not passed.
+
+Performance candidate: original source textures are retained. Nine immutable prefiltered PNG derivatives (pine/shrub source LODs and a 960x640 cockpit) avoid per-frame large-source filtering. World terrain remains 960x600. Paused complete frames are cached without advancing simulation. Native tests do not establish browser/device performance.

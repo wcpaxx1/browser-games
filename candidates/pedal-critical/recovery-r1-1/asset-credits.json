@@ -1,0 +1,106 @@
+{
+  "kind": "original generated image assets composed in a live software-perspective renderer",
+  "createdFor": "Pedal Critical first-person quality slice",
+  "generationTool": "built-in imagegen",
+  "noRuntimeRemoteFetch": true,
+  "files": [
+    {
+      "file": "art/asphalt.png",
+      "sha256": "c7385df02f65bcd6767def5fc34475df894f31eff5ceb683636c632283a426ac"
+    },
+    {
+      "file": "art/cockpit.png",
+      "sha256": "9bea0878999f7a40382d29d6a0af37bcdaa4d75dd58dca09f316e4a6a55f56ee"
+    },
+    {
+      "file": "art/dog-walk.png",
+      "sha256": "245f0d28a6aae7ada70e21817949da56559dbe6b59d5338a77839d9c8ed4d3e2"
+    },
+    {
+      "file": "art/mountains.png",
+      "sha256": "5363b83cae59a2154a02a1fbfb7b0b1c646bc2494a54e0be6d484598b6bc4a39"
+    },
+    {
+      "file": "art/pine.png",
+      "sha256": "2909bb6628f1de562872cab9e57ce326318cb82e8da9064960a464c5fdeeb3e3"
+    },
+    {
+      "file": "art/shrub.png",
+      "sha256": "e46f1cf95025b1eef44e96174d8bcb0df26bc5e750ab41987c65a1dcdd4d3fac"
+    }
+  ],
+  "derivatives": [
+    {
+      "file": "art/pine-512.png",
+      "sha256": "38551ab4bf7b89473a94a90e5528fab630a02299d721fc24d0ff3d29391a19d1",
+      "source": "art/pine.png",
+      "method": "same native Canvas2D medium filtering, immutable PNG at reduced source resolution; runtime world remains 960x600",
+      "width": 512,
+      "height": 768
+    },
+    {
+      "file": "art/pine-256.png",
+      "sha256": "855461ea68ddf31c82df003f63f2fe0aaf8b7ddf5fc3f01e3e0a3dc864d28e7a",
+      "source": "art/pine.png",
+      "method": "same native Canvas2D medium filtering, immutable PNG at reduced source resolution; runtime world remains 960x600",
+      "width": 256,
+      "height": 384
+    },
+    {
+      "file": "art/pine-128.png",
+      "sha256": "691f750e4aca484bc041049ad16f1921362048174ab29f5a5cce46dafb6f0304",
+      "source": "art/pine.png",
+      "method": "same native Canvas2D medium filtering, immutable PNG at reduced source resolution; runtime world remains 960x600",
+      "width": 128,
+      "height": 192
+    },
+    {
+      "file": "art/pine-64.png",
+      "sha256": "a2e366381e37eb9dc0f37e5595d1e78a3b3d2659d7452041441b11ab247b11c0",
+      "source": "art/pine.png",
+      "method": "same native Canvas2D medium filtering, immutable PNG at reduced source resolution; runtime world remains 960x600",
+      "width": 64,
+      "height": 96
+    },
+    {
+      "file": "art/shrub-512.png",
+      "sha256": "51797096187dae58a171347e8f1e2eb4c796593c07b8c316fca1161133df0ac6",
+      "source": "art/shrub.png",
+      "method": "same native Canvas2D medium filtering, immutable PNG at reduced source resolution; runtime world remains 960x600",
+      "width": 512,
+      "height": 341
+    },
+    {
+      "file": "art/shrub-256.png",
+      "sha256": "3bc8be4d94228528f827778fc80b5ed0e74f1585baf85a03e2217d76a383f424",
+      "source": "art/shrub.png",
+      "method": "same native Canvas2D medium filtering, immutable PNG at reduced source resolution; runtime world remains 960x600",
+      "width": 256,
+      "height": 170
+    },
+    {
+      "file": "art/shrub-128.png",
+      "sha256": "6ceddf4d4f7a145d9cc62fe547cf1217facc9cd9634cb7e6d89c93f3b1f2fd68",
+      "source": "art/shrub.png",
+      "method": "same native Canvas2D medium filtering, immutable PNG at reduced source resolution; runtime world remains 960x600",
+      "width": 128,
+      "height": 85
+    },
+    {
+      "file": "art/shrub-64.png",
+      "sha256": "056e1e673e3a1a031114110fa61ca52e0b9fa55674d15d9ada06daff23a9cd47",
+      "source": "art/shrub.png",
+      "method": "same native Canvas2D medium filtering, immutable PNG at reduced source resolution; runtime world remains 960x600",
+      "width": 64,
+      "height": 42
+    },
+    {
+      "file": "art/cockpit-960.png",
+      "sha256": "47d843bd05233914c71a316b3baa97544cf3dd3d9eb766692d0e6ac4ddee748b",
+      "source": "art/cockpit.png",
+      "method": "same native Canvas2D medium filtering, immutable PNG at reduced source resolution; runtime world remains 960x600",
+      "width": 960,
+      "height": 640
+    }
+  ]
+}
