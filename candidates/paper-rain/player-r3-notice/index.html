@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#244A63"><meta name="description" content="纸雨回拍：第一人称近身拍返，原创木版纸艺场景，30秒一局。"><title>纸雨回拍</title><link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css"></head>
+<body>
+<aside class="release-notice" aria-label="桌面测试版说明">
+  <div class="release-notice-inner">
+    <p><strong>桌面测试版</strong> · 建议先用默认水平练习。</p>
+    <p>自由抬头仍在测试，切回水平只重置俯仰，首球可能仍不可拍。可先暂停，取消“挑战来球”和“自由抬头”，再点“重新开始”练习。</p>
+    <p>右键拖动与锁定失败回退尚未完整验证；手机触屏、真人手感未验证。</p>
+    <details id="release-details"><summary>测试与存档说明（游玩中请先暂停）</summary>
+      <p>已完成 3 轮代理玩家体验，不是真人验收，也不代表各轮、各模式都已通关。</p>
+      <p>偏侧来球的对准与时机仍需摸索。画面重叠不保证接触，点击位置不瞄准；0 命中、0 漏球只表示计数，不说明挥拍失败的原因。</p>
+      <p>画质、动作舒适度和性能尚未完整验收。存档仅在当前浏览器的同一网站源保留；更换浏览器或清理网站数据可能丢失，建议正常导出备份。</p>
+    </details>
+  </div>
+</aside>
+<main id="game" aria-label="纸雨回拍，第一人称近身拍返游戏">
+<canvas id="scene" tabindex="0" aria-label="场地。方向键移动，鼠标转向，左键拍返，右键格挡。"></canvas><svg id="vector-scene" xmlns="http://www.w3.org/2000/svg" hidden aria-hidden="true"></svg>
+<header class="hud"><div class="wordmark"><small>紙 / RAIN</small><b>纸雨回拍</b></div><div class="scoreboard" aria-label="本局成绩"><span class="hud-stat"><small>剩余秒</small><span id="timer">30</span></span><span class="divider">/</span><span class="hud-stat"><small>命中纸靶</small><span><span id="score">0</span><small class="score-goal"> / 3</small></span></span></div><div class="tools"><button id="mute" aria-label="关闭声音" title="声音">♪</button><button id="pause" aria-label="暂停" title="暂停">Ⅱ</button><button id="saves" aria-label="存档" title="存档">↥</button></div></header>
+<div id="overlay" class="overlay"><section class="card" aria-labelledby="overlay-title"><span class="eyebrow">一张纸 · 一次回响</span><h1 id="overlay-title">纸雨回拍</h1><p id="subtitle">30 秒内，回球击靶 3 次</p><div class="control-strip" aria-label="操作"><span><i class="arrows">↑<br>← ↓ →</i><small>移动</small></span><span><i class="mouse-icon"><em></em></i><small id="look-control">右拖 · 对准</small></span><span><i class="mouse-icon left"><em></em></i><small>左 · 拍</small></span><span><i class="mouse-icon right"><em></em></i><small>右 · 挡</small></span></div><div class="comfort-options"><label><input id="challenge" type="checkbox">挑战来球</label><label><input id="free-look" type="checkbox">自由抬头</label></div><p id="mode-help" class="mode-help"></p><p id="look-help" class="mode-help"></p><button id="primary" class="primary" disabled>载入纸面…</button><button id="new" class="quiet" hidden>重新开始</button><span id="best" class="best">最佳 0</span><small class="cultural">拍面朝向决定回拍，点击位置不瞄准。<br>先拍返纸球，回球击中纸靶才计分。</small></section></div>
+<div id="hint" class="hint" hidden><span class="mouse-icon left"><em></em></span><span>可拍 · 左键拍返</span></div>
+<div id="play-feedback" class="play-feedback" role="status" aria-live="polite" aria-atomic="true" hidden></div>
+<div id="physics-readout" class="physics-readout" aria-live="off"></div><div id="status" class="status" role="status" aria-live="polite"></div>
+<div class="touch-controls" aria-label="触屏操作"><div class="dpad"><button data-key="ArrowUp" aria-label="向前">↑</button><button data-key="ArrowLeft" aria-label="向左">←</button><button data-key="ArrowDown" aria-label="向后">↓</button><button data-key="ArrowRight" aria-label="向右">→</button></div><div class="touch-actions"><button id="touch-guard" aria-label="按住格挡">挡</button><button id="touch-hit" aria-label="拍返">拍</button></div></div>
+<dialog id="save-panel" aria-labelledby="save-title"><form method="dialog"><button id="close-save" class="close" aria-label="关闭存档">×</button></form><h2 id="save-title">这一页</h2><p id="save-status">只保存在这个浏览器中。</p><div class="save-buttons"><button id="export">导出</button><label class="button" for="import">导入<input id="import" type="file" accept="application/json,.json" hidden></label><button id="reload-save" hidden>载入最新</button><button id="reset">清空</button></div><p id="import-status" role="status"></p><button id="confirm-import" class="primary" hidden>替换存档</button><div id="reset-confirm" hidden><p>清空本游戏的成绩与进度？</p><button id="confirm-reset">确认清空</button><button id="cancel-reset">保留</button></div><small>存档不跨浏览器；清理网站数据会删除存档。原型 0.2.1 · 玩家反馈 R2。</small></dialog>
+<noscript>此游戏需要启用 JavaScript。</noscript>
+</main><script src="core.js"></script><script src="input.js"></script><script src="save.js"></script><script src="view.js"></script><script src="raster.js"></script><script src="feedback.js"></script><script src="game.js"></script></body></html>

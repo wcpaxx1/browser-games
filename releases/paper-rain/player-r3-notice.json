@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "game": "paper-rain",
+  "title": "纸雨回拍",
+  "release": "player-r3-notice",
+  "status": "desktop-keyboard-mouse-test-candidate",
+  "accepted": false,
+  "entry": "candidates/paper-rain/player-r3-notice/",
+  "runtime_archive": {
+    "name": "paper-rain-release-notice-runtime.zip",
+    "bytes": 8337160,
+    "sha256": "542b35c3596342f7323dd2d342bf4d7faaad7ff0acea84b7566f2ee5d4258c57"
+  },
+  "runtime_file_count": 16,
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 2227,
+      "sha256": "1dae676d7a448ecd56f0f462a736d2132891b7e312a8896affa82afa46c69bf3",
+      "git_blob_sha": "2fa89221c3f1941d941c941f2423bf6f90b3dcf2",
+      "repo_path": "candidates/paper-rain/player-r3-notice/LICENSE.txt"
+    },
+    {
+      "path": "assets/hand-paddle.png",
+      "bytes": 1737723,
+      "sha256": "ab54f8f2d9f1d32b6c5b20bf1eea3b98afa83bb201563258f32fedc460a7beb9",
+      "git_blob_sha": "22ca89bd3e5cd8d81023b674684b2f2694864ab7",
+      "repo_path": "candidates/paper-rain/player-r3-notice/assets/hand-paddle.png"
+    },
+    {
+      "path": "assets/paper-ball.png",
+      "bytes": 2831644,
+      "sha256": "7023317842d05e496f24187b9ab670fdd3158d82882b3562c04ba0d9e1c41846",
+      "git_blob_sha": "8a44caf246843c76b9b23ffd7706a54d2c46980e",
+      "repo_path": "candidates/paper-rain/player-r3-notice/assets/paper-ball.png"
+    },
+    {
+      "path": "assets/reed-print.png",
+      "bytes": 3717398,
+      "sha256": "27c326cc4d32368f892e28ad60d22b2e0e63d118fc7546b6baac3e985a83baf4",
+      "git_blob_sha": "631ddf109305f181d18e032d5e12210bfe9cc40d",
+      "repo_path": "candidates/paper-rain/player-r3-notice/assets/reed-print.png"
+    },
+    {
+      "path": "assets/target-paper.png",
+      "bytes": 132629,
+      "sha256": "b7b79fddacf0c7ab593ed09cbfa25ee1867be674b2b65d30c9ef871697181081",
+      "git_blob_sha": "0e5088fc6950f1260060e012df8c4d4702039500",
+      "repo_path": "candidates/paper-rain/player-r3-notice/assets/target-paper.png"
+    },
+    {
+      "path": "assets/woodgrain.png",
+      "bytes": 49161,
+      "sha256": "c885f415a6bc8dff925958f0d686b470f520e3f5bf8a4cc3da4b4bb12ae1f951",
+      "git_blob_sha": "625b4326d1909f973551a2edd2d414f9910ebbdd",
+      "repo_path": "candidates/paper-rain/player-r3-notice/assets/woodgrain.png"
+    },
+    {
+      "path": "core.js",
+      "bytes": 12791,
+      "sha256": "19b584bade20f2f3f1e42ceedc8f5fd99c8773ab02212dba64e51ab95fd61685",
+      "git_blob_sha": "e2ab9f187bf2cd88686d4e97df818c5a72ffcb16",
+      "repo_path": "candidates/paper-rain/player-r3-notice/core.js"
+    },
+    {
+      "path": "feedback.js",
+      "bytes": 1884,
+      "sha256": "264ef3ff739d60a163665c7675b1f1264a6c163a7b71c92546974b4a325ec9e2",
+      "git_blob_sha": "dec829af900966b3a33f5e43df11b9b59c20f206",
+      "repo_path": "candidates/paper-rain/player-r3-notice/feedback.js"
+    },
+    {
+      "path": "game.js",
+      "bytes": 20117,
+      "sha256": "d5b1be99c89ee6a6ba830bfeaeb31b849f88226c576ad4debc27867841f47d2d",
+      "git_blob_sha": "e500540c36faa64a5b50d331914fc71d441c8fa3",
+      "repo_path": "candidates/paper-rain/player-r3-notice/game.js"
+    },
+    {
+      "path": "icon.svg",
+      "bytes": 347,
+      "sha256": "0342813b6ff54dc1f9b45a12cf949065a5c46a7cae0584f10a4e85f74872581c",
+      "git_blob_sha": "a50423b589f0e5f6710f105d28565f3c7574f16a",
+      "repo_path": "candidates/paper-rain/player-r3-notice/icon.svg"
+    },
+    {
+      "path": "index.html",
+      "bytes": 5751,
+      "sha256": "1be7ad2036d006468258fd4e3afdbec1af8516381b93f5077f7388b0b905c32b",
+      "git_blob_sha": "eed843931432ef2135fa0e7188a42e470aba6322",
+      "repo_path": "candidates/paper-rain/player-r3-notice/index.html"
+    },
+    {
+      "path": "input.js",
+      "bytes": 1274,
+      "sha256": "59917d8d4b05e34960b71956bd61352f85a4666228b822a99c44d89c3874d2a4",
+      "git_blob_sha": "9019c0b36f24f37a074652ef86ef2185311ccc4d",
+      "repo_path": "candidates/paper-rain/player-r3-notice/input.js"
+    },
+    {
+      "path": "raster.js",
+      "bytes": 7676,
+      "sha256": "bfe0ef97927930b20316d368d72ac835ce9eeba68b867d94796f97adb660628c",
+      "git_blob_sha": "30fcc0c82ddfabb51d5fff8d7dc0c5952da1d2b3",
+      "repo_path": "candidates/paper-rain/player-r3-notice/raster.js"
+    },
+    {
+      "path": "save.js",
+      "bytes": 3447,
+      "sha256": "78ce6ca9961c8ff0f69075440ac573bbc0dc3b360652d3210a41e18a36f03aeb",
+      "git_blob_sha": "7812d5b4c06706892d7ce81fd796113b870caacd",
+      "repo_path": "candidates/paper-rain/player-r3-notice/save.js"
+    },
+    {
+      "path": "style.css",
+      "bytes": 9340,
+      "sha256": "820ba32b681327ae673258c13e14db594865594d10d11e94d33061b5b721efb5",
+      "git_blob_sha": "d1f79e24d8cd0eb05a4331701219f1bc9f2f88a7",
+      "repo_path": "candidates/paper-rain/player-r3-notice/style.css"
+    },
+    {
+      "path": "view.js",
+      "bytes": 22483,
+      "sha256": "526e8fdcfccb14bd34e1b68096ca37b6e3c1ad0ddfb872edad6fb0ac30aec7da",
+      "git_blob_sha": "5c04c2ed5ccf6a7e4b6756e07b844ea906eae3ed",
+      "repo_path": "candidates/paper-rain/player-r3-notice/view.js"
+    }
+  ],
+  "storage": {
+    "key": "studio.woodblock-parry.progress",
+    "schema_version": 1,
+    "checkpoint_physics_version": 2,
+    "same_origin_paths_share_storage": true,
+    "save_code_unchanged": true
+  },
+  "quality_scope": {
+    "three_player_agent_feedback_cycles_completed": 3,
+    "human_playtesting": false,
+    "overall_product_acceptance": false,
+    "recommended_mode": "default horizontal practice"
+  },
+  "known_limits": [
+    "自由抬头恢复只重置俯仰，首球可能仍不可达；建议默认水平练习。",
+    "强抬头近拍边缘贴图/碰撞对齐问题仍保留。",
+    "右键拖动、自然拒锁回退与全部异常存档/跨标签场景未完成真实验证。",
+    "手机、触屏、390宽窗口及真人手感未验。",
+    "画质、动作舒适度、声音同步、持续性能和内存尚未完整验收。",
+    "本地存档在同源路径共享；清理站点数据可能丢失，建议导出备份。"
+  ],
+  "license": "LICENSE.txt retained unchanged; original code/procedural assets and project-generated images; see runtime notice.",
+  "runtime_sha256_manifest": "307ce9332b42eda69b57b06976ab487269645f0abdc2e39fab65e136ef82e8c1"
+}
