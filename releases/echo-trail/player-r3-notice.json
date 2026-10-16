@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "game_slug": "echo-trail",
+  "title": "回声探路",
+  "release_version": "3.0.4-notice-r1",
+  "candidate_path": "player-r3-notice",
+  "status": "desktop-keyboard-mouse-test-candidate",
+  "acceptance_status": "pending",
+  "accepted": false,
+  "entry_point": "candidates/echo-trail/player-r3-notice/index.html",
+  "runtime_archive": {
+    "name": "echo-trail-v3.0.4-notice-r1-runtime.zip",
+    "bytes": 17280,
+    "sha256": "402a875b310e169e36b3c241649edb4b1bedf17caec7521b6148ee254a715929"
+  },
+  "runtime_file_count": 7,
+  "files": [
+    {
+      "path": "app.js",
+      "bytes": 12395,
+      "sha256": "df34b3b1c53a3f195d9ce21ac43e83f43aebc6195be1c9aa5ac9c6955fe58164",
+      "git_blob_sha": "4ac7ff11752de0708d1b39fffd46f9c3474e6fd4",
+      "repo_path": "candidates/echo-trail/player-r3-notice/app.js"
+    },
+    {
+      "path": "core.js",
+      "bytes": 3687,
+      "sha256": "f49043fe979550cbdd8661228dac80ec193b52e2aef75cc75b879a4670671eef",
+      "git_blob_sha": "3d278f96d983f873dbe6500f3a3630b17cd2a3fc",
+      "repo_path": "candidates/echo-trail/player-r3-notice/core.js"
+    },
+    {
+      "path": "icon.svg",
+      "bytes": 309,
+      "sha256": "bd65a2c9c4410aa2bc43c428db12589de80ed20323770bff7028953717481373",
+      "git_blob_sha": "eec652a059fa1db821432be0b282c339157198c8",
+      "repo_path": "candidates/echo-trail/player-r3-notice/icon.svg"
+    },
+    {
+      "path": "index.html",
+      "bytes": 4939,
+      "sha256": "0e7b39fedb585f78f05851571ff0caa828829d24f84f728e4f46aa57e6cadd68",
+      "git_blob_sha": "117057acd7bf06ee35bb7dcd9f51bd3809367003",
+      "repo_path": "candidates/echo-trail/player-r3-notice/index.html"
+    },
+    {
+      "path": "storage.js",
+      "bytes": 3359,
+      "sha256": "a36b95fccefddff207df6f4e70ff07723b0a602bf1bf687db4bafc70a173d6ed",
+      "git_blob_sha": "0d35c221fc062a6f69d9e5fa018d8a47b420b6a9",
+      "repo_path": "candidates/echo-trail/player-r3-notice/storage.js"
+    },
+    {
+      "path": "style.css",
+      "bytes": 8796,
+      "sha256": "0da3e8b40328193e4a7b514d7cb9ae1eba36406c008985a237eaba57116c707e",
+      "git_blob_sha": "413f595fcbcd36191d9f64e2d2f46403e2a3a665",
+      "repo_path": "candidates/echo-trail/player-r3-notice/style.css"
+    },
+    {
+      "path": "view.js",
+      "bytes": 10679,
+      "sha256": "cc66f8e3a818074b2dbe99b773b6bd18d555d27b6521514f31eeefd295591a58",
+      "git_blob_sha": "cd2cabfbbf15383b3a5e9222bae8854c085e0b6d",
+      "repo_path": "candidates/echo-trail/player-r3-notice/view.js"
+    }
+  ],
+  "storage": {
+    "key": "indie.echo-trail.v1",
+    "schema_version": 1,
+    "same_origin_paths_share_storage": true,
+    "refresh_behavior": "Restarts the current level at its starting position and facing; retains validated completion, unlocks and settings.",
+    "cross_origin_migration": "Use explicit save export/import; browser saves do not transfer automatically."
+  },
+  "quality_scope": {
+    "three_player_agent_feedback_cycles_completed": 3,
+    "desktop_keyboard_mouse_candidate_gate": "PASS_LIMITED_DESKTOP_TEST_CANDIDATE",
+    "human_playtesting": false,
+    "overall_product_acceptance": false,
+    "mobile_touch_acceptance": false
+  },
+  "known_limits": [
+    "Automatic tab/focus-loss pause remains unverified after a historical NOT PASSED observation. Press Esc manually before leaving the game.",
+    "Mobile/touch, 320/390-wide viewports, 200% zoom, human acceptance and complete accessibility are not established.",
+    "Full five-level completion on this exact build and formal sustained-frame performance have not been established.",
+    "Corrupt-save, import/reset, cross-tab conflict and quota-failure behavior were not rechecked in the final real-browser recovery pass.",
+    "Refresh restarts the current level at its starting position; exact position and facing are not saved. Same-origin paths share browser storage."
+  ],
+  "license": "Original code and procedural Canvas/SVG assets; no third-party runtime assets or external dependencies."
+}
