@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "game_slug": "pelican-post",
+  "title": "鹈鹕邮差",
+  "release_version": "save-safety-player-r3",
+  "candidate_path": "save-safety-player-r3",
+  "status": "desktop-keyboard-mouse-test-candidate",
+  "acceptance_status": "pending",
+  "accepted": false,
+  "entry_point": "candidates/pelican-post/save-safety-player-r3/index.html",
+  "runtime_archive": {
+    "name": "pelican-post-save-player-r2-runtime.zip",
+    "bytes": 45192,
+    "sha256": "30da378e5b42bf02834f09530561325e65ab92a7224554f831508469af39327d"
+  },
+  "runtime_tree_sha256": "dcaa5c15d500e213108898381018cdf9c8969e19177fe14109b5ebaf8705d64c",
+  "runtime_file_count": 17,
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 1082,
+      "sha256": "642ca836e172b81bfc6446be144592b3948c1a751a7a5b11c9a2d3499d366d93",
+      "repo_path": "candidates/pelican-post/save-safety-player-r3/LICENSE.txt",
+      "git_blob_sha": "9749b4d8a8b481340b51d59e65acbb2c91749778"
+    },
+    {
+      "path": "clock.js",
+      "bytes": 1784,
+      "sha256": "c15e6c2dd2e28004e6925e92b74952e06722e6ff13d0c4a073b2bb32dcff1c96",
+      "repo_path": "candidates/pelican-post/save-safety-player-r3/clock.js",
+      "git_blob_sha": "5df97e2243f464806eeac2d26a546f82b56af777"
+    },
+    {
+      "path": "core.js",
+      "bytes": 6064,
+      "sha256": "44dfdb6fb3b8dc8f98d0420c634d0007a198f81433b7cb5fbf9af3a0e2ea87ef",
+      "repo_path": "candidates/pelican-post/save-safety-player-r3/core.js",
+      "git_blob_sha": "4e7726b77e4ad3831fec6479c1a045e72447e99f"
+    },
+    {
+      "path": "feedback.js",
+      "bytes": 2150,
+      "sha256": "456094824c81ce9c3b429c548db8daa4e12f90666b02318a06c5357d33703917",
+      "repo_path": "candidates/pelican-post/save-safety-player-r3/feedback.js",
+      "git_blob_sha": "6bcbd24d7f62731f32e6f563938c78024e37bc40"
+    },
+    {
+      "path": "game.js",
+      "bytes": 25473,
+      "sha256": "461baabae387d6c2fe54f3af51349b54821abb2eba788563dd9fe3b350d2b1b1",
+      "repo_path": "candidates/pelican-post/save-safety-player-r3/game.js",
+      "git_blob_sha": "465f5cc51059eae6694ffdd5061ceda90c4e9aad"
+    },
+    {
+      "path": "icon.svg",
+      "bytes": 402,
+      "sha256": "6f048e7cac544e8f39d3559af7a43d930ecf688097d10c81df5bdb042d94b23e",
+      "repo_path": "candidates/pelican-post/save-safety-player-r3/icon.svg",
+      "git_blob_sha": "55ea8db8ec8be2be4480558a50b07aa0b608c72a"
+    },
+    {
+      "path": "index.html",
+      "bytes": 6305,
+      "sha256": "a884fcff19d6f86495b550c70bd9ae9f8b8f9266e7a4816190a897f6585f213d",
+      "repo_path": "candidates/pelican-post/save-safety-player-r3/index.html",
+      "git_blob_sha": "d2c3c3c61ab11bbcf5a2d2a3fa0d543add973a16"
+    },
+    {
+      "path": "input.js",
+      "bytes": 1158,
+      "sha256": "2ba1fc275f61930364a9e49a3235358861f9b56b17518a740e99c9d363dbbea1",
+      "repo_path": "candidates/pelican-post/save-safety-player-r3/input.js",
+      "git_blob_sha": "4ec4396df0ded4c0365c3506b63640a570b922cb"
+    },
+    {
+      "path": "legacy/LICENSE.txt",
+      "bytes": 1082,
+      "sha256": "642ca836e172b81bfc6446be144592b3948c1a751a7a5b11c9a2d3499d366d93",
+      "repo_path": "candidates/pelican-post/save-safety-player-r3/legacy/LICENSE.txt",
+      "git_blob_sha": "9749b4d8a8b481340b51d59e65acbb2c91749778"
+    },
+    {
+      "path": "legacy/core.js",
+      "bytes": 5969,
+      "sha256": "d7691314a4b04c84d91719ae099cfd7f8c17e460f4e1e9c2dcec1e09b5e3b1cb",
+      "repo_path": "candidates/pelican-post/save-safety-player-r3/legacy/core.js",
+      "git_blob_sha": "360b75bced87592b9236c024cd352fd67e1baaa1"
+    },
+    {
+      "path": "legacy/game.js",
+      "bytes": 19601,
+      "sha256": "a022e584b383e908beaf940726eb121fd95eda0dee312f9a25f9b830aa199ac2",
+      "repo_path": "candidates/pelican-post/save-safety-player-r3/legacy/game.js",
+      "git_blob_sha": "b293e62b8b2613086c181be210a0c62c3e7c0414"
+    },
+    {
+      "path": "legacy/icon.svg",
+      "bytes": 402,
+      "sha256": "6f048e7cac544e8f39d3559af7a43d930ecf688097d10c81df5bdb042d94b23e",
+      "repo_path": "candidates/pelican-post/save-safety-player-r3/legacy/icon.svg",
+      "git_blob_sha": "55ea8db8ec8be2be4480558a50b07aa0b608c72a"
+    },
+    {
+      "path": "legacy/index.html",
+      "bytes": 5519,
+      "sha256": "34c1b50da9626825e455bbcccb1d61c1e984789a7d8e2af9544590489f5cc0ed",
+      "repo_path": "candidates/pelican-post/save-safety-player-r3/legacy/index.html",
+      "git_blob_sha": "6f152d2c5827736abf4d72ed12906a830eb3700f"
+    },
+    {
+      "path": "legacy/style.css",
+      "bytes": 7457,
+      "sha256": "26e537909b23dd9fd4cca7033e68462e396bea13606ac9838ef22a1bd4e64859",
+      "repo_path": "candidates/pelican-post/save-safety-player-r3/legacy/style.css",
+      "git_blob_sha": "527e7761e1b6671d8425e8dc6551defaeedf31ce"
+    },
+    {
+      "path": "save-guard.js",
+      "bytes": 6710,
+      "sha256": "cfacaa0ad9606e65cb88c525c988fc11e39978ecf6dff7386da3240ded926a86",
+      "repo_path": "candidates/pelican-post/save-safety-player-r3/save-guard.js",
+      "git_blob_sha": "37af5433ec198d7a4f788fc701ad3d9961789142"
+    },
+    {
+      "path": "style.css",
+      "bytes": 14419,
+      "sha256": "7941c86ba3736f1a553d43abb3fbef5199767785d24479076b0c13431e50f346",
+      "repo_path": "candidates/pelican-post/save-safety-player-r3/style.css",
+      "git_blob_sha": "ef96a0efadb0ab3865fb4c5a3e37c0a99b3e7fa6"
+    },
+    {
+      "path": "view.js",
+      "bytes": 8824,
+      "sha256": "af75ac5c1321ade711a4ec171c5bb0a6534b261fbe53450c4bc78eab8a8f7baa",
+      "repo_path": "candidates/pelican-post/save-safety-player-r3/view.js",
+      "git_blob_sha": "c6a607a337c0b2b3ea09be966d347bc29455bcc9"
+    }
+  ],
+  "storage": {
+    "key": "pelican-post:direct:v1",
+    "schema_version": 2,
+    "legacy_key": "pelican-post:save:v1",
+    "same_origin_paths_share_storage": true,
+    "cross_origin_migration": "Use explicit save export/import; browser saves do not transfer automatically."
+  },
+  "quality_scope": {
+    "three_player_agent_feedback_cycles_completed": 3,
+    "desktop_keyboard_mouse_candidate_gate": "PASS_BOUNDED_DESKTOP_TEST_CANDIDATE",
+    "human_playtesting": false,
+    "overall_product_acceptance": false,
+    "mobile_touch_acceptance": false
+  },
+  "known_limits": [
+    "Close old game tabs and export a backup before playing: non-cooperating older versions can still overwrite same-origin progress.",
+    "Browser/profile/origin-specific saves; memory recovery material must be exported before closing. Crash/pagehide asynchronous writes are not guaranteed.",
+    "Without available safe coordination, play is memory-only and progress must be exported.",
+    "Mobile/touch, narrow viewports, screen readers, human comfort and user acceptance are not established.",
+    "Import, clear and lock timing checks are bounded controlled cases, not all browsers or every possible event ordering.",
+    "Full-game completion, all console/network branches, automatic real focus-loss pause and sustained performance are not newly established on this save-only revision.",
+    "The frozen entrance notice conservatively says this save revision is awaiting retest; the bounded desktop engineering gate subsequently passed without changing runtime bytes."
+  ],
+  "license": "Original code and procedural Canvas/SVG assets; licenses included; no third-party runtime resources or external dependencies."
+}
