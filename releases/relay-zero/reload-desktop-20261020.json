@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "game": "relay-zero",
+  "release": "reload-desktop-20261020",
+  "status": "desktop-test-awaiting-user-acceptance",
+  "runtime_path": "candidates/relay-zero/reload-desktop-20261020/",
+  "notice": "releases/relay-zero/reload-desktop-20261020.html",
+  "files": {
+    "ASSET-NOTICE.md": {
+      "sha256": "9431148437c6650db45737dec33b1c77470e0246bcda00298b7ed200bc736e3a",
+      "bytes": 2060
+    },
+    "KNOWN-LIMITS.md": {
+      "sha256": "8f959d0e1a7aadae87eb5971d3daef0a9ad56dd1b3b598b4182d990b2c683876",
+      "bytes": 3943
+    },
+    "app.js": {
+      "sha256": "f8fcd228d2465ff4f03aa784eeeab7e029ddc79b51883c8578f2a50a2784b229",
+      "bytes": 97632
+    },
+    "assets/facade-arched-door.png": {
+      "sha256": "3b8b05b1014478ed1713c461ef51edcee90b64716034fb4a3cf3fa073f990b14",
+      "bytes": 582462
+    },
+    "assets/facade-grille.png": {
+      "sha256": "9ed6fa74d8ec61d2d428fcf5a9c3148b987c2ef107afe5d16a743a26d44f00f9",
+      "bytes": 552371
+    },
+    "assets/facade-shutters.png": {
+      "sha256": "95b3b54d79bf9f5829477cc900634628092a876fc8a9fb9875bbd983009798e6",
+      "bytes": 591314
+    },
+    "assets/facade-window.png": {
+      "sha256": "f41b6f25e5859c758079edc8e9056f2ec7054eef4fadf50e0031146d07fb8266",
+      "bytes": 578621
+    },
+    "assets/guard-aim-512.png": {
+      "sha256": "e720346f4c63eba017a85e19640c03203b33e416327f4fce73a31e36869a1ce0",
+      "bytes": 191468
+    },
+    "assets/guard-aim.png": {
+      "sha256": "8cc5994804c71e1af4ea92134e516589cdbbbc81f1dbbf7d169895f5c81f7905",
+      "bytes": 55883
+    },
+    "assets/guard-back-512.png": {
+      "sha256": "99ede2d08bcfe8703b9e24506625093826fef36bedfea9a728f1d6f7f2c7c414",
+      "bytes": 158280
+    },
+    "assets/guard-back.png": {
+      "sha256": "9189f02c324206ff2e291b94cca1cb753df201ba18937fd8cf20fe4554f49763",
+      "bytes": 46599
+    },
+    "assets/guard-front-512.png": {
+      "sha256": "1780ed80bb7ec4b95d871c54066ccea6270a8d0f90a735d4d13534494238060d",
+      "bytes": 163330
+    },
+    "assets/guard-front.png": {
+      "sha256": "9bf6f0bc966eeb905efa2668670bf446142f7fffecb38a356d9b61a9911e51a7",
+      "bytes": 47249
+    },
+    "assets/guard-hit-512.png": {
+      "sha256": "6e2a6246e66e61212c7538ccea55b85849ce7e1b35e6840919152886ddd8c4ee",
+      "bytes": 212666
+    },
+    "assets/guard-hit.png": {
+      "sha256": "d5c06a2fd31eb003affd8e77248104dcbdcf19cde99f6d846cb4a9ece37e58ec",
+      "bytes": 60431
+    },
+    "assets/guard-left-512.png": {
+      "sha256": "0ac182130d7273bb244268757bf89a99c60476734096dce9ef6318444216e624",
+      "bytes": 134735
+    },
+    "assets/guard-left.png": {
+      "sha256": "7594e46c0e1885432d55bf9dd2cae09d69a5f4547ddca557c1959f12ed85794f",
+      "bytes": 39315
+    },
+    "assets/guard-right-512.png": {
+      "sha256": "cc2921c40ecb0f2c4f9c9860af519840c0bd840e09701ccb2b3c865d19ad58e8",
+      "bytes": 134784
+    },
+    "assets/guard-right.png": {
+      "sha256": "28012fa2491541b06ff5bc763129a7a5667ddb24acedd04b88456f2a6ef8beef",
+      "bytes": 38954
+    },
+    "assets/guard-walk-a-512.png": {
+      "sha256": "b36c8ca960bc73a56a965d706f0b9bfb55eb9530c02b2d22ce7382e061f846fa",
+      "bytes": 164982
+    },
+    "assets/guard-walk-a.png": {
+      "sha256": "bfeaffdfb732f2a24c09905723527beb53063bb90fb793379684d18859a87c5c",
+      "bytes": 47733
+    },
+    "assets/guard-walk-b-512.png": {
+      "sha256": "d398cb7f8ee23acbbece5139c8e646e6ddb61243e23b7be20959bb9568b461f5",
+      "bytes": 170706
+    },
+    "assets/guard-walk-b.png": {
+      "sha256": "4b04594e0091175e272249db21fdda4d391b5cca89d3c02696c500edcad26236",
+      "bytes": 49015
+    },
+    "assets/limestone.png": {
+      "sha256": "791e5eabba19effcdf86417f3298949bbe9e76e5447da8b2441de075afd9a844",
+      "bytes": 182609
+    },
+    "assets/paving.png": {
+      "sha256": "f649937a76f694cf2f67243527774b3e2f49fd6fae3b05a2418f8aec25befa8c",
+      "bytes": 186487
+    },
+    "assets/player-carbine-v1.png": {
+      "sha256": "3c65a7dd5be782f70e4c8b52a15f37a63d4f5cafaf9d6ab40aeaec31e7cdc59c",
+      "bytes": 1262217
+    },
+    "camera.js": {
+      "sha256": "a677b512a8b2a716994d967573f07783174e96a8b588c9f29c31a157a267caf0",
+      "bytes": 4058
+    },
+    "core.js": {
+      "sha256": "49738cf6aeab6cc20c8bf2533120be4177f07946c31a88ed3816e0e7c2e002f9",
+      "bytes": 12813
+    },
+    "foreground.js": {
+      "sha256": "ffecad4a2a8b95dcf140cf2600031be8963f435e9fe156637e91dc96d27e6074",
+      "bytes": 8523
+    },
+    "index.html": {
+      "sha256": "597456fdba7096271e16c619616ff17f2765d94d8bb6c63ada1eda3ec89f8780",
+      "bytes": 6523
+    },
+    "local-save.mjs": {
+      "sha256": "78082d61c73f2c2cef7e5f2db323ceecebaf981afe9685e121022e8deab87d08",
+      "bytes": 3254
+    },
+    "profile-save.mjs": {
+      "sha256": "493e354d8073db8151e39053e82e46e9f025e621b925c6aa7a5b7af91f58ed2b",
+      "bytes": 5977
+    },
+    "style.css": {
+      "sha256": "7de43645a0e98a43cb8f0145f62190da0de03bfe6f762378ad1a270f4486be21",
+      "bytes": 11183
+    }
+  },
+  "runtime_zip_sha256": "2fc16d34e22a1cd157c8e1be78e686fe6605c9bbab823d935e496dc06b7ff8b2",
+  "runtime_bytes": 5808177
+}
