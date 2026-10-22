@@ -1,21 +1,23 @@
 {
-  "release": "pedal-critical-visual-c01-20261022",
+  "release": "pedal-critical-visual-c02-ui-20261022",
   "status": "public-test-not-user-accepted",
+  "supersedes": "pedal-critical-visual-c01-20261022",
+  "changeScope": "Error/loading-state HUD visibility and initial camera label only; physics, input, save namespace and art unchanged.",
   "files": [
     {
       "path": "KNOWN-LIMITS.txt",
-      "bytes": 1427,
-      "sha256": "f87b6ff02b5af0d9e7f28ef9819504a62c4139dcbcd0b7de61b8491e3b97ee17"
+      "bytes": 1635,
+      "sha256": "fffa67f2f059ac3d4a3b59d04a5844d4f78755a7e1d160405d68a518bd84a860"
     },
     {
       "path": "NOTICE.txt",
-      "bytes": 959,
-      "sha256": "7f1e0c3f46a74211375e4431e1a16ba6e09990f800d6ccf563cd80a8b880963d"
+      "bytes": 971,
+      "sha256": "f42a777401e3be5a1fc8f338eea26fe77b1806963a23fb659a0da208703fcdeb"
     },
     {
       "path": "asset-credits.json",
       "bytes": 3193,
-      "sha256": "0208a1e97b5af7dd8c9811d12270edc4ee348913c8164fc75bb551b0e9a8b31c"
+      "sha256": "57a25942c617feb852eff26cd639eb4f6e06c48fb3d6b5213625285fd1c289fd"
     },
     {
       "path": "assets/environment/LICENSE.txt",
@@ -78,19 +80,19 @@
       "sha256": "1cc003ef11431462ea2d4de2be5acacfe67442b850d3a02a5eaebba656d8e08e"
     },
     {
-      "path": "assets/index-BVVmPXIl.js",
-      "bytes": 4137480,
-      "sha256": "211220734e3e7d5fb3cdae4521388de6420f6cebb72883e9a977047c7deab623"
+      "path": "assets/index-4tmZEHKT.css",
+      "bytes": 14480,
+      "sha256": "b5866497c8fbc7d208324e8a9dbe38e5a7e6d9ea29f9b7971a4c7dc9251cb8bb"
     },
     {
-      "path": "assets/index-D1OxnpVQ.css",
-      "bytes": 13904,
-      "sha256": "2d74c12866acb706da3522a4f21613c9cc437a9908a6426a5a508ac2fa12885f"
+      "path": "assets/index-BSQci5rT.js",
+      "bytes": 4137573,
+      "sha256": "9ad0898d1b037b3beb962e60090f6ee1169e7a27e1a3f29945b86993315c2a88"
     },
     {
       "path": "index.html",
-      "bytes": 2617,
-      "sha256": "cf64a526806475403231a54166710b43093675505f2a56306b4e1a3a51f64afd"
+      "bytes": 2781,
+      "sha256": "5bfab00690104bf097a25d14b03a424c3722abc3f95cf1c075243fd8c877ffc8"
     },
     {
       "path": "licenses/rapier-Apache-2.0.txt",
@@ -115,7 +117,7 @@
     {
       "path": "play.html",
       "bytes": 585,
-      "sha256": "58b610f1dba598a23bb637a5ce2cb2d5e28a0df229dca9d7529471dd6df441f1"
+      "sha256": "486d760bf5f2816fc9b1d7ab272bb4fb78dd949a75ab829fee55ac81a260e47f"
     }
   ]
 }

@@ -1,4 +1,4 @@
-踏板临界 / Pedal Critical · Visual c01 public test · 2026-10-22
+踏板临界 / Pedal Critical · Visual c02 UI revision public test · 2026-10-22
 Original game code, original artwork and synthesized audio created for this project, 2026.
 Bundled runtime dependencies:
 - Three.js 0.186.1, MIT. https://threejs.org/
