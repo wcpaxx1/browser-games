@@ -1,0 +1,154 @@
+{
+  "version": "brake-outdoor-materials-c01-20261022",
+  "scope": "Original outdoor material/IBL asset candidate, not game acceptance; no geometry/physics/HUD changes.",
+  "inputCar": {
+    "version": "art-candidate-04",
+    "sha256": "4f9e28c0e99a06c674364fd927f3ff5d5f99461033802611f4fb93559411aecf",
+    "mutated": false
+  },
+  "units": "meters",
+  "tileSizeMeters": 2,
+  "textures": {
+    "asphalt": {
+      "basecolor": "asphalt-basecolor.png",
+      "normal": "asphalt-normal.png",
+      "roughness": "asphalt-roughness.png",
+      "basecolorSize": 1024,
+      "dataSize": 512
+    },
+    "shoulder": {
+      "basecolor": "shoulder-basecolor.png",
+      "normal": "shoulder-normal.png",
+      "roughness": "shoulder-roughness.png",
+      "basecolorSize": 512,
+      "dataSize": 512
+    }
+  },
+  "loading": {
+    "basecolorColorSpace": "THREE.SRGBColorSpace",
+    "dataColorSpace": "THREE.NoColorSpace",
+    "wrap": "THREE.RepeatWrapping",
+    "normalConvention": "OpenGL +Y",
+    "anisotropyHigh": 8,
+    "anisotropyLow": 2,
+    "uv": "World meters divided by 2; old ribbon UV (u,v=s/7) needs repeat (roadWidth/2,3.5).",
+    "roughnessChannel": "grayscale, same value RGB. Three reads G. Do not color-space-convert."
+  },
+  "environment": {
+    "file": "brake-daylight-1k.hdr",
+    "loader": "RGBELoader, EquirectangularReflectionMapping -> PMREMGenerator.fromEquirectangular",
+    "background": "Do not use as hard horizon background; fog-compatible sky gradient preferred.",
+    "intensityHigh": 0.85,
+    "intensityLow": 0.6,
+    "dispose": "Dispose RGBE texture after PMREM generation; dispose generator after setup; keep PMREM texture until view disposal.",
+    "hdr": {
+      "resolution": [
+        1024,
+        512
+      ],
+      "linearRadianceMin": 0.10000009412380848,
+      "linearRadianceMax": 4.351740422542363,
+      "sunDirectionGame": [
+        -0.4903433605706904,
+        0.7205045298181573,
+        0.4903433605706904
+      ]
+    }
+  },
+  "lighting": {
+    "toneMapping": "ACESFilmicToneMapping",
+    "exposure": 1.0,
+    "sunColorSRGB": "#fff0d6",
+    "sunIntensity": 2.5,
+    "sunDirection": [
+      -0.4903433605706904,
+      0.7205045298181573,
+      0.4903433605706904
+    ],
+    "hemisphereSkySRGB": "#b8d2ea",
+    "hemisphereGroundSRGB": "#667363",
+    "hemisphereIntensity": 1.1,
+    "shadowMapHigh": 1024,
+    "shadowMapLow": 0,
+    "shadowNormalBias": 0.02,
+    "dryFogSRGB": "#b7c6ce",
+    "wetFogSRGB": "#9aaeb8"
+  },
+  "surfaceParameters": {
+    "asphaltDry": {
+      "colorSRGB": "#ffffff",
+      "metalness": 0,
+      "roughness": 1,
+      "normalScale": [
+        0.5,
+        0.5
+      ]
+    },
+    "asphaltWet": {
+      "colorSRGB": "#b1bcc3",
+      "metalness": 0,
+      "roughness": 0.38,
+      "normalScale": [
+        0.22,
+        0.22
+      ],
+      "note": "Still a dielectric. Wetness changes roughness/darkening, never uses metalness as a reflection hack."
+    },
+    "shoulder": {
+      "colorSRGB": "#ffffff",
+      "metalness": 0,
+      "roughness": 1,
+      "normalScale": [
+        0.5,
+        0.5
+      ]
+    },
+    "paint": {
+      "matchName": "Copper ceramic metallic paint",
+      "colorSRGB": "#a84b2e",
+      "roughness": 0.3,
+      "metalness": 0.72,
+      "clearcoat": 0.78,
+      "clearcoatRoughness": 0.18,
+      "envMapIntensity": 1.0
+    },
+    "trim": {
+      "matchName": "Satin graphite exterior trim",
+      "roughness": 0.42,
+      "metalness": 0.12,
+      "envMapIntensity": 0.75
+    },
+    "rubber": {
+      "matchName": "Tire rubber and weather seals",
+      "roughness": 0.84,
+      "metalness": 0,
+      "envMapIntensity": 0.4
+    },
+    "aluminium": {
+      "matchName": "Machined satin aluminium",
+      "roughness": 0.28,
+      "metalness": 0.92,
+      "envMapIntensity": 0.85
+    },
+    "glass": {
+      "matchName": "Laminated neutral blue glass",
+      "roughness": 0.1,
+      "envMapIntensity": 0.7,
+      "note": "Preserve c04 transmission/opacity and cabin readability. Do not turn into black mirror glass."
+    }
+  },
+  "performance": {
+    "additionalTriangles": 0,
+    "additionalDrawCalls": 0,
+    "additionalPostprocessPasses": 0,
+    "textureStorageRGBA8WithMipmapsMiB": 12.0,
+    "sourceRGBEFileMiBApprox": 2.03,
+    "temporaryDecodedRGBA16FMiB": 4.0,
+    "pmrem256CubeUVRGBA16FMiBApprox": 6.0,
+    "steadyAdditionalTextureBudgetMiB": 20,
+    "low": "Keep same basecolor assets, skip normal maps and shadows; cap anisotropy 2, optionally skip IBL. No geometry or gameplay differences.",
+    "notMeasured": "Browser frame timing, GPU memory residency, mobile throughput are for runtime integrator; these are analytical budgets."
+  },
+  "authorship": "Original deterministic numeric textures and radiance environment; no external assets, no third-party accounts, no fees.",
+  "license": "CC0-1.0"
+}

@@ -1,0 +1,323 @@
+{
+  "asset": "brake-family-sedan.glb",
+  "asset_sha256": "4f9e28c0e99a06c674364fd927f3ff5d5f99461033802611f4fb93559411aecf",
+  "version": "art-candidate-04",
+  "coordinate_system": {
+    "forward": "+X",
+    "up": "+Y",
+    "right": "+Z",
+    "blender_source": "X forward, Z up, -Y right; standard glTF Y-up export"
+  },
+  "binding": {
+    "status": "CAR-ONLY GEOMETRY PROFILE. It does not fulfill the full M1 CarAsset while occupants and crack-effect geometry are absent.",
+    "source_contract": "recovered M1 src/view/procedural.ts CarAsset/createCar and src/view/index.ts render; read-only, unmodified",
+    "root": {
+      "node": "Root"
+    },
+    "body": {
+      "node": "Body"
+    },
+    "zones": {
+      "frontLeft": {
+        "node": "FrontLeftDamage",
+        "rest_position_game": [
+          1.55,
+          0.75,
+          -0.43
+        ],
+        "status": "Separated rest-state panel region; no deformation morph or solver"
+      },
+      "frontRight": {
+        "node": "FrontRightDamage",
+        "rest_position_game": [
+          1.55,
+          0.75,
+          0.43
+        ],
+        "status": "Separated rest-state panel region; no deformation morph or solver"
+      },
+      "leftSide": {
+        "node": "LeftSideDamage",
+        "rest_position_game": [
+          -0.12,
+          0.75,
+          -0.83
+        ],
+        "status": "Separated rest-state panel region; no deformation morph or solver"
+      },
+      "rightSide": {
+        "node": "RightSideDamage",
+        "rest_position_game": [
+          -0.12,
+          0.75,
+          0.83
+        ],
+        "status": "Separated rest-state panel region; no deformation morph or solver"
+      },
+      "rearLeft": {
+        "node": "RearLeftDamage",
+        "rest_position_game": [
+          -1.63,
+          0.75,
+          -0.43
+        ],
+        "status": "Separated rest-state panel region; no deformation morph or solver"
+      },
+      "rearRight": {
+        "node": "RearRightDamage",
+        "rest_position_game": [
+          -1.63,
+          0.75,
+          0.43
+        ],
+        "status": "Separated rest-state panel region; no deformation morph or solver"
+      }
+    },
+    "zoneBases": {
+      "frontLeft": [
+        1.55,
+        0.75,
+        -0.43
+      ],
+      "frontRight": [
+        1.55,
+        0.75,
+        0.43
+      ],
+      "leftSide": [
+        -0.12,
+        0.75,
+        -0.83
+      ],
+      "rightSide": [
+        -0.12,
+        0.75,
+        0.83
+      ],
+      "rearLeft": [
+        -1.63,
+        0.75,
+        -0.43
+      ],
+      "rearRight": [
+        -1.63,
+        0.75,
+        0.43
+      ]
+    },
+    "wheels": {
+      "ordered_nodes": [
+        "WheelFL",
+        "WheelFR",
+        "WheelRL",
+        "WheelRR"
+      ],
+      "steer_axis": "local +Y in game space",
+      "positions": {
+        "WheelFL": [
+          1.2,
+          0.3,
+          -0.75
+        ],
+        "WheelFR": [
+          1.2,
+          0.3,
+          0.75
+        ],
+        "WheelRL": [
+          -1.4,
+          0.3,
+          -0.75
+        ],
+        "WheelRR": [
+          -1.4,
+          0.3,
+          0.75
+        ]
+      }
+    },
+    "wheelRolls": {
+      "ordered_paths": [
+        "WheelFL/Roll",
+        "WheelFR/Roll.001",
+        "WheelRL/Roll.002",
+        "WheelRR/Roll.003"
+      ],
+      "axis": "local +Z in game space",
+      "note": "Formerly anonymous M1 roll groups. Names are exact exported paths; do not bind by global Roll name alone."
+    },
+    "pedal": {
+      "node": "PedalPivot",
+      "rest_position_game": [
+        0.96,
+        0.49,
+        -0.38
+      ],
+      "axis": "local +Z in game space"
+    },
+    "pedalStem": {
+      "node": "PedalStem",
+      "kind": "Actual tubular mesh, not an empty anchor",
+      "note": "Independent mesh preserved during batching; M1 render-only scale.x can be bound separately."
+    },
+    "pedalBroken": {
+      "node": "PedalBroken",
+      "initial_visible": false,
+      "visibility_source": "runtime_visible=false extras on node and descendants",
+      "note": "Separated spare pad/lower details only. It must be explicitly hidden initially because glTF has no standardized visibility property."
+    },
+    "pedalCracks": {
+      "status": "MISSING_GEOMETRY",
+      "required_action": "A full-M1 adapter must report unsupported effect or await authored crack line/mesh effect. Do not invent a dummy LineSegments as finished art."
+    },
+    "steering": {
+      "node": "SteeringWheel",
+      "rest_position_game": [
+        0.49,
+        0.94,
+        -0.38
+      ],
+      "axis": "local +X in game space"
+    },
+    "gaugeNeedles": {
+      "ordered_nodes": [
+        "SpeedNeedle",
+        "ForceNeedle"
+      ],
+      "rest_positions_game": [
+        [
+          0.51,
+          0.97,
+          -0.46
+        ],
+        [
+          0.51,
+          0.97,
+          -0.3
+        ]
+      ],
+      "axis": "local +X in game space"
+    },
+    "glass": {
+      "nodes": [
+        "Windshield",
+        "Cabin__Laminated_neutral_blue_glass"
+      ],
+      "note": "Windshield is independent. The other glazing is statically batched as one cabin-glass mesh. Windshield-only hiding is supported; per-door breakage is not authored."
+    },
+    "glassCracks": {
+      "node": "WindshieldCracks",
+      "status": "EMPTY_ANCHOR_NO_CRACK_GEOMETRY",
+      "required_action": "Report as unsupported pending authored effect; the node itself is not visual damage."
+    },
+    "dashboard": {
+      "node": "Dashboard"
+    },
+    "dashboardLight": {
+      "material": "Dashboard gauge illumination",
+      "status": "Dedicated emissive material used only for gauge ticks and small central display marks; mutate this material, not all white trim."
+    },
+    "brakeLightMaterial": {
+      "material": "Red rear lamp lens",
+      "status": "Actual rear-lamp material with an emissive channel; normalize Three.js emission color/intensity explicitly in the adapter if preserving M1 numerical light levels."
+    },
+    "adults": {
+      "FL": {
+        "anchor": "AdultFL",
+        "status": "EMPTY_ATTACHMENT_POINT_NOT_A_HUMAN",
+        "head": null,
+        "torso": null,
+        "belt": "SeatFL/BeltFL is seat-mounted webbing, not an AdultAsset torso rig",
+        "headBaseY": null
+      },
+      "FR": {
+        "anchor": "AdultFR",
+        "status": "EMPTY_ATTACHMENT_POINT_NOT_A_HUMAN",
+        "head": null,
+        "torso": null,
+        "belt": "SeatFR/BeltFR is seat-mounted webbing, not an AdultAsset torso rig",
+        "headBaseY": null
+      },
+      "RR": {
+        "anchor": "AdultRR",
+        "status": "EMPTY_ATTACHMENT_POINT_NOT_A_HUMAN",
+        "head": null,
+        "torso": null,
+        "belt": "SeatRR/BeltRR is seat-mounted webbing, not an AdultAsset torso rig",
+        "headBaseY": null
+      }
+    },
+    "driverObstructions": {
+      "car_only_nodes": [],
+      "note": "No adult head exists. Add the real driver head to this list only after the occupant rig is integrated."
+    },
+    "seats": {
+      "FL": {
+        "node": "SeatFL",
+        "belt_node": "BeltFL",
+        "anchor_nodes": [
+          "BeltAnchorFLShoulder",
+          "BeltAnchorFLBuckle",
+          "BeltAnchorFLLower"
+        ]
+      },
+      "FR": {
+        "node": "SeatFR",
+        "belt_node": "BeltFR",
+        "anchor_nodes": [
+          "BeltAnchorFRShoulder",
+          "BeltAnchorFRBuckle",
+          "BeltAnchorFRLower"
+        ]
+      },
+      "RR": {
+        "node": "SeatRR",
+        "belt_node": "BeltRR",
+        "anchor_nodes": [
+          "BeltAnchorRRShoulder",
+          "BeltAnchorRRBuckle",
+          "BeltAnchorRRLower"
+        ]
+      }
+    },
+    "not_implemented": [
+      "adult rigs/meshes/poses",
+      "pedal crack-effect geometry",
+      "windshield crack-effect geometry",
+      "damage morph targets/authored crumple states",
+      "dynamic suspension physics",
+      "collision hull authority"
+    ],
+    "legacy_adapter_assumptions": [
+      "Do not assume Body.children[0] is the recovered procedural trim/chassis group. Resolve exterior shadow casters explicitly by profile; native hierarchy order is not a contract.",
+      "The GLB uses KHR_materials_clearcoat and KHR_materials_transmission. Validate these in the actual Three.js GLTFLoader/material pipeline; native offline glass is not a browser-performance claim.",
+      "Do not call missing adults[seat].head/torso fields or construct fake capsules to satisfy the old CarAsset type. Keep the car-only viewer/profile separate until real occupants arrive.",
+      "Crack nodes/missing effects and runtime_visible extras need explicit adapter handling. Empty nodes are not rendered crack geometry.",
+      "Motion, wheel radius, brake/pedal rules, contact bookkeeping and game outcomes remain owned by the unchanged simulation, never by this asset."
+    ]
+  },
+  "materials": [
+    "Copper ceramic metallic paint",
+    "Headlamp optical lens",
+    "Machined satin aluminium",
+    "Red rear lamp lens",
+    "Satin graphite exterior trim",
+    "Soft touch graphite cabin",
+    "Warm white gauge marks",
+    "Instrument lens and mirror",
+    "Laminated neutral blue glass",
+    "Seat bolsters charcoal",
+    "Tire rubber and weather seals",
+    "Dashboard gauge illumination",
+    "Graphite wheel recess",
+    "Safety red accent",
+    "Warm grey woven upholstery",
+    "Dark woven seat belts"
+  ],
+  "aliases": {
+    "Steering": "SteeringWheel",
+    "Pedal": "PedalPivot",
+    "GaugeSpeedNeedle": "SpeedNeedle",
+    "GaugeForceNeedle": "ForceNeedle"
+  }
+}

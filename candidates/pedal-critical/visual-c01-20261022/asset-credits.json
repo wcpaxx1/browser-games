@@ -1,0 +1,73 @@
+{
+  "title": "踏板临界 · 视觉公测 c01",
+  "contentVersion": "environment-pbr.1-20261022",
+  "author": "Original artwork and synthesis created for this project under the user’s direction",
+  "source": "Exact reviewed c04 car plus original deterministic authored outdoor materials and read-only scenery; no third-party artwork",
+  "license": "Project-original. No third-party art or sound samples. Redistribution is governed by the project owner.",
+  "thirdPartyArt": [],
+  "thirdPartyAudio": [],
+  "runtimeNetworkAssets": true,
+  "verification": "Build and deterministic checks only before publication; actual browser visuals, input and performance are not yet verified. See KNOWN-LIMITS.txt.",
+  "heroCar": {
+    "path": "assets/hero-car/brake-family-sedan.glb",
+    "sha256": "4f9e28c0e99a06c674364fd927f3ff5d5f99461033802611f4fb93559411aecf",
+    "license": "CC0-1.0",
+    "licensePath": "assets/hero-car/LICENSE.txt",
+    "status": "car-only: no occupants, cracks, authored crumple states or physical suspension"
+  },
+  "externalRuntimeNetworkAssets": false,
+  "runtimeAssetLoading": "Same-origin mandatory c04 GLB and seven original environment assets; no remote CDN, accounts, analytics or save transmission.",
+  "environment": {
+    "version": "brake-outdoor-materials-c01-20261022",
+    "license": "CC0-1.0",
+    "licensePath": "assets/environment/LICENSE.txt",
+    "files": [
+      {
+        "path": "assets/environment/LICENSE.txt",
+        "bytes": 1205,
+        "sha256": "fcc9170a213924a7a418d902edea741d316756b9791fa470a509cefe788a7585"
+      },
+      {
+        "path": "assets/environment/asphalt-basecolor.png",
+        "bytes": 994466,
+        "sha256": "c7c4a569acaf6db1ba322d84e1c46bf61df5202bcc1f93f106eb112f9e327d3e"
+      },
+      {
+        "path": "assets/environment/asphalt-normal.png",
+        "bytes": 466558,
+        "sha256": "1f2d5306a6424c86b3e16f52c6409b336d9ad4458979f587356f90ecd7cd6f5e"
+      },
+      {
+        "path": "assets/environment/asphalt-roughness.png",
+        "bytes": 123839,
+        "sha256": "ab0dad8b0948dfbe6b87f2b47ab675fb8095ef633f4468384f355b982bd36b06"
+      },
+      {
+        "path": "assets/environment/brake-daylight-1k.hdr",
+        "bytes": 2115634,
+        "sha256": "8791ced8123652bdca6c51e5fa92a01fd601f1ae3da020fb2dbf2b4674a6d2ad"
+      },
+      {
+        "path": "assets/environment/lighting-material-preset.json",
+        "bytes": 4795,
+        "sha256": "85a57085f7e734c323e4f8c48dc888ae7ab8782f5fc42f47c5c211cc699b2ca6"
+      },
+      {
+        "path": "assets/environment/shoulder-basecolor.png",
+        "bytes": 336169,
+        "sha256": "fafa55773fdb05b0aedd1b25025a859e13b23810f812c232addfc9f10214c21e"
+      },
+      {
+        "path": "assets/environment/shoulder-normal.png",
+        "bytes": 552816,
+        "sha256": "1f5198df63cebbe0861b9061551a4d9d01154d82cf44d21d6c341d52aee41664"
+      },
+      {
+        "path": "assets/environment/shoulder-roughness.png",
+        "bytes": 139326,
+        "sha256": "7cf1e6a0514de934d3aae0d4b1dafc54dbbd6b1b08402ccbb26aabd6fadc9a2c"
+      }
+    ],
+    "scope": "PBR road/shoulder and outdoor HDR for IBL; no GLB changes, no new physical collision authority."
+  }
+}

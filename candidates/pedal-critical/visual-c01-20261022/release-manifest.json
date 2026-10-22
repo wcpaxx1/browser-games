@@ -1,0 +1,121 @@
+{
+  "release": "pedal-critical-visual-c01-20261022",
+  "status": "public-test-not-user-accepted",
+  "files": [
+    {
+      "path": "KNOWN-LIMITS.txt",
+      "bytes": 1427,
+      "sha256": "f87b6ff02b5af0d9e7f28ef9819504a62c4139dcbcd0b7de61b8491e3b97ee17"
+    },
+    {
+      "path": "NOTICE.txt",
+      "bytes": 959,
+      "sha256": "7f1e0c3f46a74211375e4431e1a16ba6e09990f800d6ccf563cd80a8b880963d"
+    },
+    {
+      "path": "asset-credits.json",
+      "bytes": 3193,
+      "sha256": "0208a1e97b5af7dd8c9811d12270edc4ee348913c8164fc75bb551b0e9a8b31c"
+    },
+    {
+      "path": "assets/environment/LICENSE.txt",
+      "bytes": 1205,
+      "sha256": "fcc9170a213924a7a418d902edea741d316756b9791fa470a509cefe788a7585"
+    },
+    {
+      "path": "assets/environment/asphalt-basecolor.png",
+      "bytes": 994466,
+      "sha256": "c7c4a569acaf6db1ba322d84e1c46bf61df5202bcc1f93f106eb112f9e327d3e"
+    },
+    {
+      "path": "assets/environment/asphalt-normal.png",
+      "bytes": 466558,
+      "sha256": "1f2d5306a6424c86b3e16f52c6409b336d9ad4458979f587356f90ecd7cd6f5e"
+    },
+    {
+      "path": "assets/environment/asphalt-roughness.png",
+      "bytes": 123839,
+      "sha256": "ab0dad8b0948dfbe6b87f2b47ab675fb8095ef633f4468384f355b982bd36b06"
+    },
+    {
+      "path": "assets/environment/brake-daylight-1k.hdr",
+      "bytes": 2115634,
+      "sha256": "8791ced8123652bdca6c51e5fa92a01fd601f1ae3da020fb2dbf2b4674a6d2ad"
+    },
+    {
+      "path": "assets/environment/lighting-material-preset.json",
+      "bytes": 4795,
+      "sha256": "85a57085f7e734c323e4f8c48dc888ae7ab8782f5fc42f47c5c211cc699b2ca6"
+    },
+    {
+      "path": "assets/environment/shoulder-basecolor.png",
+      "bytes": 336169,
+      "sha256": "fafa55773fdb05b0aedd1b25025a859e13b23810f812c232addfc9f10214c21e"
+    },
+    {
+      "path": "assets/environment/shoulder-normal.png",
+      "bytes": 552816,
+      "sha256": "1f5198df63cebbe0861b9061551a4d9d01154d82cf44d21d6c341d52aee41664"
+    },
+    {
+      "path": "assets/environment/shoulder-roughness.png",
+      "bytes": 139326,
+      "sha256": "7cf1e6a0514de934d3aae0d4b1dafc54dbbd6b1b08402ccbb26aabd6fadc9a2c"
+    },
+    {
+      "path": "assets/hero-car/LICENSE.txt",
+      "bytes": 705,
+      "sha256": "0958116b767b58fd6d33edf7b5016847baf3c208142cc84d85322d2240152396"
+    },
+    {
+      "path": "assets/hero-car/brake-family-sedan.glb",
+      "bytes": 3589888,
+      "sha256": "4f9e28c0e99a06c674364fd927f3ff5d5f99461033802611f4fb93559411aecf"
+    },
+    {
+      "path": "assets/hero-car/car-only-binding-profile.json",
+      "bytes": 9500,
+      "sha256": "1cc003ef11431462ea2d4de2be5acacfe67442b850d3a02a5eaebba656d8e08e"
+    },
+    {
+      "path": "assets/index-BVVmPXIl.js",
+      "bytes": 4137480,
+      "sha256": "211220734e3e7d5fb3cdae4521388de6420f6cebb72883e9a977047c7deab623"
+    },
+    {
+      "path": "assets/index-D1OxnpVQ.css",
+      "bytes": 13904,
+      "sha256": "2d74c12866acb706da3522a4f21613c9cc437a9908a6426a5a508ac2fa12885f"
+    },
+    {
+      "path": "index.html",
+      "bytes": 2617,
+      "sha256": "cf64a526806475403231a54166710b43093675505f2a56306b4e1a3a51f64afd"
+    },
+    {
+      "path": "licenses/rapier-Apache-2.0.txt",
+      "bytes": 11343,
+      "sha256": "4c05555705e3efde601fb1252ae48f1d63992af8a8fb8947745b7fa834e8f519"
+    },
+    {
+      "path": "licenses/rolldown-MIT.txt",
+      "bytes": 1302,
+      "sha256": "23ecfff35a5a2e80d92142f75228912c3b1abc4b5a8337a821ff4397e2f9f734"
+    },
+    {
+      "path": "licenses/three-MIT.txt",
+      "bytes": 1081,
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "path": "licenses/vite-core-MIT.txt",
+      "bytes": 1162,
+      "sha256": "e373c2e74cd342b9e74d0b8813a8fddf3c9788515669a79c2ac238195673d38b"
+    },
+    {
+      "path": "play.html",
+      "bytes": 585,
+      "sha256": "58b610f1dba598a23bb637a5ce2cb2d5e28a0df229dca9d7529471dd6df441f1"
+    }
+  ]
+}

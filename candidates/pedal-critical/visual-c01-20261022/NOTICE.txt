@@ -1,0 +1,12 @@
+踏板临界 / Pedal Critical · Visual c01 public test · 2026-10-22
+Original game code, original artwork and synthesized audio created for this project, 2026.
+Bundled runtime dependencies:
+- Three.js 0.186.1, MIT. https://threejs.org/
+- @dimforge/rapier2d-compat 0.21.0, Apache-2.0. https://rapier.rs/
+- Build-generated Vite 8.3.4 and Rolldown runtime helpers, MIT.
+Full dependency licenses are in ./licenses/. WASM is locally bundled; there is no runtime CDN.
+Original car and environment materials: CC0-1.0. See assets/hero-car/LICENSE.txt and assets/environment/LICENSE.txt.
+Car SHA-256: 4f9e28c0e99a06c674364fd927f3ff5d5f99461033802611f4fb93559411aecf.
+This is a fictional game simulation, not real-world driving, medical, injury or vehicle prediction advice.
+No accounts, analytics or save transmission. Public testing is not quality acceptance.
+See KNOWN-LIMITS.txt for input accuracy, missing features, browser-validation and local-save limitations.
