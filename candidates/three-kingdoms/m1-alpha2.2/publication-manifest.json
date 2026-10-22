@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "game": "三国象棋",
+  "version": "m1-alpha2.2-public-test-20261022",
+  "runtimeVersion": "m1-alpha2.2-20261021",
+  "status": "public-test",
+  "publishedTest": true,
+  "accepted": null,
+  "acceptedMeaning": "User quality acceptance is not established; public testing is separate.",
+  "entry": "public-test.html",
+  "gameEntry": "index.html",
+  "runtimeUnchanged": true,
+  "networkDependencies": [],
+  "saveBehavior": "Browser-local storage only; no account or cloud sync. Saves are device, browser-profile and origin specific.",
+  "verification": {
+    "reportedActualBrowser": "Windows Chrome",
+    "completedScope": [
+      "Core moves, turn handoff, captures and army conversion",
+      "Threefold terminal and reload recovery",
+      "Malformed JSON and unsupported-schema refusal",
+      "Basic keyboard input and bounded browser-emulated touch",
+      "Technical withdrawal victory and terminal replay regression"
+    ],
+    "unverified": [
+      "Trusted tab/window blur recovery",
+      "Fresh export artifact followed by formal reimport and reload",
+      "Quota-failure and raw recovery export flow",
+      "Physical touchscreen devices",
+      "Human three-player playtesting and long-run balance"
+    ],
+    "knownMinorIssue": "Malformed JSON may include an English technical parser detail after the Chinese rejection heading."
+  },
+  "rightsNotice": "NOTICE.txt",
+  "sourceManifestNote": "release-manifest.json is the unchanged build-time runtime inventory. Its historical status field does not describe this public-test publication.",
+  "files": [
+    {
+      "path": "NOTICE.txt",
+      "bytes": 863,
+      "sha256": "32e861163900fe25ea70e6cef2debfe1d1190e51a3022ecf9d12c767dafd09e6"
+    },
+    {
+      "path": "app.mjs",
+      "bytes": 36733,
+      "sha256": "5a0b8c96d6822de2da0be25949d4c1e0d06bba96c0afeab20d02f15cf83af42b"
+    },
+    {
+      "path": "board-data.mjs",
+      "bytes": 22304,
+      "sha256": "22391d9d9909379746f4a9d889efcbadbd0a584cf39a7a69c517bc0206b9c390"
+    },
+    {
+      "path": "engine/core.mjs",
+      "bytes": 16238,
+      "sha256": "a589c5df8272a1e8fc9f43b7feb0be1bcfc06998cb926a38c4a691142d597b40"
+    },
+    {
+      "path": "engine/index.mjs",
+      "bytes": 4478,
+      "sha256": "5f4f36fa074197b1ed6bffa44c61fb5e2585d7459cd9e7ff6a0512cc8f879c53"
+    },
+    {
+      "path": "icon.svg",
+      "bytes": 216,
+      "sha256": "2e8fde98fee36579d836202030f612dfc71c6d9c5162203add15c1d98a790535"
+    },
+    {
+      "path": "index.html",
+      "bytes": 5580,
+      "sha256": "eaa05e97134358d86a41083e76b1c714d0405a97944a3fde788a7b121f1eaec7"
+    },
+    {
+      "path": "release-manifest.json",
+      "bytes": 1706,
+      "sha256": "a723169794dbb43242e607e6eb0e9f9e6cfede3b2043a4e7727a0ffb3952545b"
+    },
+    {
+      "path": "storage.mjs",
+      "bytes": 3325,
+      "sha256": "9b99b59879c0eb091b0092690fd9b0c902f782b0cf27165fa45daf0e1dc15788"
+    },
+    {
+      "path": "style.css",
+      "bytes": 13937,
+      "sha256": "08c8b24a5954fdfca34eb2091ff2bf3e0230a8aa31f54c50696123b06e83f43b"
+    },
+    {
+      "path": "theme.css",
+      "bytes": 2366,
+      "sha256": "fc0f58132600b6c76ac389f71df03aba5a404bccd408b0deb05d44473da69ee2"
+    },
+    {
+      "path": "public-test.html",
+      "bytes": 3667,
+      "sha256": "62fad5759c1ff926d6fbdc6a1c6e6797b4d85f18f90bab20a61649f464469948"
+    }
+  ]
+}

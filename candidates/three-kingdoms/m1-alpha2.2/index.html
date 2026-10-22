@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light"><meta name="theme-color" content="#172735">
+<meta name="description" content="三国象棋，三人同屏轮流落子。丞相出师，实吃主公，原地收编。无账号、无联网对战。">
+<title>三国象棋 · 三人同屏</title>
+<link rel="icon" type="image/svg+xml" href="./icon.svg"><link rel="stylesheet" href="./theme.css"><link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header class="masthead"><div class="brand"><span class="seal" aria-hidden="true">三</span><div><h1>三国象棋</h1><p>三方对弈 · 各自争胜</p></div></div><div class="header-actions"><span class="mode-chip">三人同屏</span><button id="help-button" class="quiet inverse">玩法</button><button id="menu-button" class="quiet inverse">对局菜单</button></div></header>
+<main class="game-layout">
+<section class="board-column" aria-label="对弈棋盘">
+<div class="turn-bar"><span id="turn-badge" class="faction-badge faction-A">▲ 魏</span><div><strong id="turn-title">准备开局</strong><p id="turn-description">点选棋子，再选合法落点。</p></div><span id="move-count" class="move-count">第 1 手</span></div>
+<div class="board-tools"><div class="territory-tools" aria-label="移动棋盘视角"><button id="overview-button">全盘</button><button data-focus-sector="A">▲ 魏</button><button data-focus-sector="B">◆ 蜀</button><button data-focus-sector="C">■ 吴</button></div><div class="zoom-tools"><button id="zoom-out" aria-label="缩小棋盘">−</button><output id="zoom-label">100%</output><button id="zoom-in" aria-label="放大棋盘">＋</button></div></div>
+<div id="overview-notice" class="overview-notice" hidden>全盘预览 · 点「魏 / 蜀 / 吴」放大后行棋</div>
+<div id="board-viewport" class="board-viewport" tabindex="0" aria-label="可滚动棋盘；用上方国家按钮定位，方向键移动棋点焦点，回车选择，Esc取消">
+<svg id="board" xmlns="http://www.w3.org/2000/svg" viewBox="-570 -510 1140 1030" role="group" aria-label="三国象棋135个棋点、15条渡河线"><title>三方对称矩形棋盘</title><desc>棋子落在交叉点；河域内部不落子。棋盘可放大和滚动。</desc></svg>
+</div>
+<div class="board-caption"><span>135点 · 15桥</span><span>拖动空白处或滚动查看 · 全盘为预览</span></div>
+<div id="action-bar" class="action-bar"><div id="selection-description">等待开局</div><div class="action-buttons"><button id="cancel-selection" hidden>取消</button><button id="confirm-move" class="primary" hidden>确认落子</button><button id="pass-button" class="primary" hidden>困守，交给下一家</button></div></div>
+</section>
+<aside class="sidebar">
+<section class="panel armies-panel"><div class="panel-heading"><h2>三国局势</h2><span id="save-status" class="save-status">本地存档</span></div><div id="army-list"></div><p class="identity-note">外圈与符号 = 当前指挥<br>棋面「籍」徽标 = 固定原籍</p></section>
+<section class="panel dispatch-panel"><h2>战局</h2><p id="event-summary" class="event-summary">丞相可以出师，仍走田字、仍塞眼。</p><p id="status-detail" class="subtle">真正吃到主公，才接管其全部余军。</p><div id="terminal-actions" hidden><button id="new-after-end" class="primary wide">另开新局</button></div></section>
+<section class="panel record-panel"><div class="panel-heading"><h2>棋谱</h2><button id="replay-button" class="small">复盘</button></div><div id="record-pages" class="record-pages" hidden><button id="record-earlier" aria-label="查看较早一段棋谱">较早</button><span id="record-page-label"></span><button id="record-later" aria-label="查看较近一段棋谱">较近</button></div><button id="record-locate" class="record-locate" hidden>定位最新记录</button><ol id="move-list" class="move-list"><li class="empty-record">落子后，棋谱会记在这里。</li></ol><div id="replay-controls" hidden><div class="replay-banner">只读复盘，不改变正在下的棋局</div><p id="replay-current-action" class="replay-current-action" aria-live="polite"></p><input id="replay-range" type="range" min="0" max="0" value="0" aria-label="复盘事件位置"><div class="replay-buttons"><button id="replay-prev" aria-label="复盘上一步">上一步</button><span id="replay-position">0 / 0</span><button id="replay-next" aria-label="复盘下一步">下一步</button></div><button id="replay-close" class="primary wide">返回当前对局</button></div></section>
+<section class="panel compact-rule"><h2>第一局，记住这件事</h2><p>没有插队应将。第三方让线后，下一家可以在你再次行棋前斩主公。</p><button id="more-rules" class="text-button">查看完整走法与和棋条件 →</button></section>
+</aside>
+</main>
+<footer>原创三方规则 v0.3 · M1 同屏试玩 · 无账号 / 无AI / 无联网对战<br>题字取意演义，非历史国界。尚未进行真人平衡验证。</footer>
+<div id="live-announcement" class="visually-hidden" aria-live="polite" aria-atomic="true"></div>
+<dialog id="modal"><div id="modal-content"></div></dialog>
+<input id="import-input" type="file" accept="application/json,.json" hidden>
+<noscript><p class="fatal">需要启用 JavaScript 才能落子。此游戏不连接外部服务。</p></noscript>
+<script type="module" src="./app.mjs"></script>
+</body></html>
