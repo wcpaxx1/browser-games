@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "game": "三国象棋",
+  "version": "m1-alpha2.3-public-test-20261022",
+  "runtimeVersion": "m1-alpha2.3-20261022",
+  "status": "public-test",
+  "publishedTest": true,
+  "accepted": null,
+  "entry": "public-test.html",
+  "gameEntry": "index.html",
+  "runtimeUnmodifiedFromFreeze": true,
+  "networkDependencies": [],
+  "controls": "点棋选中，再点合法位置直接落子。下一位提交操作前，点刚落下的棋可从原起点按规则重下。",
+  "saveBehavior": "浏览器本地存档；不提供账号或云同步。",
+  "knownLimitations": [
+    "导出文件后重新导入的完整流程尚未验证。",
+    "真实失焦恢复、存储空间不足时的保存表现仍待验证。",
+    "终局重下预览切页不会自动退出；取消或Esc保留已落棋局。",
+    "手机真机、系统性真人三人对局和长期平衡仍待验证。"
+  ],
+  "rightsNotice": "NOTICE.txt",
+  "sourceManifestNote": "release-manifest.json保留构建时的版本清单；其中历史状态字段不表示本次公开测试的发布状态。",
+  "files": [
+    {
+      "path": "NOTICE.txt",
+      "bytes": 863,
+      "sha256": "32e861163900fe25ea70e6cef2debfe1d1190e51a3022ecf9d12c767dafd09e6"
+    },
+    {
+      "path": "app.mjs",
+      "bytes": 38259,
+      "sha256": "23af5c57e541f3becb9bcce5a2057d59df1af6d515e6b20c217dc9257972aec4"
+    },
+    {
+      "path": "board-data.mjs",
+      "bytes": 22304,
+      "sha256": "22391d9d9909379746f4a9d889efcbadbd0a584cf39a7a69c517bc0206b9c390"
+    },
+    {
+      "path": "engine/core.mjs",
+      "bytes": 16238,
+      "sha256": "a589c5df8272a1e8fc9f43b7feb0be1bcfc06998cb926a38c4a691142d597b40"
+    },
+    {
+      "path": "engine/index.mjs",
+      "bytes": 4478,
+      "sha256": "5f4f36fa074197b1ed6bffa44c61fb5e2585d7459cd9e7ff6a0512cc8f879c53"
+    },
+    {
+      "path": "icon.svg",
+      "bytes": 216,
+      "sha256": "2e8fde98fee36579d836202030f612dfc71c6d9c5162203add15c1d98a790535"
+    },
+    {
+      "path": "index.html",
+      "bytes": 5510,
+      "sha256": "946ab78d6635d958ff6e9cacfc4f63a4ef2ec741e001dda15fa156ed3695f942"
+    },
+    {
+      "path": "release-manifest.json",
+      "bytes": 1970,
+      "sha256": "299d1595ff084efb609b71d88657a2e59a9ec191274353ad70d8d7a557447368"
+    },
+    {
+      "path": "revision.mjs",
+      "bytes": 2346,
+      "sha256": "5ceee9fb93d322c0808156d621dc1705129a53f8236da2c4b821707f23cf9d51"
+    },
+    {
+      "path": "storage.mjs",
+      "bytes": 3325,
+      "sha256": "9b99b59879c0eb091b0092690fd9b0c902f782b0cf27165fa45daf0e1dc15788"
+    },
+    {
+      "path": "style.css",
+      "bytes": 14286,
+      "sha256": "92108572ca2d00045c1298f47c8f0269a6434d32e9d9395db32517af73eb0c31"
+    },
+    {
+      "path": "theme.css",
+      "bytes": 2366,
+      "sha256": "fc0f58132600b6c76ac389f71df03aba5a404bccd408b0deb05d44473da69ee2"
+    },
+    {
+      "path": "public-test.html",
+      "bytes": 3765,
+      "sha256": "758d5d0d2b82dcb5ba50f42633c23b1b6033c6178e3ffc0ff8270bec42e231b9"
+    }
+  ]
+}

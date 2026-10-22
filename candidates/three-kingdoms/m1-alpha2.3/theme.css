@@ -1,0 +1,44 @@
+/* M1 frozen appearance tokens only. No board geometry or runtime ownership. */
+:root {
+  --tk-paper: #F8F5ED;
+  --tk-piece-face: #FFFDF5;
+  --tk-ink: #172735;
+  --tk-muted-ink: #52616A;
+  --tk-surface: #FFFFFF;
+  --tk-wei: #2563D9;
+  --tk-wei-boundary: #2563D9;
+  --tk-wei-text: #2563D9;
+  --tk-wei-tint: #EAF1FF;
+  --tk-wei-badge-ink: #FFFFFF;
+  --tk-shu: #BE352E;
+  --tk-shu-boundary: #BE352E;
+  --tk-shu-text: #BE352E;
+  --tk-shu-tint: #FFF0ED;
+  --tk-shu-badge-ink: #FFFFFF;
+  --tk-wu: #E6B526;
+  --tk-wu-boundary: #654700;
+  --tk-wu-text: #654700;
+  --tk-wu-tint: #FFF5CD;
+  --tk-wu-badge-ink: #172735;
+  --tk-focus: #111827;
+  --tk-selected: #111827;
+  --tk-legal: #194D45;
+  --tk-attack: #8D2169;
+  --tk-font-ui: "Noto Sans CJK SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --tk-min-tap-target: 44px;
+  --tk-state-stroke: 2px;
+  --tk-selected-stroke: 3px;
+}
+/* Apply to the whole piece; only these values change on acquisition. */
+[data-tk-controller="wei"] { --tk-controller: var(--tk-wei); --tk-controller-boundary: var(--tk-wei-boundary); --tk-controller-ink: var(--tk-wei-badge-ink); --tk-controller-text: var(--tk-wei-text); }
+[data-tk-controller="shu"] { --tk-controller: var(--tk-shu); --tk-controller-boundary: var(--tk-shu-boundary); --tk-controller-ink: var(--tk-shu-badge-ink); --tk-controller-text: var(--tk-shu-text); }
+[data-tk-controller="wu"]  { --tk-controller: var(--tk-wu); --tk-controller-boundary: var(--tk-wu-boundary); --tk-controller-ink: var(--tk-wu-badge-ink); --tk-controller-text: var(--tk-wu-text); }
+/* Apply to the immutable badge, not the controller element. */
+[data-tk-origin="wei"] { --tk-origin: var(--tk-wei); --tk-origin-boundary: var(--tk-wei-boundary); --tk-origin-ink: var(--tk-wei-badge-ink); }
+[data-tk-origin="shu"] { --tk-origin: var(--tk-shu); --tk-origin-boundary: var(--tk-shu-boundary); --tk-origin-ink: var(--tk-shu-badge-ink); }
+[data-tk-origin="wu"]  { --tk-origin: var(--tk-wu); --tk-origin-boundary: var(--tk-wu-boundary); --tk-origin-ink: var(--tk-wu-badge-ink); }
+/* Never use --tk-wu for text or the sole thin boundary on a light board.
+   National shape geometry: triangle=魏, diamond=蜀, square=吴.
+   Selected=four solid corners; focus=offset dashed enclosure.
+   Legal=open circle + dot; attack=four inward chevrons.
+   Do not implement any of those states with a color change alone. */
