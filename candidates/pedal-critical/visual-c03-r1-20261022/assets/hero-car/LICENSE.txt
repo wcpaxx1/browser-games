@@ -1,0 +1,8 @@
+Original Brake family-sedan asset and included original authoring scripts
+Author/origin: OpenAI assistant, created for the Brake project on 2026-10-20.
+SPDX-License-Identifier: CC0-1.0
+
+To the extent possible under law, the author has waived all copyright and related or neighboring rights to this original work under CC0 1.0 Universal.
+https://creativecommons.org/publicdomain/zero/1.0/
+
+No sourced vehicle meshes, textures, logos, proprietary GTA/NFS assets, or other third-party asset dependencies are included. Blender itself is external production software and is not redistributed in this package. No warranty is made that the asset is production-ready or that it simulates physical vehicle damage.

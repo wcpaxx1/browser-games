@@ -1,0 +1,25 @@
+CC0 1.0 Universal dedication for the original roadside runtime assets listed below.
+
+To the extent possible under law, the creator dedicates these original procedural
+models and authored surface images to the public domain under CC0 1.0 Universal:
+- r1_tree_kit.glb
+- root_contact_lod1.glb
+- tree_elm_lod1.glb
+- tree_poplar_lod1.glb
+- meadow-detail-basecolor.png
+- meadow-detail-normal.png
+- meadow-detail-roughness.png
+
+Full legal instrument: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+
+No warranty is provided. This dedication does not grant trademarks, patents,
+publicity/privacy rights, or rights in third-party material.
+
+No commercial IP, third-party art, texture, model, font, or purchased asset was
+used to produce these original assets. Blender, NumPy, Pillow and Three are
+tools/dependencies, not relicensed contents of this dedication.
+
+This dedication applies only to the listed roadside files. Other runtime assets
+and dependency software retain their own licenses, included elsewhere in this
+public runtime package. No reference screenshots or private source archive are
+included in this roadside subset.

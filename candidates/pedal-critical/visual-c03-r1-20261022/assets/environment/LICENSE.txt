@@ -1,0 +1,22 @@
+Brake Outdoor Materials c01 (2026-10-22)
+SPDX-License-Identifier: CC0-1.0
+
+The new material maps, original numerical HDR environment, parameter preset,
+authoring scripts, and explanatory documents in this asset pack were created
+for the Brake project by the OpenAI assistant. To the extent permitted by law,
+the author waives copyright and related rights in this original work under
+the Creative Commons CC0 1.0 Universal public-domain dedication.
+
+No external photo, mesh, texture, logo, font, or third-party creative asset is
+included in these new material files. There were no new accounts or payments.
+
+The existing Brake candidate04 sedan, incorporated only in the offline review
+scene and renders, retains its original CC0-1.0 declaration. Its geometry and
+source asset files were not modified by this task.
+
+Blender, Three.js, Python, NumPy, SciPy, and Pillow are independent tools used
+for authoring or validation; this package does not claim ownership of them or
+redistribute their binaries/source. The licenses of those tools remain theirs.
+
+The asset pack is supplied without warranty. This dedication does not imply
+fitness for purpose, visual acceptance, browser performance, or game safety.

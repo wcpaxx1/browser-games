@@ -1,0 +1,162 @@
+{
+  "release": "pedal-critical-visual-c03-r1-20261022",
+  "status": "public-test-not-user-accepted",
+  "changeScope": "Original roadside visual assets; isolated C03 save namespace; error/loading navigation and initial camera-label fixes. No physics/input changes.",
+  "files": [
+    {
+      "path": "KNOWN-LIMITS.txt",
+      "bytes": 2130,
+      "sha256": "557d4c23b1668809596b0a121da5e5596ff92b34b4866a721cf4c822f0dade5f"
+    },
+    {
+      "path": "NOTICE.txt",
+      "bytes": 1012,
+      "sha256": "a754e9976d1099cf0cab19dba2c81741e81ab507e059f207bb4a771576242044"
+    },
+    {
+      "path": "asset-credits.json",
+      "bytes": 5884,
+      "sha256": "9b39b2e4eca9eed78dfdf198f5d51c599d9f025803f85933289b53e84e656b6c"
+    },
+    {
+      "path": "assets/environment/LICENSE.txt",
+      "bytes": 1205,
+      "sha256": "fcc9170a213924a7a418d902edea741d316756b9791fa470a509cefe788a7585"
+    },
+    {
+      "path": "assets/environment/asphalt-basecolor.png",
+      "bytes": 994466,
+      "sha256": "c7c4a569acaf6db1ba322d84e1c46bf61df5202bcc1f93f106eb112f9e327d3e"
+    },
+    {
+      "path": "assets/environment/asphalt-normal.png",
+      "bytes": 466558,
+      "sha256": "1f2d5306a6424c86b3e16f52c6409b336d9ad4458979f587356f90ecd7cd6f5e"
+    },
+    {
+      "path": "assets/environment/asphalt-roughness.png",
+      "bytes": 123839,
+      "sha256": "ab0dad8b0948dfbe6b87f2b47ab675fb8095ef633f4468384f355b982bd36b06"
+    },
+    {
+      "path": "assets/environment/brake-daylight-1k.hdr",
+      "bytes": 2115634,
+      "sha256": "8791ced8123652bdca6c51e5fa92a01fd601f1ae3da020fb2dbf2b4674a6d2ad"
+    },
+    {
+      "path": "assets/environment/lighting-material-preset.json",
+      "bytes": 4795,
+      "sha256": "85a57085f7e734c323e4f8c48dc888ae7ab8782f5fc42f47c5c211cc699b2ca6"
+    },
+    {
+      "path": "assets/environment/shoulder-basecolor.png",
+      "bytes": 336169,
+      "sha256": "fafa55773fdb05b0aedd1b25025a859e13b23810f812c232addfc9f10214c21e"
+    },
+    {
+      "path": "assets/environment/shoulder-normal.png",
+      "bytes": 552816,
+      "sha256": "1f5198df63cebbe0861b9061551a4d9d01154d82cf44d21d6c341d52aee41664"
+    },
+    {
+      "path": "assets/environment/shoulder-roughness.png",
+      "bytes": 139326,
+      "sha256": "7cf1e6a0514de934d3aae0d4b1dafc54dbbd6b1b08402ccbb26aabd6fadc9a2c"
+    },
+    {
+      "path": "assets/hero-car/LICENSE.txt",
+      "bytes": 705,
+      "sha256": "0958116b767b58fd6d33edf7b5016847baf3c208142cc84d85322d2240152396"
+    },
+    {
+      "path": "assets/hero-car/brake-family-sedan.glb",
+      "bytes": 3589888,
+      "sha256": "4f9e28c0e99a06c674364fd927f3ff5d5f99461033802611f4fb93559411aecf"
+    },
+    {
+      "path": "assets/hero-car/car-only-binding-profile.json",
+      "bytes": 9500,
+      "sha256": "1cc003ef11431462ea2d4de2be5acacfe67442b850d3a02a5eaebba656d8e08e"
+    },
+    {
+      "path": "assets/index-4tmZEHKT.css",
+      "bytes": 14480,
+      "sha256": "b5866497c8fbc7d208324e8a9dbe38e5a7e6d9ea29f9b7971a4c7dc9251cb8bb"
+    },
+    {
+      "path": "assets/index-JT-avUn-.js",
+      "bytes": 4144734,
+      "sha256": "7041fba76f603479dc83fcdcf97185d1ce18e80436c89f2be186e806f0f079f4"
+    },
+    {
+      "path": "assets/roadside/LICENSE-CC0.txt",
+      "bytes": 1136,
+      "sha256": "246ab89a509d24838530fb23c354eecf4f891e30e0f782b957512d97b070fcf0"
+    },
+    {
+      "path": "assets/roadside/meadow-detail-basecolor.png",
+      "bytes": 252303,
+      "sha256": "abefed117810cd5ba5b8eba0ee475f16177e5584f834f4b43fa07b3479c58299"
+    },
+    {
+      "path": "assets/roadside/meadow-detail-normal.png",
+      "bytes": 304159,
+      "sha256": "59193b583f7a370219ea0a1c508b06f2eea1de692250e7bdff67592ca95a440b"
+    },
+    {
+      "path": "assets/roadside/meadow-detail-roughness.png",
+      "bytes": 48824,
+      "sha256": "2b0eabe5325806880cffb44b36f92c36537dca83886898e02966137170e688f7"
+    },
+    {
+      "path": "assets/roadside/r1_tree_kit.glb",
+      "bytes": 626532,
+      "sha256": "250e8a882a6d994819f9c368854a0915f102f803171ec2cd25b9939af0a813d6"
+    },
+    {
+      "path": "assets/roadside/root_contact_lod1.glb",
+      "bytes": 4056,
+      "sha256": "f4774196eb1c3491982a50f8068686c7caa7814485b547ce666c88494c044504"
+    },
+    {
+      "path": "assets/roadside/tree_elm_lod1.glb",
+      "bytes": 19220,
+      "sha256": "ba8214e393a4c46de0a719d15cb1296010ebf60b4c78379dcc1d26f158284744"
+    },
+    {
+      "path": "assets/roadside/tree_poplar_lod1.glb",
+      "bytes": 17556,
+      "sha256": "207400b670a5db51bdf0ecbc98ba592937953b5c19192adbb349201b9e679df3"
+    },
+    {
+      "path": "index.html",
+      "bytes": 2951,
+      "sha256": "713adc6ff1ace5daf95d3a6d9ad348123e35bc0a07bdd40e3e0e14b29c816127"
+    },
+    {
+      "path": "licenses/rapier-Apache-2.0.txt",
+      "bytes": 11343,
+      "sha256": "4c05555705e3efde601fb1252ae48f1d63992af8a8fb8947745b7fa834e8f519"
+    },
+    {
+      "path": "licenses/rolldown-MIT.txt",
+      "bytes": 1302,
+      "sha256": "23ecfff35a5a2e80d92142f75228912c3b1abc4b5a8337a821ff4397e2f9f734"
+    },
+    {
+      "path": "licenses/three-MIT.txt",
+      "bytes": 1081,
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "path": "licenses/vite-core-MIT.txt",
+      "bytes": 1162,
+      "sha256": "e373c2e74cd342b9e74d0b8813a8fddf3c9788515669a79c2ac238195673d38b"
+    },
+    {
+      "path": "play.html",
+      "bytes": 594,
+      "sha256": "2178c4a4544465aeaae0812e78991df28489be0551015f7de8da3b6bfaa6b4c7"
+    }
+  ]
+}

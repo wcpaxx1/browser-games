@@ -1,0 +1,128 @@
+{
+  "title": "踏板临界 · 路侧视觉公测 C03 R1",
+  "contentVersion": "pedal-critical-visual-c03-r1-20261022",
+  "author": "Original artwork and synthesis created for this project under the user’s direction",
+  "source": "Original project car, PBR environment, near-tree, distant-tree and meadow artwork. Independent public visual test; no third-party art.",
+  "license": "Project-original. No third-party art or sound samples. Redistribution is governed by the project owner.",
+  "thirdPartyArt": [],
+  "thirdPartyAudio": [],
+  "runtimeNetworkAssets": true,
+  "verification": "Build and targeted CPU/Node checks only. Real browser visuals, failure-state navigation, motion, touch and GPU performance remain unverified.",
+  "heroCar": {
+    "path": "assets/hero-car/brake-family-sedan.glb",
+    "sha256": "4f9e28c0e99a06c674364fd927f3ff5d5f99461033802611f4fb93559411aecf",
+    "license": "CC0-1.0",
+    "licensePath": "assets/hero-car/LICENSE.txt",
+    "status": "car-only: no occupants, cracks, authored crumple states or physical suspension"
+  },
+  "externalRuntimeNetworkAssets": false,
+  "runtimeAssetLoading": "Same-origin mandatory c04 GLB, seven original environment files, four original roadside GLBs and three original meadow maps. No remote CDN, accounts, analytics or save transmission.",
+  "environment": {
+    "version": "brake-outdoor-materials-c01-20261022",
+    "license": "CC0-1.0",
+    "licensePath": "assets/environment/LICENSE.txt",
+    "files": [
+      {
+        "path": "assets/environment/LICENSE.txt",
+        "bytes": 1205,
+        "sha256": "fcc9170a213924a7a418d902edea741d316756b9791fa470a509cefe788a7585"
+      },
+      {
+        "path": "assets/environment/asphalt-basecolor.png",
+        "bytes": 994466,
+        "sha256": "c7c4a569acaf6db1ba322d84e1c46bf61df5202bcc1f93f106eb112f9e327d3e"
+      },
+      {
+        "path": "assets/environment/asphalt-normal.png",
+        "bytes": 466558,
+        "sha256": "1f2d5306a6424c86b3e16f52c6409b336d9ad4458979f587356f90ecd7cd6f5e"
+      },
+      {
+        "path": "assets/environment/asphalt-roughness.png",
+        "bytes": 123839,
+        "sha256": "ab0dad8b0948dfbe6b87f2b47ab675fb8095ef633f4468384f355b982bd36b06"
+      },
+      {
+        "path": "assets/environment/brake-daylight-1k.hdr",
+        "bytes": 2115634,
+        "sha256": "8791ced8123652bdca6c51e5fa92a01fd601f1ae3da020fb2dbf2b4674a6d2ad"
+      },
+      {
+        "path": "assets/environment/lighting-material-preset.json",
+        "bytes": 4795,
+        "sha256": "85a57085f7e734c323e4f8c48dc888ae7ab8782f5fc42f47c5c211cc699b2ca6"
+      },
+      {
+        "path": "assets/environment/shoulder-basecolor.png",
+        "bytes": 336169,
+        "sha256": "fafa55773fdb05b0aedd1b25025a859e13b23810f812c232addfc9f10214c21e"
+      },
+      {
+        "path": "assets/environment/shoulder-normal.png",
+        "bytes": 552816,
+        "sha256": "1f5198df63cebbe0861b9061551a4d9d01154d82cf44d21d6c341d52aee41664"
+      },
+      {
+        "path": "assets/environment/shoulder-roughness.png",
+        "bytes": 139326,
+        "sha256": "7cf1e6a0514de934d3aae0d4b1dafc54dbbd6b1b08402ccbb26aabd6fadc9a2c"
+      }
+    ],
+    "scope": "PBR road/shoulder and outdoor HDR for IBL; no GLB changes, no new physical collision authority."
+  },
+  "roadside": {
+    "version": "roadside-c03-r1-bounded-20261022",
+    "license": "CC0-1.0",
+    "licensePath": "assets/roadside/LICENSE-CC0.txt",
+    "files": [
+      {
+        "path": "assets/roadside/LICENSE-CC0.txt",
+        "bytes": 1136,
+        "sha256": "246ab89a509d24838530fb23c354eecf4f891e30e0f782b957512d97b070fcf0"
+      },
+      {
+        "path": "assets/roadside/meadow-detail-basecolor.png",
+        "bytes": 252303,
+        "sha256": "abefed117810cd5ba5b8eba0ee475f16177e5584f834f4b43fa07b3479c58299"
+      },
+      {
+        "path": "assets/roadside/meadow-detail-normal.png",
+        "bytes": 304159,
+        "sha256": "59193b583f7a370219ea0a1c508b06f2eea1de692250e7bdff67592ca95a440b"
+      },
+      {
+        "path": "assets/roadside/meadow-detail-roughness.png",
+        "bytes": 48824,
+        "sha256": "2b0eabe5325806880cffb44b36f92c36537dca83886898e02966137170e688f7"
+      },
+      {
+        "path": "assets/roadside/r1_tree_kit.glb",
+        "bytes": 626532,
+        "sha256": "250e8a882a6d994819f9c368854a0915f102f803171ec2cd25b9939af0a813d6"
+      },
+      {
+        "path": "assets/roadside/root_contact_lod1.glb",
+        "bytes": 4056,
+        "sha256": "f4774196eb1c3491982a50f8068686c7caa7814485b547ce666c88494c044504"
+      },
+      {
+        "path": "assets/roadside/tree_elm_lod1.glb",
+        "bytes": 19220,
+        "sha256": "ba8214e393a4c46de0a719d15cb1296010ebf60b4c78379dcc1d26f158284744"
+      },
+      {
+        "path": "assets/roadside/tree_poplar_lod1.glb",
+        "bytes": 17556,
+        "sha256": "207400b670a5db51bdf0ecbc98ba592937953b5c19192adbb349201b9e679df3"
+      }
+    ],
+    "qualityPolicy": "Four fixed R1 cutout near trees only at high quality. Twenty-four opaque far trees remain at both settings, full crown at least 90m from whole route. No distance-based LOD switch.",
+    "verification": "CPU load/geometry/clearance and build only. Browser pixels, visibility, alpha edge flicker, frame time and mobile behavior pending."
+  },
+  "persistence": {
+    "namespace": "pedal-critical/visual-c03-r1-20261022/save/v1",
+    "isolation": "Independent from c02. No reads, migration, deletion or overwrite of c02 or old game storage; schema and algorithm unchanged."
+  },
+  "uiCorrection": "Failed scene load dismisses the start/tutorial overlay. Settings can remain open; returning from settings or Home preserves the readable failed state. Existing camera labels and HUD readiness gate retained. Browser pixel recheck pending.",
+  "saveIsolation": "Independent C03 namespace. Does not read, migrate, delete or write original-game or c01/c02 saves."
+}
