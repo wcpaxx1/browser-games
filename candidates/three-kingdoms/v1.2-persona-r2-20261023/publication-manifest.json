@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "version": "v1.2-persona-r2-20261023",
+  "rules": "three-kingdoms-xiangqi-v0.4-capture-lord",
+  "status": "isolated-public-qa-candidate",
+  "accepted": false,
+  "entry": "index.html",
+  "optionalNoticeEntry": "public-test.html",
+  "directBoardEntry": true,
+  "purpose": "全盘与视角按钮避让人物题字、印章及棋盘落点的浏览器回归验证；不是已验收版本。",
+  "runtime": {
+    "fileCount": 31,
+    "totalBytes": 1461503,
+    "files": [
+      {
+        "path": "NOTICE.txt",
+        "bytes": 1726,
+        "sha256": "862a6e874cd0a8ca8754ccf3e3d20c6223973b9884b5cfb3ed791cd4073f370f"
+      },
+      {
+        "path": "app.mjs",
+        "bytes": 69491,
+        "sha256": "79eff6dd0af2bf106ca238b4f5fbf93af5e085a6156d8b3cce2a8521575cd357"
+      },
+      {
+        "path": "assets/ART-PROVENANCE.txt",
+        "bytes": 1854,
+        "sha256": "2f29218ba59b0cac73da5a030029fb989151787fc1ae8ebb65247ed26d6f5c0d"
+      },
+      {
+        "path": "assets/ZHENKAI-OFL.txt",
+        "bytes": 5361,
+        "sha256": "1ee66a22ddfa5241d407a5fd9a2ba666c4de5700f17182d5ee729e0434e7b42d"
+      },
+      {
+        "path": "assets/portraits/cao-cao.webp",
+        "bytes": 76868,
+        "sha256": "6d0166278159e06c371305f28464169a76244fe51d77ad66802c6f10e6e2501d"
+      },
+      {
+        "path": "assets/portraits/liu-bei.webp",
+        "bytes": 78832,
+        "sha256": "433f2a84b691926aca778bacf721d81365bf24d1b2952d42abc3e97a0544f563"
+      },
+      {
+        "path": "assets/portraits/lu-su.webp",
+        "bytes": 73040,
+        "sha256": "a4415193b405e380e98e0b3d1a6d6649189521b2bc6e611e922166aaac621bb6"
+      },
+      {
+        "path": "assets/portraits/pang-tong.webp",
+        "bytes": 63498,
+        "sha256": "7e9e1b634e37b6ec215c2f4790730317f92af5270a69865ab8c9a75d51ffc1dc"
+      },
+      {
+        "path": "assets/portraits/sima-yi.webp",
+        "bytes": 63498,
+        "sha256": "0798bf975ef2e2134edf32ff27d9f6743012a9d19906da370f3b614d9700b3d5"
+      },
+      {
+        "path": "assets/portraits/sun-quan.webp",
+        "bytes": 80658,
+        "sha256": "152547068b9252c7978fcb248ac93c47a6ecb4483bf9c5e3c1c29c14be4d6220"
+      },
+      {
+        "path": "assets/portraits/xun-yu.webp",
+        "bytes": 75458,
+        "sha256": "ce4e8f03cef35cb5b72db00c2d24c73191cc7795844effc4a485004a60ccc383"
+      },
+      {
+        "path": "assets/portraits/zhou-yu.webp",
+        "bytes": 88146,
+        "sha256": "801dd4ec6b9370186e7c241c7a501fa2da1db4f74574b4b16032c6ca15bb7a09"
+      },
+      {
+        "path": "assets/portraits/zhuge-liang.webp",
+        "bytes": 72616,
+        "sha256": "9287731582477502e16ba516329837246e404b8be8d29d69403005cacf885841"
+      },
+      {
+        "path": "assets/war-map-exact-clipped.webp",
+        "bytes": 268574,
+        "sha256": "5eb2860d2b47dfedc416ef50cca1f5789e8acbbcf03de1e409ca8f900dc655c4"
+      },
+      {
+        "path": "assets/whole-canvas-landscape.webp",
+        "bytes": 313908,
+        "sha256": "7b397cf49ce53d8219f2f24b44697c73588b2d43b8362136ea54adb19259eb29"
+      },
+      {
+        "path": "assets/zhenkai-persona-web.woff",
+        "bytes": 21556,
+        "sha256": "aa71033dc7965eab7855c5abb8c2deebe234f7bd0f0fe81ce117bd0265c9c87d"
+      },
+      {
+        "path": "board-data.mjs",
+        "bytes": 22304,
+        "sha256": "22391d9d9909379746f4a9d889efcbadbd0a584cf39a7a69c517bc0206b9c390"
+      },
+      {
+        "path": "camera.mjs",
+        "bytes": 1052,
+        "sha256": "b66a72885fea0406a930127105b0a46787de323398d69379fc2b7073eae72bde"
+      },
+      {
+        "path": "engine/core.mjs",
+        "bytes": 16251,
+        "sha256": "9e3d46a619bc2544e0d9e682a0ca97ff77bcf65858fd5251dec303cbcd3185aa"
+      },
+      {
+        "path": "engine/index.mjs",
+        "bytes": 4568,
+        "sha256": "9de2d3e9869ebf6144fb377b0583c8e64ef801aed2d125fe3578df92a1094d5d"
+      },
+      {
+        "path": "hud-placement.mjs",
+        "bytes": 1856,
+        "sha256": "41856f5b787904f8eb1824b79dda3343213d606ad180a1ac4cdeb00f419f9e69"
+      },
+      {
+        "path": "icon.svg",
+        "bytes": 216,
+        "sha256": "2e8fde98fee36579d836202030f612dfc71c6d9c5162203add15c1d98a790535"
+      },
+      {
+        "path": "index.html",
+        "bytes": 11269,
+        "sha256": "1dc158da1e38b332136a51a28cc75f809142a85919f05b5d4cbdf883fc8613db"
+      },
+      {
+        "path": "persona-roles.json",
+        "bytes": 3421,
+        "sha256": "59acdbd91c7070dc181a056728b9b3d3895e3cc42094c8e9fa4591463381b8fa"
+      },
+      {
+        "path": "persona.mjs",
+        "bytes": 5320,
+        "sha256": "b0149f379ff66f258d73640dbac13d2c2323634914c7d308a532b8c311db0932"
+      },
+      {
+        "path": "portrait-assets.mjs",
+        "bytes": 2691,
+        "sha256": "13fa367709cc030a78b152c759f909b5a1d232532abef99fa8df1ce58196ea9f"
+      },
+      {
+        "path": "release-manifest.json",
+        "bytes": 6289,
+        "sha256": "6a5192529aafb9f5a6cae179cd8fbe1e2bd3d2b066d4b5c23f0e34ecbe7a65f6"
+      },
+      {
+        "path": "revision.mjs",
+        "bytes": 2359,
+        "sha256": "6e8dcec5adcd6c503c537554ac9af046c5b63de20bbbcd470edcc9fb34633209"
+      },
+      {
+        "path": "storage.mjs",
+        "bytes": 4116,
+        "sha256": "8713ea4f7f67676fbaef899da34ca4fae713736f103ea5632333be6fbeb16146"
+      },
+      {
+        "path": "style.css",
+        "bytes": 22341,
+        "sha256": "6d7ce295a4d4fb039974e76b5cb6bcdeeb63f064aa3b8bea3f7264f32b701b11"
+      },
+      {
+        "path": "theme.css",
+        "bytes": 2366,
+        "sha256": "fc0f58132600b6c76ac389f71df03aba5a404bccd408b0deb05d44473da69ee2"
+      }
+    ]
+  },
+  "publicNotice": {
+    "path": "public-test.html",
+    "bytes": 2481,
+    "sha256": "639bea825ced34684119de7118fca39504862dcf3e8589a7e1f46759a8ce48cd"
+  },
+  "saveCompatibility": {
+    "sameAsPublicWarMapR2": true,
+    "activeKey": "tk-xiangqi.capture-lord.v04.active",
+    "gamePrefix": "tk-xiangqi.capture-lord.v04.game.",
+    "legacyActiveKey": "tk-xiangqi.m1.active",
+    "legacyGameplayReadOnly": true,
+    "automaticConversion": false,
+    "backupBeforeTesting": true,
+    "avoidConcurrentVersions": true,
+    "sameAsPublicPersona": true
+  },
+  "art": {
+    "source": "Original generated landscape, internal war map and nine historical-themed portraits with original live SVG tactical layer.",
+    "webFont": "LXGW ZhenKai Slab GB web-only subset; bundled SIL OFL 1.1 and web-subsetting permission.",
+    "portraitMotion": "Active faction only, every 7 seconds; paused/hidden/replay/ended/reduced-motion states static.",
+    "audio": false,
+    "storySystem": false
+  },
+  "networkDependencies": [],
+  "qa": {
+    "stylePreference": "User liked the visual direction; not runtime acceptance",
+    "staticComposition": "Reviewed separately; not browser or user acceptance",
+    "browserValidation": "pending",
+    "ordinaryPlayerRounds": "pending",
+    "realHumanPlaytest": "not claimed",
+    "userAcceptance": "pending"
+  },
+  "bootStatusCaveat": "Visible bounded loading/failure states and user-initiated reload do not establish the cause or resolution of the prior intermittent empty board incident.",
+  "sourceManifestNote": "The exact frozen runtime manifest retains its preparation status; this publication manifest identifies the isolated test destination.",
+  "changeScope": "新增展示层停靠布局模块，调整按钮结构与位置；全部美术、人物计时、棋规和存档模块字节保持不变。"
+}

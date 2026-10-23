@@ -1,0 +1,85 @@
+{
+  "scope": "Nine historical-figure carousel identities for a fictional Three Kingdoms chess presentation, not one distinct person per chess token.",
+  "display_note_zh": "汉末三国群英集结，采用各人生涯代表身份，并非同一年在任阵容。",
+  "portrait_note_zh": "历史题材美术形象，非史实肖像复原。",
+  "roles": [
+    {
+      "faction": "魏",
+      "name": "曹操",
+      "displayRole": "主公",
+      "roleKind": "game functional label",
+      "caution": "曹操生前不是曹魏皇帝；不要为了阵营统一将其标为魏帝。"
+    },
+    {
+      "faction": "魏",
+      "name": "荀彧",
+      "displayRole": "谋士",
+      "roleKind": "game functional label",
+      "historicalOffice": "汉侍中、尚书令",
+      "caution": "尚书令不是丞相；阵营归属为曹操阵营的题材化分类。",
+      "source": "https://zh.wikisource.org/zh-hans/三國志/卷10"
+    },
+    {
+      "faction": "魏",
+      "name": "司马懿",
+      "displayRole": "太傅",
+      "roleKind": "historical office",
+      "caution": "采用曹魏时期太傅身份，不使用后世追尊的晋帝身份；太傅身份晚于曹操生前。",
+      "source": "https://zh.wikisource.org/zh-hans/三國志/卷04"
+    },
+    {
+      "faction": "蜀",
+      "name": "刘备",
+      "displayRole": "主公",
+      "roleKind": "game functional label"
+    },
+    {
+      "faction": "蜀",
+      "name": "诸葛亮",
+      "displayRole": "丞相",
+      "roleKind": "historical office",
+      "historicalOffice": "蜀汉丞相",
+      "caution": "诸葛亮确实任丞相，但该职晚于庞统在世年代。",
+      "source": "https://zh.wikisource.org/zh-hans/三國志/卷35"
+    },
+    {
+      "faction": "蜀",
+      "name": "庞统",
+      "displayRole": "谋士",
+      "roleKind": "game functional label",
+      "historicalOffice": "军师中郎将",
+      "source": "https://ctext.org/text.pl?if=gb&node=603565"
+    },
+    {
+      "faction": "吴",
+      "name": "孙权",
+      "displayRole": "主公",
+      "roleKind": "game functional label"
+    },
+    {
+      "faction": "吴",
+      "name": "周瑜",
+      "displayRole": "都督",
+      "roleKind": "conventional commander label",
+      "historicalOffice": "前部大督；偏将军、南郡太守",
+      "caution": "“都督”为易懂的统帅标签，不应称丞相。若显示严格官名，使用前部大督或偏将军。",
+      "source": "https://zh.wikisource.org/zh-hans/三國志/卷54"
+    },
+    {
+      "faction": "吴",
+      "name": "鲁肃",
+      "displayRole": "谋士",
+      "roleKind": "game functional label",
+      "historicalOffice": "赞军校尉；后为奋武校尉、汉昌太守、偏将军、横江将军",
+      "caution": "鲁肃不是丞相，也不只是文弱的献策者；其后实际领兵。",
+      "source": "https://zh.wikisource.org/zh-hans/三國志/卷54"
+    }
+  ],
+  "uiRules": [
+    "Use full names and full terms, never 主/士/相 as unexplained abbreviations.",
+    "Keep historical identity labels independent from chess movement classes.",
+    "Do not label Rusu, Xun Yu, Sima Yi, Pang Tong, or Zhou Yu as chancellor merely for symmetry.",
+    "Represent the roster as an anthology across Han-end and Three Kingdoms lifetimes, not an exact-year reconstruction.",
+    "Do not claim clothing, hair, face, props, or colors are authenticated portraits."
+  ]
+}
