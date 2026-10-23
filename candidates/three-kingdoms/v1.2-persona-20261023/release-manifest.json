@@ -1,0 +1,161 @@
+{
+  "version": "v1.2-persona-20261023",
+  "status": "frozen-private-review-candidate-native-browser-animation-acceptance-pending",
+  "rules": "three-kingdoms-xiangqi-v0.4-capture-lord",
+  "board": "symmetric-v05-135-nodes-15-bridges",
+  "entry": "index.html",
+  "networkDependencies": [],
+  "changesFrom": "v1.1-capture-lord-war-map-r2-20261023",
+  "interaction": "direct-entry-full-roles-larger-fit-zoom-pan-three-perspectives-turn-only-portrait-carousel",
+  "saveCompatibility": "Engine, revision and storage bytes unchanged. Separate v0.4 namespace; strict old-version rejection; legacy slots read-only and raw exportable. No conversion.",
+  "artStatus": "User liked persona style; root and independent passed static components and source-SVG composition. Actual browser loading, HUD occlusion and animation remain separate acceptance. Corrected Sima Yi crown metadata, unchanged image bytes.",
+  "motion": "Only active faction advances every7000ms. Inactive, paused, hidden, replay, ended and reduced-motion states are static. Manual portrait browsing is explicit and presentation-only.",
+  "bootStatus": "Bounded in-memory stage diagnostics, visible pending/failure and user-initiated reload only. Original intermittent empty-shell incident remains unexplained, not resolved by this boundary.",
+  "files": [
+    {
+      "path": "NOTICE.txt",
+      "bytes": 1726,
+      "sha256": "862a6e874cd0a8ca8754ccf3e3d20c6223973b9884b5cfb3ed791cd4073f370f"
+    },
+    {
+      "path": "app.mjs",
+      "bytes": 66384,
+      "sha256": "4e96fd420857929f746aacc419883c632361669639e13bb88ab7115d4a753d9c"
+    },
+    {
+      "path": "assets/ART-PROVENANCE.txt",
+      "bytes": 1854,
+      "sha256": "2f29218ba59b0cac73da5a030029fb989151787fc1ae8ebb65247ed26d6f5c0d"
+    },
+    {
+      "path": "assets/ZHENKAI-OFL.txt",
+      "bytes": 5361,
+      "sha256": "1ee66a22ddfa5241d407a5fd9a2ba666c4de5700f17182d5ee729e0434e7b42d"
+    },
+    {
+      "path": "assets/portraits/cao-cao.webp",
+      "bytes": 76868,
+      "sha256": "6d0166278159e06c371305f28464169a76244fe51d77ad66802c6f10e6e2501d"
+    },
+    {
+      "path": "assets/portraits/liu-bei.webp",
+      "bytes": 78832,
+      "sha256": "433f2a84b691926aca778bacf721d81365bf24d1b2952d42abc3e97a0544f563"
+    },
+    {
+      "path": "assets/portraits/lu-su.webp",
+      "bytes": 73040,
+      "sha256": "a4415193b405e380e98e0b3d1a6d6649189521b2bc6e611e922166aaac621bb6"
+    },
+    {
+      "path": "assets/portraits/pang-tong.webp",
+      "bytes": 63498,
+      "sha256": "7e9e1b634e37b6ec215c2f4790730317f92af5270a69865ab8c9a75d51ffc1dc"
+    },
+    {
+      "path": "assets/portraits/sima-yi.webp",
+      "bytes": 63498,
+      "sha256": "0798bf975ef2e2134edf32ff27d9f6743012a9d19906da370f3b614d9700b3d5"
+    },
+    {
+      "path": "assets/portraits/sun-quan.webp",
+      "bytes": 80658,
+      "sha256": "152547068b9252c7978fcb248ac93c47a6ecb4483bf9c5e3c1c29c14be4d6220"
+    },
+    {
+      "path": "assets/portraits/xun-yu.webp",
+      "bytes": 75458,
+      "sha256": "ce4e8f03cef35cb5b72db00c2d24c73191cc7795844effc4a485004a60ccc383"
+    },
+    {
+      "path": "assets/portraits/zhou-yu.webp",
+      "bytes": 88146,
+      "sha256": "801dd4ec6b9370186e7c241c7a501fa2da1db4f74574b4b16032c6ca15bb7a09"
+    },
+    {
+      "path": "assets/portraits/zhuge-liang.webp",
+      "bytes": 72616,
+      "sha256": "9287731582477502e16ba516329837246e404b8be8d29d69403005cacf885841"
+    },
+    {
+      "path": "assets/war-map-exact-clipped.webp",
+      "bytes": 268574,
+      "sha256": "5eb2860d2b47dfedc416ef50cca1f5789e8acbbcf03de1e409ca8f900dc655c4"
+    },
+    {
+      "path": "assets/whole-canvas-landscape.webp",
+      "bytes": 313908,
+      "sha256": "7b397cf49ce53d8219f2f24b44697c73588b2d43b8362136ea54adb19259eb29"
+    },
+    {
+      "path": "assets/zhenkai-persona-web.woff",
+      "bytes": 21556,
+      "sha256": "aa71033dc7965eab7855c5abb8c2deebe234f7bd0f0fe81ce117bd0265c9c87d"
+    },
+    {
+      "path": "board-data.mjs",
+      "bytes": 22304,
+      "sha256": "22391d9d9909379746f4a9d889efcbadbd0a584cf39a7a69c517bc0206b9c390"
+    },
+    {
+      "path": "camera.mjs",
+      "bytes": 1052,
+      "sha256": "b66a72885fea0406a930127105b0a46787de323398d69379fc2b7073eae72bde"
+    },
+    {
+      "path": "engine/core.mjs",
+      "bytes": 16251,
+      "sha256": "9e3d46a619bc2544e0d9e682a0ca97ff77bcf65858fd5251dec303cbcd3185aa"
+    },
+    {
+      "path": "engine/index.mjs",
+      "bytes": 4568,
+      "sha256": "9de2d3e9869ebf6144fb377b0583c8e64ef801aed2d125fe3578df92a1094d5d"
+    },
+    {
+      "path": "icon.svg",
+      "bytes": 216,
+      "sha256": "2e8fde98fee36579d836202030f612dfc71c6d9c5162203add15c1d98a790535"
+    },
+    {
+      "path": "index.html",
+      "bytes": 11186,
+      "sha256": "9c927b06b0a4a37842385c71e6ddb27782c557ab726dd0b3c345c220d95a5fa6"
+    },
+    {
+      "path": "persona-roles.json",
+      "bytes": 3421,
+      "sha256": "59acdbd91c7070dc181a056728b9b3d3895e3cc42094c8e9fa4591463381b8fa"
+    },
+    {
+      "path": "persona.mjs",
+      "bytes": 5320,
+      "sha256": "b0149f379ff66f258d73640dbac13d2c2323634914c7d308a532b8c311db0932"
+    },
+    {
+      "path": "portrait-assets.mjs",
+      "bytes": 2691,
+      "sha256": "13fa367709cc030a78b152c759f909b5a1d232532abef99fa8df1ce58196ea9f"
+    },
+    {
+      "path": "revision.mjs",
+      "bytes": 2359,
+      "sha256": "6e8dcec5adcd6c503c537554ac9af046c5b63de20bbbcd470edcc9fb34633209"
+    },
+    {
+      "path": "storage.mjs",
+      "bytes": 4116,
+      "sha256": "8713ea4f7f67676fbaef899da34ca4fae713736f103ea5632333be6fbeb16146"
+    },
+    {
+      "path": "style.css",
+      "bytes": 21993,
+      "sha256": "2ed0495278a1e51ef0ff2760d45a18a1269bd8e3008cac1ee0bf5955f9ff5364"
+    },
+    {
+      "path": "theme.css",
+      "bytes": 2366,
+      "sha256": "fc0f58132600b6c76ac389f71df03aba5a404bccd408b0deb05d44473da69ee2"
+    }
+  ]
+}

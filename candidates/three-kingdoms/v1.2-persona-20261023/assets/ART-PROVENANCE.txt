@@ -1,0 +1,14 @@
+THREE KINGDOMS: WHOLE-CANVAS LANDSCAPE, INTERNAL WAR-MAP, AND NINE FIGURES
+
+Original historical-themed paintings created for this project using OpenAI image generation. No commercial-game art or third-party portrait was supplied or incorporated. Portraits are artistic interpretations, not authenticated likeness reconstructions. Source atlases and review proofs remain outside this runtime package.
+
+Whole-canvas landscape is viewport-attached cover/center. The independently clipped war-map remains inside the actual central triangle and three frontier corridors. Nine transparent WebP cutouts use fixed crops and cleaned alpha edges; no painted text is embedded. Live SVG renders all board geometry, roles, figure names and titles.
+
+The nine identities use representative career roles, not a same-year roster: 魏 曹操·主公, 荀彧·谋士 (汉侍中、尚书令), 司马懿·太傅; 蜀 刘备·主公, 诸葛亮·丞相, 庞统·谋士 (军师中郎将); 吴 孙权·主公, 周瑜·都督 (前部大督), 鲁肃·谋士 (赞军校尉; 后为横江将军). These identities are presentation-only and add no chess abilities. Historical source notes are in persona-roles.json.
+
+Runtime motion is limited presentation animation of static layers: active-faction-only restrained movement and portrait crossfade. No skeletal animation or full-frame animated character footage is claimed.
+
+FONT
+LXGW ZhenKai Slab GB Regular, true weight400, source publisher releasev0.827:
+https://github.com/lxgw/LxgwZhenKai/releases/download/v0.827/LXGWZhenKaiSlabGB-Regular.ttf
+Subset WOFF only; no outline modification. Bundled ZHENKAI-OFL.txt contains SIL Open Font License1.1. CSS disables synthesized bold. The subset covers 50 selected glyphs used for pieces and live figure labels. Explanatory prose and remaining punctuation use normal system CJK fallbacks.
