@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "version": "m1-alpha2.3-immersive-r2-20261023",
+  "status": "isolated-public-qa-candidate",
+  "accepted": false,
+  "entry": "index.html",
+  "noticeEntry": "public-test.html",
+  "purpose": "沉浸界面浏览器验证；不是已验收的发布版本。",
+  "runtime": {
+    "fileCount": 12,
+    "totalBytes": 119812,
+    "files": [
+      {
+        "path": "NOTICE.txt",
+        "bytes": 863,
+        "sha256": "32e861163900fe25ea70e6cef2debfe1d1190e51a3022ecf9d12c767dafd09e6"
+      },
+      {
+        "path": "app.mjs",
+        "bytes": 45345,
+        "sha256": "809d49630e5c2084d9ad9de17b2170157c25b3105027a0a22d4c628f165ae91c"
+      },
+      {
+        "path": "board-data.mjs",
+        "bytes": 22304,
+        "sha256": "22391d9d9909379746f4a9d889efcbadbd0a584cf39a7a69c517bc0206b9c390"
+      },
+      {
+        "path": "engine/core.mjs",
+        "bytes": 16238,
+        "sha256": "a589c5df8272a1e8fc9f43b7feb0be1bcfc06998cb926a38c4a691142d597b40"
+      },
+      {
+        "path": "engine/index.mjs",
+        "bytes": 4478,
+        "sha256": "5f4f36fa074197b1ed6bffa44c61fb5e2585d7459cd9e7ff6a0512cc8f879c53"
+      },
+      {
+        "path": "icon.svg",
+        "bytes": 216,
+        "sha256": "2e8fde98fee36579d836202030f612dfc71c6d9c5162203add15c1d98a790535"
+      },
+      {
+        "path": "index.html",
+        "bytes": 6309,
+        "sha256": "f0b0d70ba15439c661f21f72827e13d8ec214da492beea611ccc324808555c53"
+      },
+      {
+        "path": "release-manifest.json",
+        "bytes": 2098,
+        "sha256": "661d8bd2a684e1b783d126a3b9a6b9486eb9139186438cc11061328f4c41f4a7"
+      },
+      {
+        "path": "revision.mjs",
+        "bytes": 2346,
+        "sha256": "5ceee9fb93d322c0808156d621dc1705129a53f8236da2c4b821707f23cf9d51"
+      },
+      {
+        "path": "storage.mjs",
+        "bytes": 3325,
+        "sha256": "9b99b59879c0eb091b0092690fd9b0c902f782b0cf27165fa45daf0e1dc15788"
+      },
+      {
+        "path": "style.css",
+        "bytes": 13924,
+        "sha256": "5c1427758dc11b5ca67044857f47374158aa6681e70161682bb60910848b3b74"
+      },
+      {
+        "path": "theme.css",
+        "bytes": 2366,
+        "sha256": "fc0f58132600b6c76ac389f71df03aba5a404bccd408b0deb05d44473da69ee2"
+      }
+    ]
+  },
+  "publicNotice": {
+    "path": "public-test.html",
+    "bytes": 2057,
+    "sha256": "b66c9db287a20732894e510acc1b492d50e89c1c7d22764823a5896c368750de"
+  },
+  "saveCompatibility": {
+    "sameOriginSharesExistingSaveNamespace": true,
+    "activeKey": "tk-xiangqi.m1.active",
+    "gamePrefix": "tk-xiangqi.m1.game.",
+    "schema": "tk-xiangqi-local/1",
+    "backupBeforeTesting": true
+  },
+  "networkDependencies": [],
+  "qa": {
+    "browserValidation": "pending",
+    "ordinaryPlayerRounds": "pending",
+    "realHumanPlaytest": "not claimed",
+    "userAcceptance": "pending"
+  },
+  "sourceManifestNote": "The frozen runtime release-manifest.json retains its original preparation status; this publication manifest describes the test candidate destination.",
+  "changesFrom": "m1-alpha2.3-immersive-20261023",
+  "changeSummary": "重下提示改为紧凑的顶部取消操作和按需展开的说明，避免底部提示覆盖棋盘。"
+}
