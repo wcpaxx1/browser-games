@@ -1,0 +1,9 @@
+Three Kingdoms war-map artwork, 2026-10-23.
+
+The central battle and three mountain/river frontier corridors are original artwork generated for this project using the OpenAI image generation tool. The visual generation inputs were our original geometry zoning guide and subsequent edits of our own generated image. No Koei/Sangokushi image or third-party artwork was supplied to generation or copied into this asset. The original painting was uniformly scaled and exactly clipped with SVG masks to the existing board's nonplayable central triangle and frontier corridors, then encoded as WebP. Painted forts, ships, horses, banners and paths add no game units, obstacles, nodes, powers or movement routes.
+
+The live tactical graph, country plaques and plain ivory discs are original SVG primitives. The previously rejected wooden display tray, Blender piece sprites, exterior landscape and Noto Serif typography are not included or referenced in this runtime.
+
+Live chess glyphs use LXGW ZhenKai Slab GB, publisher release v0.827, licensed under SIL OFL 1.1. The bundled 6672-byte WOFF is a web-only subset with no outline modifications, covering 主公谋士丞相车马炮兵将帅魏蜀吴. Preserve ZHENKAI-OFL.txt. Other UI characters use system fonts. Source: https://github.com/lxgw/LxgwZhenKai/releases/download/v0.827/LXGWZhenKaiSlabGB-Regular.ttf
+
+Static composition approval does not prove functioning gameplay, browser rendering, touch, camera hit mapping or hosted release acceptance. No decorative animation or original character portrait assets are included in this candidate.

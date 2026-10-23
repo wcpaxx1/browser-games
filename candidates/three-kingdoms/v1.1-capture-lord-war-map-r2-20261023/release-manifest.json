@@ -1,0 +1,94 @@
+{
+  "version": "v1.1-capture-lord-war-map-r2-20261023",
+  "status": "private-review-candidate-native-browser-and-integrated-visual-acceptance-pending",
+  "rules": "three-kingdoms-xiangqi-v0.4-capture-lord",
+  "board": "symmetric-v05-135-nodes-15-bridges",
+  "entry": "index.html",
+  "networkDependencies": [],
+  "changesFrom": "v1.1-capture-lord-war-map-20261023",
+  "interaction": "direct-entry-select-place-canonical-revision-zoom-pan-three-perspectives",
+  "saveCompatibility": "Separate v0.4 namespace, strict old-version rejection, legacy slots read-only and raw exportable; no conversion.",
+  "artStatus": "Static war-map composition and ZhenKai component approved. Integrated runtime still requires independent native browser and whole-scene review. Rejected exterior landscape, tray, sprites and Noto font excluded.",
+  "files": [
+    {
+      "path": "app.mjs",
+      "bytes": 58302,
+      "sha256": "d82aa5407628a3126d91b29b2a19bf5e9775418e68c55132b493ec5d2783c9d6"
+    },
+    {
+      "path": "assets/ART-PROVENANCE.txt",
+      "bytes": 1591,
+      "sha256": "e92cbcbe7ceac32eb71739fc563195d66cbf45f82dc0c487691e68e56816c648"
+    },
+    {
+      "path": "assets/war-map-exact-clipped.webp",
+      "bytes": 268574,
+      "sha256": "5eb2860d2b47dfedc416ef50cca1f5789e8acbbcf03de1e409ca8f900dc655c4"
+    },
+    {
+      "path": "assets/ZHENKAI-OFL.txt",
+      "bytes": 5361,
+      "sha256": "1ee66a22ddfa5241d407a5fd9a2ba666c4de5700f17182d5ee729e0434e7b42d"
+    },
+    {
+      "path": "assets/zhenkai-slabgb-chess.woff",
+      "bytes": 6672,
+      "sha256": "4e9b5fda4e74e4bfdfa27f7559f28cfb3f3d3b9ec47e7c234a3ead814bfbf74c"
+    },
+    {
+      "path": "board-data.mjs",
+      "bytes": 22304,
+      "sha256": "22391d9d9909379746f4a9d889efcbadbd0a584cf39a7a69c517bc0206b9c390"
+    },
+    {
+      "path": "camera.mjs",
+      "bytes": 1024,
+      "sha256": "8f4ae989663a7bc82a41ea48c94c9606bb1918b25b8ab027f8b4bf57cd9e1107"
+    },
+    {
+      "path": "engine/core.mjs",
+      "bytes": 16251,
+      "sha256": "9e3d46a619bc2544e0d9e682a0ca97ff77bcf65858fd5251dec303cbcd3185aa"
+    },
+    {
+      "path": "engine/index.mjs",
+      "bytes": 4568,
+      "sha256": "9de2d3e9869ebf6144fb377b0583c8e64ef801aed2d125fe3578df92a1094d5d"
+    },
+    {
+      "path": "icon.svg",
+      "bytes": 216,
+      "sha256": "2e8fde98fee36579d836202030f612dfc71c6d9c5162203add15c1d98a790535"
+    },
+    {
+      "path": "index.html",
+      "bytes": 8088,
+      "sha256": "541983b3ba0fb002005543e8e939447c36111058404533587906717db3fca582"
+    },
+    {
+      "path": "NOTICE.txt",
+      "bytes": 1387,
+      "sha256": "13ccae3990ee5ca1f336ba26e7e7a3118594b6ab4ff10167ccc9d248439b0fa9"
+    },
+    {
+      "path": "revision.mjs",
+      "bytes": 2359,
+      "sha256": "6e8dcec5adcd6c503c537554ac9af046c5b63de20bbbcd470edcc9fb34633209"
+    },
+    {
+      "path": "storage.mjs",
+      "bytes": 4116,
+      "sha256": "8713ea4f7f67676fbaef899da34ca4fae713736f103ea5632333be6fbeb16146"
+    },
+    {
+      "path": "style.css",
+      "bytes": 18805,
+      "sha256": "275f6c2e214aa6941d7fa2480b7ac7b5ab00e91262c7b53ec5a8ae7e59f79593"
+    },
+    {
+      "path": "theme.css",
+      "bytes": 2366,
+      "sha256": "fc0f58132600b6c76ac389f71df03aba5a404bccd408b0deb05d44473da69ee2"
+    }
+  ]
+}
