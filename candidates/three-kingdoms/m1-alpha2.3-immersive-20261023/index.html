@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light"><meta name="theme-color" content="#f5f0e3">
+<meta name="description" content="三国象棋，三人同屏轮流落子。全屏棋盘，辅助信息按需展开。无账号、无联网对战。">
+<title>三国象棋 · 沉浸对弈</title>
+<link rel="icon" type="image/svg+xml" href="./icon.svg"><link rel="stylesheet" href="./theme.css"><link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<main id="game" class="game-stage" aria-label="三国象棋，同屏对弈">
+<h1 class="visually-hidden">三国象棋</h1>
+<div id="board-viewport" class="board-viewport" tabindex="0" aria-label="三国象棋棋盘。方向键移动棋点焦点，回车选择；放大后可拖动空白处或滚动。菜单可调整视角。">
+<svg id="board" xmlns="http://www.w3.org/2000/svg" viewBox="-570 -510 1140 1030" role="group" aria-label="三国象棋135个棋点、15条渡河线"><title>三方对称矩形棋盘</title><desc>棋子落在交叉点；河域内部不落子。全盘也可直接行棋。</desc></svg>
+</div>
+<div class="floating-hud">
+<button id="status-button" class="turn-bar" aria-label="查看当前回合与三国局势" aria-controls="info-panel" aria-expanded="false"><span id="turn-badge" class="faction-badge faction-A">▲ 魏</span><span class="turn-text"><strong id="turn-title">准备开局</strong><span id="turn-description" class="visually-hidden">点选棋子，再选合法落点。</span></span><span id="move-count" class="move-count">第 1 手</span></button>
+<button id="menu-button" class="menu-button" aria-haspopup="dialog" aria-controls="modal"><span aria-hidden="true">☰</span> 菜单</button>
+</div>
+<button id="restore-ui" class="restore-ui" hidden aria-label="退出沉浸，恢复界面。也可按 Esc">恢复界面 <span class="key-hint">Esc</span></button>
+<div id="action-bar" class="action-bar" hidden><div id="selection-description">等待开局</div><div class="action-buttons"><button id="cancel-selection" hidden>取消</button><button id="pass-button" class="primary" hidden>困守，交给下一家</button><button id="replay-quick-close" hidden>返回对局</button></div></div>
+<button id="view-toggle" class="view-toggle" hidden>全盘</button>
+<div id="save-warning" class="save-warning" role="status" hidden></div>
+<section id="info-panel" class="floating-panel" role="dialog" aria-modal="false" aria-labelledby="panel-title" hidden>
+<div class="floating-panel-heading"><h2 id="panel-title">三国局势</h2><button id="panel-close" aria-label="关闭浮层，返回棋盘">✕</button></div>
+<div class="panel-scroll">
+<section id="status-panel" hidden><div class="panel-heading"><h3>三国局势</h3><span id="save-status" class="save-status">本地存档</span></div><div id="army-list"></div><p class="identity-note">外圈与符号 = 当前指挥；「籍」徽标 = 固定原籍。</p><div class="rule-section"><h3>战局</h3><p id="event-summary" class="event-summary">丞相可以出师，仍走田字、仍塞眼。</p><p id="status-detail" class="subtle">真正吃到主公，才接管其全部余军。</p></div><div id="terminal-actions" hidden><button id="new-after-end" class="primary wide">另开新局</button></div><button id="more-rules" class="text-button">查看完整规则 →</button></section>
+<section id="history-panel" hidden><div class="panel-heading"><h3>棋谱</h3><button id="replay-button" class="small">复盘</button></div><div id="record-pages" class="record-pages" hidden><button id="record-earlier" aria-label="查看较早一段棋谱">较早</button><span id="record-page-label"></span><button id="record-later" aria-label="查看较近一段棋谱">较近</button></div><button id="record-locate" class="record-locate" hidden>定位最新记录</button><ol id="move-list" class="move-list"><li class="empty-record">落子后，棋谱会记在这里。</li></ol><div id="replay-controls" hidden><div class="replay-banner">只读复盘，不改变正在下的棋局</div><p id="replay-current-action" class="replay-current-action" aria-live="polite"></p><input id="replay-range" type="range" min="0" max="0" value="0" aria-label="复盘事件位置"><div class="replay-buttons"><button id="replay-prev" aria-label="复盘上一步">上一步</button><span id="replay-position">0 / 0</span><button id="replay-next" aria-label="复盘下一步">下一步</button></div><button id="replay-close" class="primary wide">返回当前对局</button></div></section>
+<section id="view-panel" hidden><h3>棋盘视角</h3><div class="territory-tools" aria-label="移动棋盘视角"><button id="overview-button">全盘</button><button data-focus-sector="A">▲ 魏</button><button data-focus-sector="B">◆ 蜀</button><button data-focus-sector="C">■ 吴</button></div><div class="zoom-tools"><button id="zoom-out" aria-label="缩小棋盘">−</button><output id="zoom-label">全盘</output><button id="zoom-in" aria-label="放大棋盘">＋</button></div><p class="subtle">全盘可直接行棋。放大后，拖动棋盘空白处或滚动查看；点击国名可定位。</p><div class="rule-section"><h3>沉浸显示</h3><button id="immersive-button" class="wide">隐藏辅助界面</button><p class="subtle">只保留棋盘和「恢复界面」。按 Esc 也可退出，棋局不会暂停或改变。</p></div><button id="fullscreen-button" class="wide">进入浏览器全屏</button><p id="fullscreen-status" class="subtle" role="status">不进入浏览器全屏，也能使用完整窗口棋盘。</p><button id="settings-button" class="text-button">坐标与显示设置 →</button></section>
+</div>
+</section>
+</main>
+<div id="live-announcement" class="visually-hidden" aria-live="polite" aria-atomic="true"></div>
+<dialog id="modal" aria-labelledby="modal-title"><div id="modal-content"></div></dialog>
+<input id="import-input" type="file" accept="application/json,.json" hidden>
+<noscript><p class="fatal">需要启用 JavaScript 才能落子。此游戏不连接外部服务。</p></noscript>
+<script type="module" src="./app.mjs"></script>
+</body></html>
